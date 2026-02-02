@@ -11,15 +11,17 @@
     }
 
     const imagePaths = [
-        {"path": "../src/assets/image_carousel/bake_sale_gen3.webp", "id": 0},
-        {"path": "../src/assets/image_carousel/smoketunnel_gen2.webp", "id": 1},
-        {"path": "../src/assets/image_carousel/team_gen3.webp", "id": 2},
-        {"path": "../src/assets/image_carousel/team_gen3_2.webp", "id": 3}
+        {"path": "/image_carousel/bake_sale_gen3.webp", "id": 0},
+        {"path": "/image_carousel/smoketunnel_gen2.webp", "id": 1},
+        {"path": "/image_carousel/team_gen3.webp", "id": 2},
+        {"path": "/image_carousel/team_gen3_2.webp", "id": 3}
     ]
+
+    const fr_flag = "/icons/fr.svg"
 </script>
 
 <template>
-      <div id="home" class="relative bg-icarus-red">
+<div id="home" class="relative bg-icarus-red">
     <div class="relative z-0 ml-0 mt-0">
         <Carousel v-bind="carouselConfig">
             <Slide v-for="slide in imagePaths" :key="slide.id">
@@ -55,5 +57,7 @@
             </i18n-t>
         </div>
     </div>
-  </div>
+</div>
+
+<img :src="fr_flag" />
 </template>
