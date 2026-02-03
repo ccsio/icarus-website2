@@ -16,8 +16,6 @@
         {"path": "/image_carousel/team_gen3.webp", "id": 2},
         {"path": "/image_carousel/team_gen3_2.webp", "id": 3}
     ]
-
-    const fr_flag = "/icons/fr.svg"
 </script>
 
 <template>
@@ -58,6 +56,4 @@
         </div>
     </div>
 </div>
-
-<img :src="fr_flag" />
 </template>
