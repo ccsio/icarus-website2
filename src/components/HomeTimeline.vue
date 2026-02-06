@@ -29,11 +29,11 @@
       <!-- CONTENT SECTION -->
       <div class="mt-4 md:pe-8">
         <time class="inline-block border border-icarus-red text-slate-700 text-xs font-bold px-2 py-1 rounded mb-2">
-          October 2022
+          {{ $t('home.timeline.item1.date') }}
         </time>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">Lorem Ipsum Title</h3>
+        <h3 class="text-lg font-bold text-slate-900 mb-2">{{ $t('home.timeline.item1.title') }}</h3>
         <p class="text-slate-600 text-sm leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Team formation and initial strategy sessions.
+          {{ $t('home.timeline.item1.text') }}
         </p>
       </div>
     </li>
@@ -46,34 +46,34 @@
       </div>
       <div class="mt-4 md:pe-8">
         <time class="inline-block border border-icarus-red text-slate-700 text-xs font-bold px-2 py-1 rounded mb-2">
-          2023-2025
+          {{ $t('home.timeline.item2.date') }}
         </time>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">Lorem Ipsum Title</h3>
+        <h3 class="text-lg font-bold text-slate-900 mb-2">{{ $t('home.timeline.item2.date') }}</h3>
         <p class="text-slate-600 text-sm leading-relaxed">
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Multiple podium finishes across the region.
+          {{ $t('home.timeline.item2.text') }}
         </p>
       </div>
     </li>
 
     <!-- Timeline Item 3 -->
-    <!-- <li class="relative mb-10 ms-7 md:ms-0 md:mb-0 md:flex-1">
+    <li class="relative mb-10 ms-7 md:ms-0 md:mb-0 md:flex-1">
       <div class="flex items-center">
         <div class="absolute md:relative -start-9.5 md:start-0 z-10 w-5 h-5 bg-icarus-red rounded-full border-4 border-white shrink-0"></div>
         <div class="hidden md:block w-full h-px bg-icarus-red"></div>
       </div>
       <div class="mt-4 md:pe-8">
         <time class="inline-block border border-icarus-red text-slate-700 text-xs font-bold px-2 py-1 rounded mb-2">
-          May 2025
+          {{ $t('home.timeline.item3.date') }}
         </time>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">Lorem Ipsum Title</h3>
+        <h3 class="text-lg font-bold text-slate-900 mb-2">{{ $t('home.timeline.item3.date') }}</h3>
         <p class="text-slate-600 text-sm leading-relaxed">
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          {{ $t('home.timeline.item3.text') }}
         </p>
       </div>
-    </li> -->
+    </li>
 
     <!-- Timeline Item 4 -->
-    <li class="relative mb-0 ms-7 md:ms-0 md:flex-1">
+    <!-- <li class="relative mb-0 ms-7 md:ms-0 md:flex-1">
       <div class="flex items-center">
         <div class="absolute md:relative -start-9.5 md:start-0 z-10 w-5 h-5 bg-icarus-red rounded-full border-4 border-white shrink-0"></div>
         <div class="hidden md:block w-full h-px bg-icarus-red"></div>
@@ -87,7 +87,7 @@
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
       </div>
-    </li>
+    </li> -->
   </ol>
 </div>
 </template>

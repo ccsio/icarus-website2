@@ -5,6 +5,23 @@
             "subheading": "Proud winners of {awards} and Luxembourg's representatives at the {finals}",
             "awards_count": "5 awards",
             "finals_name": "World Finals 2025"
+        },
+        "timeline": {
+            "item1": {
+                "date": "October 2022",
+                "title": "Team Creation",
+                "text": "In October 2022, the first generation of Icarus was formed with our original members; Celia, Nikos, Lukas, and Maria. "
+            },
+            "item2": {
+                "date": "2022-2025",
+                "title": "National Competitions",
+                "text": "Throughout 2022 and 2025, we attend a total of 3 National Finals in Luxembourg, and 2 showruns, winning multiple trophies along the way."
+            },
+            "item3": {
+                "date": "June-September 2025",
+                "title": "World Finals",
+                "text": "In June 2025, we qualified to represent Luxembourg at the World Finals in Singapore. We worked tirelessly all summer to then participate in September."
+            }
         }
     }
 }
