@@ -23,5 +23,108 @@
                 "text": "In June 2025, we qualified to represent Luxembourg at the World Finals in Singapore. We worked tirelessly all summer to then participate in September."
             }
         }
+    },
+    "collaboration": {
+        "sponsors": {
+            "title": "Our Sponsors",
+            "description": "We are immensely to all our sponsors already working with us. We definitely could not have gone on this journey without them!",
+
+            "efg": { 
+                "name": "EFG Bank",
+                "description": "EFG is our biggest sponsor. We could have not done this journey without them."
+            },
+            "eurobank": {
+                "name": "EuroBank",
+                "description": "Eurobank were our first big private sponsors. We are very grateful for their support."
+            },
+            "apeeel2": {
+                "name": "APEEEL",
+                "description": "We are fortunate to have support from our school's parents' association since day one!"
+            },
+            "esl2": {
+                "name": "European School of Luxembourg II",
+                "description": "We are supported by our school, who have provided us with a workspace and many necessary tools."
+            },
+            "dreamcars": {
+                "name": "Dream Cars",
+                "description": "Dream Cars are private car dealership in Luxembourg, who believe in our mission. Thank you!"
+            },
+            "ortea": {
+                "name": "Ortea",
+                "description": "Ortea produce an organic iced tea in Luxembourg and were our first private sponsor."
+            },
+            "delphis": {
+                "name": "Delphis Studio",
+                "description": "Delphis Studio is a private 3D design studio. They helped us a advised us on many of our graphics."
+            },
+            "ratrig": {
+                "name": "RatRig",
+                "description": "RatRig were were very kind to give us a discount a sped up shipping on their CNC Mill. "
+            }
+        },
+        "collaboration": {
+            "title": "Work With Us", 
+            "caption": "Want your logo to appear above?",
+            "description": "As a STEM Racing team, we need to fund all our activities ourselves - that is to find sponsors which are willing to support us on our journey. We are mostly seeking financial help, but any material and other contributions are also highly welcomed. These may include discounted printing of documents, banners, merch, and team uniforms, filaments, tools or expert advice in marketing, deign, testing, visual graphics etc.",
+            "funds": {
+                "title": "How We Use the Funds",
+                "allocation1": {
+                    "title": "Accommodation",
+                    "description": "We are required to stay at selected hotels during the World Finals."
+                },
+                "allocation2": {
+                    "title": "Travel Costs",
+                    "description": "World Finals competitions are held in different countries, often far from Luxembourg. "
+                },
+                "allocation3": {
+                    "title": "Competitions Fees",
+                    "description": "The World Finals require a team registration and per-member participation fees."
+                },
+                "allocation4": {
+                    "title": "Manufacturing",
+                    "description": "Official Blocks, paint, tools etc. are required are performant and visually appealing car."
+                },
+                "allocation5": {
+                    "title": "Branding",
+                    "description": "Manufacturing uniforms, pit display banners and other marketing materials."
+                },
+                "allocation6": {
+                    "title": "Sustainability",
+                    "description": "We collaborate with companies to off-set our carbon-emissions."
+                }
+            }
+        },
+
+        "benefits": {
+            "title": "What's in it for You?",
+            "caption": "Why support us?",
+            "benefits": {
+                "benefit1": {
+                    "title": "Education",
+                    "description": "You show commitment to supporting education and the young generation."
+                },
+                "benefit2": {
+                    "title": "Innovation",
+                    "description": "You show commitment to innovative ideas, creativity and future engineers."
+                },
+                "benefit3": {
+                    "title": "Global & Local Exposure", 
+                    "description": "STEM Racing is a very global competition, but Icarus also heavily promotes the project and themselves in Luxembourg."
+                },
+                "benefit4": {
+                    "title": "Experience",
+                    "description": "Icarus has almost 4 years of experience in the project - by far the most in Luxembourg."
+                },
+                "benefit5": {
+                    "title":"Visibility Everywhere",
+                    "description": "We are committed to making your investment worth it. We'll promote your logo on our materials and we can also agree on custom arrangements."
+                },
+                "benefit6": {
+                    "title": "Targeted Audience", 
+                    "description": "By partnering with us, we expose your company to top current and future professionals in the STEM fields."
+                }
+
+            }
+        }
     }
 }
