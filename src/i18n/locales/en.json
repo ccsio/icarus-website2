@@ -62,37 +62,39 @@
             "description": "RatRig were were very kind to give us a discount a sped up shipping on their CNC Mill. "
         }
     },
-    "collaboration": {
-        "title": "Work With Us", 
-        "caption": "Want your logo to appear above?",
-        "description": "As a STEM Racing team, we need to fund all our activities ourselves - that is to find sponsors which are willing to support us on our journey. We are mostly seeking financial help, but any material and other contributions are also highly welcomed. These may include discounted printing of documents, banners, merch, and team uniforms, filaments, tools or expert advice in marketing, deign, testing, visual graphics etc.",
-        "funds": {
-            "title": "How We Use the Funds",
-            "allocation1": {
-                "title": "Accommodation",
-                "description": "We are required to stay at selected hotels during the World Finals."
-            },
-            "allocation2": {
-                "title": "Travel Costs",
-                "description": "World Finals competitions are held in different countries, often far from Luxembourg. "
-            },
-            "allocation3": {
-                "title": "Competitions Fees",
-                "description": "The World Finals require a team registration and per-member participation fees."
-            },
-            "allocation4": {
-                "title": "Manufacturing",
-                "description": "Official Blocks, paint, tools etc. are required are performant and visually appealing car."
-            },
-            "allocation5": {
-                "title": "Branding",
-                "description": "Manufacturing uniforms, pit display banners and other marketing materials."
-            },
-            "allocation6": {
-                "title": "Sustainability",
-                "description": "We collaborate with companies to off-set our carbon-emissions."
-            }
-        }
+    "partnership": {  
+      "title": "Partner With Purpose",  
+      "subtitle": "Fueling the Next Generation of Engineering",  
+      "description": "As a self-funded STEM Racing team, our journey to the World Finals is powered entirely by our partners. While financial support is critical for our operations, we highly value technical and material contributions—from precision manufacturing and 3D printing filaments to expert consultancy in aerodynamics, marketing, and visual design.",  
+      "cta_note": "Every contribution directly accelerates our performance on and off the track."  
+    },  
+    "funds": {  
+      "title": "Strategic Fund Allocation",  
+      "caption": "Icarus Gen 2: Aerodynamic validation in the smoke tunnel.",  
+      "allocation1": {  
+        "title": "Global Logistics & Accommodation",  
+        "description": "Ensuring the team is stationed at official venues during international World Finals."  
+      },  
+      "allocation2": {  
+        "title": "International Travel",  
+        "description": "Transporting our team and equipment to global competition host cities."  
+      },  
+      "allocation3": {  
+        "title": "Competition & Entry Fees",  
+        "description": "Covering mandatory team registration and individual participant accreditation."  
+      },  
+      "allocation4": {  
+        "title": "Advanced Manufacturing",  
+        "description": "Sourcing official racing blocks, high-performance paints, and precision tooling."  
+      },  
+      "allocation5": {  
+        "title": "Branding & Marketing",  
+        "description": "Producing team uniforms, pit displays, and high-impact marketing collateral."  
+      },  
+      "allocation6": {  
+        "title": "Sustainability Initiatives",  
+        "description": "Partnering with environmental leaders to offset our carbon footprint."  
+      }  
     },
     "benefits": {
         "title": "What's in it for You?",

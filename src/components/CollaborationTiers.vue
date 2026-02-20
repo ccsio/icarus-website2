@@ -139,7 +139,7 @@ const sponsorsTiers = {
             <!-- Let's Discuss Partnership Details -->
         </a>
         <p class="text-gray-500 dark:text-gray-500 text-xs mt-4">
-            {{ $t('collaboration.tiers.contact_info') }} 
+            {{ $t('collaboration.tiers.contact_info') }} <a href="mailto:contact@icarus-team.com" class="underline hover:text-icarus-red">contact@icarus-team.com</a>
             <!-- Or email us directly at <a href="mailto:contact@icarus-team.com" class="underline hover:text-icarus-red">contact@icarus-team.com</a> -->
         </p>
     </div>
