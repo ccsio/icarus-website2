@@ -55,7 +55,7 @@ const navClass = computed(() => [
           v-for="item in navItems"
           :key="item.to"
           :to="item.to"
-          class="text-inherit hover:text-icarus-red transition-colors font-medium"
+          class="text-inherit hover:text-icarus-red transition-colors font-semibold"
         >
           {{ $t(item.label) }}
         </RouterLink>
