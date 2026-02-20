@@ -88,7 +88,7 @@ const demeterSponsors = ["ortea", "delphis", "ratrig"]
 
         <div class="space-y-6 mb-10">
           <div v-for="i in 6" :key="i" class="group flex gap-4 items-start">
-            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-icarus-red font-black group-hover:bg-icarus-red group-hover:text-white transition-colors duration-300">
+            <div class="shrink-0 w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center text-icarus-red font-black group-hover:bg-icarus-red group-hover:text-white transition-colors duration-300">
               0{{ i }}
             </div>
             <div>
