@@ -1,22 +1,47 @@
-<script setup>
-import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
-import LanguageDropdown from '../components/LanguageDropdown.vue'
-
-const mobileOpen = ref(false)
-
-const navItems = [
-  { label: 'Home', to: '/' },
-  { label: 'Team History', to: '/team-history' },
-  { label: 'Work With Us', to: '/work-with-us' },
-  { label: 'Contact', to: '/contact' }
-]
-
-const closeMobile = () => mobileOpen.value = false
+<script setup>  
+import { ref, onMounted, onUnmounted, computed } from 'vue'  
+import { RouterLink } from 'vue-router'  
+import LanguageDropdown from '../components/LanguageDropdown.vue'  
+  
+const mobileOpen = ref(false)  
+  
+const navItems = [  
+  { label: 'Home', to: '/' },  
+  { label: 'Team History', to: '/team-history' },  
+  { label: 'Work With Us', to: '/work-with-us' },  
+  { label: 'Contact', to: '/contact' }  
+]  
+  
+const closeMobile = () => (mobileOpen.value = false)  
+  
+// --- scroll handling ---  
+const SCROLL_THRESHOLD = 200
+const isScrolled = ref(false)  
+  
+const onScroll = () => {  
+  isScrolled.value = window.scrollY >= SCROLL_THRESHOLD  
+}  
+  
+onMounted(() => {  
+  onScroll() // set initial state in case page loads mid-scroll  
+  window.addEventListener('scroll', onScroll, { passive: true })  
+})  
+  
+onUnmounted(() => {  
+  window.removeEventListener('scroll', onScroll)  
+})  
+  
+// Optional: keep template clean  
+const navClass = computed(() => [  
+  'fixed top-0 left-0 w-full z-50 transition-all duration-200',  
+  isScrolled.value  
+    ? 'bg-white backdrop-blur-md shadow-md border-b border-icarus-red shadow-icarus-red text-black'  
+    : 'bg-transparent text-white'  
+])  
 </script>
 
 <template>
-  <nav class="fixed top-0 left-0 w-full z-50 bg-transparent">
+  <nav class="fixed top-0 left-0 w-full z-50 bg-transparent" :class="navClass">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       
       <!-- Logo -->
@@ -30,17 +55,17 @@ const closeMobile = () => mobileOpen.value = false
           v-for="item in navItems"
           :key="item.to"
           :to="item.to"
-          class="text-white hover:text-icarus-red transition-colors font-medium"
+          class="text-inherit hover:text-icarus-red transition-colors font-medium"
         >
           {{ $t(item.label) }}
         </RouterLink>
-        <LanguageDropdown />
+        <LanguageDropdown :isScrolled="isScrolled" />
       </div>
 
       <!-- Mobile Hamburger Button -->
       <button 
         @click="mobileOpen = !mobileOpen"
-        class="md:hidden z-50 p-2 text-white bg-icarus-red/20 rounded-lg backdrop-blur-sm"
+        class="md:hidden z-50 p-2 text-inherit bg-icarus-red/20 rounded-lg backdrop-blur-sm"
       >
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path v-if="!mobileOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
@@ -72,7 +97,7 @@ const closeMobile = () => mobileOpen.value = false
           </RouterLink>
           
           <div class="pt-2">
-            <LanguageDropdown />
+            <LanguageDropdown :isScrolled="isScrolled" />
           </div>
         </div>
       </Transition>

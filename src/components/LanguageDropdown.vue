@@ -33,6 +33,13 @@ const handleClickOutside = (event) => {
 
 onMounted(() => window.addEventListener('click', handleClickOutside))
 onUnmounted(() => window.removeEventListener('click', handleClickOutside))
+
+const props = defineProps({
+  isScrolled: {
+    type: Boolean,
+    default: false
+  }
+})
 </script>
 
 <template>
@@ -41,7 +48,8 @@ onUnmounted(() => window.removeEventListener('click', handleClickOutside))
     <button
       type="button"
       @click="isOpen = !isOpen"
-      class="inline-flex items-center justify-between w-48 rounded-md px-4 py-2 text-sm font-medium text-black md:text-white border hover:border-icarus-red border-transparent focus:outline-none"
+      class="inline-flex items-center justify-between w-48 rounded-md px-4 py-2 text-sm font-medium text-black md:text-inherit border hover:border-icarus-red focus:outline-none"
+      :class="isScrolled ? 'border-gray-300' : 'border-transparent'"
     >
       <div class="flex items-center gap-3">
         <img :src="currentLanguage.flag" class="h-5 w-5 rounded-sm object-cover" />
