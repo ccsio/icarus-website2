@@ -5,7 +5,7 @@ const sponsorsTiers = {
         text: "text-zeus-gold",
         bg: "bg-zeus-gold",
         bggradient: "bg-gradient-to-br from-yellow-50 to-amber-100",
-        iconpath: "/icons/zeus_lightning.svg",
+        iconpath: "/icons/tiers/zeus_lightning.svg",
         border: "border-zeus-gold",
         emoji: "⚡"
     },
@@ -14,7 +14,7 @@ const sponsorsTiers = {
         text: "text-poseidon-blue",
         bg: "bg-poseidon-blue",
         bggradient: "bg-gradient-to-br from-blue-50 to-cyan-100",
-        iconpath: "/icons/poseidon_trident2.svg",
+        iconpath: "/icons/tiers/poseidon_trident2.svg",
         border: "border-poseidon-blue",
         emoji: "Ψ"
     },
@@ -23,7 +23,7 @@ const sponsorsTiers = {
         text: "text-demeter-green",
         bg: "bg-demeter-green",
         bggradient: "bg-gradient-to-br from-green-50 to-emerald-100",
-        iconpath: "/icons/demeter_wheat.svg",
+        iconpath: "/icons/tiers/demeter_wheat.svg",
         border: "border-demeter-green",
         emoji: "🌿"
     }
