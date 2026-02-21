@@ -6,6 +6,19 @@
             "awards_count": "5 awards",
             "finals_name": "World Finals 2025"
         },
+        "stem": {
+            "title": "STEM Racing",
+            "subtitle": "What is it?",
+            "body": "STEM Racing, formerly known as F1 in Schools, is an international educational program that encourages {students} to learn about science, technology, engineering, and mathematics ({stem}) through designing, building, and racing {cars}. ...",
+            "ctaVideo": "Our Video",
+            "ctaOfficial": "STEM Racing",
+            "imageCaption": "Petar on the starting grid at World Finals 2025",
+            "stats": {
+                "countries": { "label": "countries are actively involved.", "value": 44 },
+                "schools": { "label": "schools participate in the challenge.", "value": 26000 },
+                "students": { "label": "students compete for 1st place.", "value": 2000000 }
+            }
+        },
         "timeline": {
             "item1": {
                 "date": "October 2022",
