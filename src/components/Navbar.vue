@@ -57,7 +57,7 @@ const navClass = computed(() => {
   return [
     'fixed top-0 left-0 w-full z-50 transition-all duration-200',
     useDark
-      ? 'bg-white backdrop-blur-md shadow-md border-b border-icarus-red shadow-icarus-red text-black'
+      ? 'bg-white/80 backdrop-blur-md shadow-md border-b border-icarus-red shadow-icarus-red text-black'
       : 'bg-transparent text-white'
   ]
 })
