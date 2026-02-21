@@ -10,24 +10,41 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      meta: {
+        title: "Home"
+      }
     },
     {
       path: "/work-with-us",
       name: 'collaboration',
-      component: CollaborationView
+      component: CollaborationView,
+      meta: {
+        title: "Work With Us"
+      }
     },
     {
       path: "/contact",
       name: "contact",
-      component: ContactView
+      component: ContactView,
+      meta: {
+        title: "Contact"
+      }
     },
     {
       path: "/team",
       name: "team",
-      component: TeamView
+      component: TeamView,
+      meta: {
+        title: "The Team"
+      }
     }
   ]
+})
+
+// guard  
+router.afterEach((to) => {  
+  document.title = `Icarus | ${to.meta.title || ""}`
 })
 
 export default router
