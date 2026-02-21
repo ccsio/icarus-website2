@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router'
         <li class="relative mb-12 ms-8 md:ms-0 md:mb-0 md:flex-1 group">
           <div class="flex items-center">
             <!-- The Dot -->
-            <div class="absolute md:relative -start-[41px] md:start-0 z-10 w-5 h-5 bg-white border-4 border-icarus-red rounded-full shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+            <div class="absolute md:relative -start-10.25 md:start-0 z-10 w-5 h-5 bg-white border-4 border-icarus-red rounded-full shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
             <!-- The Horizontal Line (Desktop) -->
             <div class="hidden md:block w-full h-px bg-icarus-red/30"></div>
           </div>
@@ -49,7 +49,7 @@ import { RouterLink } from 'vue-router'
         <!-- Timeline Item 2 -->
         <li class="relative mb-12 ms-8 md:ms-0 md:mb-0 md:flex-1 group">
           <div class="flex items-center">
-            <div class="absolute md:relative -start-[41px] md:start-0 z-10 w-5 h-5 bg-white border-4 border-icarus-red rounded-full shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+            <div class="absolute md:relative -start-10.25 md:start-0 z-10 w-5 h-5 bg-white border-4 border-icarus-red rounded-full shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
             <div class="hidden md:block w-full h-px bg-icarus-red/30"></div>
           </div>
           <div class="mt-6 md:pe-8">
@@ -68,7 +68,7 @@ import { RouterLink } from 'vue-router'
         <!-- Timeline Item 3 -->
         <li class="relative mb-0 ms-8 md:ms-0 md:flex-1 group">
           <div class="flex items-center">
-            <div class="absolute md:relative -start-[41px] md:start-0 z-10 w-5 h-5 bg-white border-4 border-icarus-red rounded-full shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+            <div class="absolute md:relative -start-10.25 md:start-0 z-10 w-5 h-5 bg-white border-4 border-icarus-red rounded-full shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
             <!-- Last item line fades out -->
             <div class="hidden md:block w-full h-px bg-linear-to-r from-icarus-red/30 to-transparent"></div>
           </div>

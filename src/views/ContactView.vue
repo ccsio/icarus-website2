@@ -5,7 +5,7 @@ const links = [
   { label: 'Official Website', to: '/', primary: false },
   { label: 'Instagram', url: 'https://www.instagram.com/icarusluxembourg', primary: false },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/company/teamicarus/', primary: false },
-  { label: 'TikTok', url: 'https://tiktok.com/@icarus_stem', primary: false },
+  { label: 'TikTok', url: 'https://tiktok.com/@icarus.luxembourg', primary: false },
   { label: 'Support our Journey (GoFundMe)', url: 'https://gofund.me/d2a253b6', primary: true },
   { label: 'Our STEM Racing Video', to: '/video', primary: false },
   { label: 'Email Us', url: 'mailto:contact@icarus-team.com', primary: false },
@@ -22,8 +22,8 @@ const primaryBtnClass = "bg-icarus-red border-icarus-red text-white hover:bg-whi
     <!-- Background Image Overlay -->
     <div class="fixed inset-0 z-0">
       <img 
-        src="/image_carousel/team_gen3.webp" 
-        class="w-full h-full object-cover opacity-40 brightness-[0.3]" 
+        src="/image_carousel/team_gen3_2.webp" 
+        class="w-full h-full object-cover opacity-40 brightness-[0.4]" 
         alt="Background"
       />
       <div class="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black"></div>

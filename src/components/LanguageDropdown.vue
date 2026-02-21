@@ -77,7 +77,7 @@ const props = defineProps({
     >
       <div
         v-if="isOpen"
-        class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-icarus-red ring-opacity-5 z-50"
+        class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white/80 ring-1 ring-icarus-red ring-opacity-5 z-50"
       >
         <div class="py-1">
           <button
@@ -85,7 +85,7 @@ const props = defineProps({
             :key="lang.code"
             @click="selectLanguage(lang.code)"
             :class="[
-              'flex items-center gap-3 w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors',
+              'flex items-center gap-3 w-full text-left px-4 py-2 text-sm hover:bg-gray-100 transition-colors rounded-md',
               locale === lang.code ? 'bg-gray-50 text-icarus-red font-semibold' : 'text-gray-700'
             ]"
           >
