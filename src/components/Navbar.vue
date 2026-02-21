@@ -1,6 +1,6 @@
 <script setup>  
 import { ref, onMounted, onUnmounted, computed } from 'vue'  
-import { RouterLink } from 'vue-router'  
+import { RouterLink, useRoute } from 'vue-router'  
 import LanguageDropdown from '../components/LanguageDropdown.vue'  
   
 const mobileOpen = ref(false)  
@@ -31,13 +31,26 @@ onUnmounted(() => {
   window.removeEventListener('scroll', onScroll)  
 })  
   
+const route = useRoute()
 // Optional: keep template clean  
-const navClass = computed(() => [  
-  'fixed top-0 left-0 w-full z-50 transition-all duration-200',  
-  isScrolled.value  
-    ? 'bg-white backdrop-blur-md shadow-md border-b border-icarus-red shadow-icarus-red text-black'  
-    : 'bg-transparent text-white'  
-])  
+// const navClass = computed(() => [  
+//   'fixed top-0 left-0 w-full z-50 transition-all duration-200',  
+//   isScrolled.value  
+//     ? 'bg-white backdrop-blur-md shadow-md border-b border-icarus-red shadow-icarus-red text-black'  
+//     : 'bg-transparent text-white'  
+// ])  
+
+const navClass = computed(() => {
+  const isHome = route.path === '/'
+  const useDark = isScrolled.value || !isHome
+
+  return [
+    'fixed top-0 left-0 w-full z-50 transition-all duration-200',
+    useDark
+      ? 'bg-white backdrop-blur-md shadow-md border-b border-icarus-red shadow-icarus-red text-black'
+      : 'bg-transparent text-white'
+  ]
+})
 </script>
 
 <template>

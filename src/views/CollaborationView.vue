@@ -7,7 +7,7 @@ const demeterSponsors = ["ortea", "delphis", "ratrig"]
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24 mt-20">
     
     <!-- SECTION: OUR SPONSORS -->
     <section>
