@@ -9,26 +9,25 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "What is it?",
-            "body": "STEM Racing, formerly known as F1 in Schools, is an international educational program that encourages {students} to learn about science, technology, engineering, and mathematics ({stem}) through designing, building, and racing {cars}. ...",
+            "body_part_1": "STEM Racing, formerly known as F1 in Schools, is an international educational program that encourages ",
+            "body_part_2": " to learn about science, technology, engineering, and mathematics (",
+            "body_part_3": ") through designing, building, and racing ",
+            "body_part_4": ". The program promotes hands-on learning and helps students develop important skills such as teamwork, problem-solving, and project management.",
+            "keywords": {
+                "students": "students",
+                "stem": "STEM",
+                "cars": "miniature Formula One cars"
+            },
             "ctaVideo": "Our Video",
-            "ctaOfficial": "STEM Racing",
+            "ctaOfficial": "Official Site",
             "imageCaption": "Petar on the starting grid at World Finals 2025",
             "stats": {
-                "countries": {
-                    "label": "countries are actively involved.",
-                    "value": 44
-                },
-                "schools": {
-                    "label": "schools participate in the challenge.",
-                    "value": 26000
-                },
-                "students": {
-                    "label": "students compete for 1st place.",
-                    "value": 2000000
+                "countries": { "label": "countries actively involved" },
+                "schools": { "label": "schools participate" },
+                "students": { "label": "students competing" }
                 }
-            }
-        },
-        "timeline": {
+            },
+            "timeline": {
             "item1": {
                 "date": "October 2022",
                 "title": "Team Creation",
