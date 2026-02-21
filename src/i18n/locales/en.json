@@ -202,6 +202,53 @@
                 "bio": "This is a longer description to see whether the black backdrop will change. Leading the design and manufacturing process of the Icarus Gen 3 car, focusing on aerodynamic efficiency and weight reduction."
 
             }
+        },
+        "hall_of_fame": {  
+            "title": "Hall of Fame",  
+            "subtitle": "Commemorating those who built the foundation of Icarus.", 
+            "legacy_label": "Legacy", 
+            "generations": {  
+                "gen3": {  
+                    "title": "Generation III",  
+                    "years": "2024 — 2025",  
+                    "tagline": "The First World Finals",  
+                    "description": "With more experience, we focused on our biggest weakness - the sponsorships. We managed to acquire enough funds to go the World Finals. We also improved the brand image, car, and all other aspects of the team.",  
+                    "members": {  
+                        "m1": { "name": "Petar", "role": "Team Manager & Manufacturing", "bio": "Petar led Icarus to the World Finals in 2025. He worked closely with everyone to ensure quality and cooperation. Along with that he is in charge of the manufacturing of the cars. " },
+                        "m2": { "name": "Celia", "role": "Team Manager", "bio": "Celia had a diverse set of responsibilities within Icarus. She was in charge of our written and graphic deliverables, such as our portfolios, uniforms and banners. She founded Icarus and cemented the brand image.  " },
+                        "m3": { "name": "Nikos", "role": "Design Engineer", "bio": "Nikos was in charge of all design and testing of our cars. His responsibility was to develop innovative, and high-performance designs that ensure the team stayed ahead of the competition. " },
+                        "m4": { "name": "Lukas", "role": "Finance & IT Manager", "bio": "Lukas was the finance manager and IT specialist. Handling the budget, financial planning, and IT infrastructure, he ensured that the team operates smoothly and efficiently. " },
+                        "m5": { "name": "Konstantina", "role": "Finance & IT Manager", "bio": "Konstantina handled all marketing, public relations and communication with stakeholders. It was her job to maintain our strong link with the local community and beyond. " }
+                        
+                    }  
+                },
+                "gen2": {  
+                    "title": "Generation II",  
+                    "years": "2023 — 2024",  
+                    "tagline": "The Expansion",  
+                    "description": "Following the success of Gen I, we expanded to 6 members and upgraded everything in the team and started evolving into a top-tier competition in Luxembourg.",  
+                    "members": {  
+                        "m1": { "name": "Celia", "role": "Team Manager", "bio": "Celia is the founder and past leader of Icarus. At the forefront of our team, Celia undertook numerous tasks across all fields, ranging from administration to car design. " },
+                        "m2": { "name": "Nikos", "role": "Design & Manufacturing Engineer", "bio": "Nikos was responsible for combining the performance and design of our car, relentlessly working on every detail in search of the greatest competitive edge. " },
+                        "m3": { "name": "Lukas", "role": "IT & Designer", "bio": "Lukas managed our online presence. Maintaining our website and responsible for the team’s online collaboration, Lukas invaluably brought the entire team together. " },
+                        "m4": { "name": "Jan", "role": "Graphical Designer", "bio": "Jan’s creative mind not only provided us with our logo and pit display but has also been a source of significant improvement in our overall presentation. " },
+                        "m5": { "name": "Rohan", "role": "Finance Manager", "bio": "Rohan, responsible for the team’s external communication, simultaneously looked after the team’s funds, overseeing team decisions from a financial perspective. " },
+                        "m6": { "name": "Romeo", "role": "Marketing Manager", "bio": "Romeo was in charge of our team’s marketing strategies and securing sponsorship deals for our team. In parallel, he added to all administrative tasks, working particularly closely with Rohan. " }
+                    }  
+                },
+                "gen1": {  
+                    "title": "Generation I",  
+                    "years": "2022 — 2023",  
+                    "tagline": "The Beginnings",  
+                    "description": "Gen I was going into the project (still called F1 in Schools then) without 0 experience or knowledge. In just two months, we managed to create a small brand and a working car with very little guidance and help.",  
+                    "members": {  
+                        "m1": { "name": "Celia", "role": "Team Manager", "bio": "Celia is the founder of Icarus and has led the first generation to to success. By nature, she handled many of the administrative tasks of the team. " },
+                        "m2": { "name": "Nikos", "role": "Design & Manufacturing Engineer", "bio": "Nikos was responsible designing and manufacturing our very first car. " },
+                        "m3": { "name": "Lukas", "role": "IT & Designer", "bio": "Lukas led the team in all things IT, mainly creating the first team website and maintaining it. " },
+                        "m4": { "name": "Maria", "role": "Designer", "bio": "Maria was our first designer, making the first 3 versions of our logo, as well as satisfying all other needs of the team. "}
+                    }  
+                }
+            }  
         }
     }
 }

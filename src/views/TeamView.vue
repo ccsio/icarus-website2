@@ -1,5 +1,6 @@
 <script setup>
 import CurrentMembers from '@/components/CurrentMembers.vue';
+import HallOfFame from '@/components/HallOfFame.vue';
 
 </script>
 
@@ -35,6 +36,7 @@ import CurrentMembers from '@/components/CurrentMembers.vue';
     <!-- Placeholder for next sections -->
     <div class="bg-black pb-20">
       <CurrentMembers />
+      <HallOfFame />
     </div>
   </main>
 
