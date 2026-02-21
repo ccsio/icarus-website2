@@ -6,7 +6,7 @@ const { t } = useI18n()
 const coreMembers = computed(() => [
 {
     name: "Vlad",
-    role: "Team Lead / Engineering",
+    role: t("team.core.vlad_role"),
     // image: "/images/team/gen3/vlad.webp",
     bio: t("team.core.vlad.bio")
 }
