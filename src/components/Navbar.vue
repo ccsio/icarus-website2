@@ -43,6 +43,13 @@ const route = useRoute()
 const navClass = computed(() => {
   const isHome = route.path === '/'
   const useDark = isScrolled.value || !isHome
+  const isContact = route.path === '/contact'
+
+  if (isContact) {
+    return [
+      'hidden'
+    ]
+  }
 
   return [
     'fixed top-0 left-0 w-full z-50 transition-all duration-200',
