@@ -1,26 +1,5 @@
-<!-- <script setup>
-    import 'vue3-carousel/carousel.css'
-    import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-
-    const carouselConfig = {
-        itemsToShow: 1,
-        snapAlign: 'center',
-        wrapAround: true,
-        autoplay: 4000,
-        transition: 1000,
-    }
-
-    const imagePaths = [
-        {"path": "/image_carousel/bake_sale_gen3.webp", "id": 0},
-        {"path": "/image_carousel/smoketunnel_gen2.webp", "id": 1},
-        {"path": "/image_carousel/team_gen3.webp", "id": 2},
-        {"path": "/image_carousel/team_gen3_2.webp", "id": 3}
-    ]
-</script> -->
-
 <script setup>
-import { ref } from 'vue'
-import { Carousel, Slide, Pagination } from 'vue3-carousel'
+import { Carousel, Slide } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
 const carouselConfig = {
