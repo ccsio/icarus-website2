@@ -14,9 +14,18 @@
             "ctaOfficial": "STEM Racing",
             "imageCaption": "Petar on the starting grid at World Finals 2025",
             "stats": {
-                "countries": { "label": "countries are actively involved.", "value": 44 },
-                "schools": { "label": "schools participate in the challenge.", "value": 26000 },
-                "students": { "label": "students compete for 1st place.", "value": 2000000 }
+                "countries": {
+                    "label": "countries are actively involved.",
+                    "value": 44
+                },
+                "schools": {
+                    "label": "schools participate in the challenge.",
+                    "value": 26000
+                },
+                "students": {
+                    "label": "students compete for 1st place.",
+                    "value": 2000000
+                }
             }
         },
         "timeline": {
@@ -41,10 +50,9 @@
         "sponsors": {
             "title": "Our Sponsors",
             "description": "We are immensely to all our sponsors already working with us. We definitely could not have gone on this journey without them!",
-            
-            "efg": { 
-            "name": "EFG Bank",
-            "description": "EFG is our biggest sponsor. We could have not done this journey without them."
+            "efg": {
+                "name": "EFG Bank",
+                "description": "EFG is our biggest sponsor. We could have not done this journey without them."
             },
             "eurobank": {
                 "name": "EuroBank",
@@ -75,39 +83,39 @@
                 "description": "RatRig were were very kind to give us a discount a sped up shipping on their CNC Mill. "
             }
         },
-        "partnership": {  
-            "title": "Partner With Purpose",  
-            "subtitle": "Fueling the Next Generation of Engineering",  
-            "description": "As a self-funded STEM Racing team, our journey to the World Finals is powered entirely by our partners. While financial support is critical for our operations, we highly value technical and material contributions—from precision manufacturing and 3D printing filaments to expert consultancy in aerodynamics, marketing, and visual design.",  
-            "cta_note": "Every contribution directly accelerates our performance on and off the track."  
-        },  
-        "funds": {  
-            "title": "Strategic Fund Allocation",  
-            "caption": "Icarus Gen 2: Aerodynamic validation in the smoke tunnel.",  
-            "allocation1": {  
-                "title": "Global Logistics & Accommodation",  
-                "description": "Ensuring the team is stationed at official venues during international World Finals."  
-            },  
-            "allocation2": {  
-                "title": "International Travel",  
-                "description": "Transporting our team and equipment to global competition host cities."  
-            },  
-            "allocation3": {  
-                "title": "Competition & Entry Fees",  
-                "description": "Covering mandatory team registration and individual participant accreditation."  
-            },  
-            "allocation4": {  
-                "title": "Advanced Manufacturing",  
-                "description": "Sourcing official racing blocks, high-performance paints, and precision tooling."  
-            },  
-            "allocation5": {  
-                "title": "Branding & Marketing",  
-                "description": "Producing team uniforms, pit displays, and high-impact marketing collateral."  
-            },  
-            "allocation6": {  
-                "title": "Sustainability Initiatives",  
-                "description": "Partnering with environmental leaders to offset our carbon footprint."  
-            }  
+        "partnership": {
+            "title": "Partner With Purpose",
+            "subtitle": "Fueling the Next Generation of Engineering",
+            "description": "As a self-funded STEM Racing team, our journey to the World Finals is powered entirely by our partners. While financial support is critical for our operations, we highly value technical and material contributions—from precision manufacturing and 3D printing filaments to expert consultancy in aerodynamics, marketing, and visual design.",
+            "cta_note": "Every contribution directly accelerates our performance on and off the track."
+        },
+        "funds": {
+            "title": "Strategic Fund Allocation",
+            "caption": "Icarus Gen 2: Aerodynamic validation in the smoke tunnel.",
+            "allocation1": {
+                "title": "Global Logistics & Accommodation",
+                "description": "Ensuring the team is stationed at official venues during international World Finals."
+            },
+            "allocation2": {
+                "title": "International Travel",
+                "description": "Transporting our team and equipment to global competition host cities."
+            },
+            "allocation3": {
+                "title": "Competition & Entry Fees",
+                "description": "Covering mandatory team registration and individual participant accreditation."
+            },
+            "allocation4": {
+                "title": "Advanced Manufacturing",
+                "description": "Sourcing official racing blocks, high-performance paints, and precision tooling."
+            },
+            "allocation5": {
+                "title": "Branding & Marketing",
+                "description": "Producing team uniforms, pit displays, and high-impact marketing collateral."
+            },
+            "allocation6": {
+                "title": "Sustainability Initiatives",
+                "description": "Partnering with environmental leaders to offset our carbon footprint."
+            }
         },
         "benefits": {
             "title": "What's in it for You?",
@@ -122,7 +130,7 @@
                     "description": "You show commitment to innovative ideas, creativity and future engineers."
                 },
                 "benefit3": {
-                    "title": "Global & Local Exposure", 
+                    "title": "Global & Local Exposure",
                     "description": "STEM Racing is a very global competition, but Icarus also heavily promotes the project and themselves in Luxembourg."
                 },
                 "benefit4": {
@@ -130,14 +138,13 @@
                     "description": "Icarus has almost 4 years of experience in the project - by far the most in Luxembourg."
                 },
                 "benefit5": {
-                    "title":"Visibility Everywhere",
+                    "title": "Visibility Everywhere",
                     "description": "We are committed to making your investment worth it. We'll promote your logo on our materials and we can also agree on custom arrangements."
                 },
                 "benefit6": {
-                    "title": "Targeted Audience", 
+                    "title": "Targeted Audience",
                     "description": "By partnering with us, we expose your company to top current and future professionals in the STEM fields."
                 }
-                
             }
         },
         "tiers": {
@@ -193,62 +200,175 @@
             "lukas_role": "IT Mentor",
             "petar_role": "Manager & Manufacturing Mentor"
         },
-        "support": {
-
-        },
+        "support": {},
         "core": {
             "vlad": {
                 "role": "..",
                 "bio": "This is a longer description to see whether the black backdrop will change. Leading the design and manufacturing process of the Icarus Gen 3 car, focusing on aerodynamic efficiency and weight reduction."
-
             }
         },
-        "hall_of_fame": {  
-            "title": "Hall of Fame",  
-            "subtitle": "Commemorating those who built the foundation of Icarus.", 
-            "legacy_label": "Legacy", 
-            "generations": {  
-                "gen3": {  
-                    "title": "Generation III",  
-                    "years": "2024 — 2025",  
-                    "tagline": "The First World Finals",  
-                    "description": "With more experience, we focused on our biggest weakness - the sponsorships. We managed to acquire enough funds to go the World Finals. We also improved the brand image, car, and all other aspects of the team.",  
-                    "members": {  
-                        "m1": { "name": "Petar", "role": "Team Manager & Manufacturing", "bio": "Petar led Icarus to the World Finals in 2025. He worked closely with everyone to ensure quality and cooperation. Along with that he is in charge of the manufacturing of the cars. " },
-                        "m2": { "name": "Celia", "role": "Team Manager", "bio": "Celia had a diverse set of responsibilities within Icarus. She was in charge of our written and graphic deliverables, such as our portfolios, uniforms and banners. She founded Icarus and cemented the brand image.  " },
-                        "m3": { "name": "Nikos", "role": "Design Engineer", "bio": "Nikos was in charge of all design and testing of our cars. His responsibility was to develop innovative, and high-performance designs that ensure the team stayed ahead of the competition. " },
-                        "m4": { "name": "Lukas", "role": "Finance & IT Manager", "bio": "Lukas was the finance manager and IT specialist. Handling the budget, financial planning, and IT infrastructure, he ensured that the team operates smoothly and efficiently. " },
-                        "m5": { "name": "Konstantina", "role": "Finance & IT Manager", "bio": "Konstantina handled all marketing, public relations and communication with stakeholders. It was her job to maintain our strong link with the local community and beyond. " }
-                        
-                    }  
+        "hall_of_fame": {
+            "title": "Hall of Fame",
+            "subtitle": "Commemorating those who built the foundation of Icarus.",
+            "legacy_label": "Legacy",
+            "generations": {
+                "gen3": {
+                    "title": "Generation III",
+                    "years": "2024 — 2025",
+                    "tagline": "The First World Finals",
+                    "description": "With more experience, we focused on our biggest weakness - the sponsorships. We managed to acquire enough funds to go the World Finals. We also improved the brand image, car, and all other aspects of the team.",
+                    "members": {
+                        "m1": {
+                            "name": "Petar",
+                            "role": "Team Manager & Manufacturing",
+                            "bio": "Petar led Icarus to the World Finals in 2025. He worked closely with everyone to ensure quality and cooperation. Along with that he is in charge of the manufacturing of the cars. "
+                        },
+                        "m2": {
+                            "name": "Celia",
+                            "role": "Team Manager",
+                            "bio": "Celia had a diverse set of responsibilities within Icarus. She was in charge of our written and graphic deliverables, such as our portfolios, uniforms and banners. She founded Icarus and cemented the brand image.  "
+                        },
+                        "m3": {
+                            "name": "Nikos",
+                            "role": "Design Engineer",
+                            "bio": "Nikos was in charge of all design and testing of our cars. His responsibility was to develop innovative, and high-performance designs that ensure the team stayed ahead of the competition. "
+                        },
+                        "m4": {
+                            "name": "Lukas",
+                            "role": "Finance & IT Manager",
+                            "bio": "Lukas was the finance manager and IT specialist. Handling the budget, financial planning, and IT infrastructure, he ensured that the team operates smoothly and efficiently. "
+                        },
+                        "m5": {
+                            "name": "Konstantina",
+                            "role": "Finance & IT Manager",
+                            "bio": "Konstantina handled all marketing, public relations and communication with stakeholders. It was her job to maintain our strong link with the local community and beyond. "
+                        }
+                    }
                 },
-                "gen2": {  
-                    "title": "Generation II",  
-                    "years": "2023 — 2024",  
-                    "tagline": "The Expansion",  
-                    "description": "Following the success of Gen I, we expanded to 6 members and upgraded everything in the team and started evolving into a top-tier competition in Luxembourg.",  
-                    "members": {  
-                        "m1": { "name": "Celia", "role": "Team Manager", "bio": "Celia is the founder and past leader of Icarus. At the forefront of our team, Celia undertook numerous tasks across all fields, ranging from administration to car design. " },
-                        "m2": { "name": "Nikos", "role": "Design & Manufacturing Engineer", "bio": "Nikos was responsible for combining the performance and design of our car, relentlessly working on every detail in search of the greatest competitive edge. " },
-                        "m3": { "name": "Lukas", "role": "IT & Designer", "bio": "Lukas managed our online presence. Maintaining our website and responsible for the team’s online collaboration, Lukas invaluably brought the entire team together. " },
-                        "m4": { "name": "Jan", "role": "Graphical Designer", "bio": "Jan’s creative mind not only provided us with our logo and pit display but has also been a source of significant improvement in our overall presentation. " },
-                        "m5": { "name": "Rohan", "role": "Finance Manager", "bio": "Rohan, responsible for the team’s external communication, simultaneously looked after the team’s funds, overseeing team decisions from a financial perspective. " },
-                        "m6": { "name": "Romeo", "role": "Marketing Manager", "bio": "Romeo was in charge of our team’s marketing strategies and securing sponsorship deals for our team. In parallel, he added to all administrative tasks, working particularly closely with Rohan. " }
-                    }  
+                "gen2": {
+                    "title": "Generation II",
+                    "years": "2023 — 2024",
+                    "tagline": "The Expansion",
+                    "description": "Following the success of Gen I, we expanded to 6 members and upgraded everything in the team and started evolving into a top-tier competition in Luxembourg.",
+                    "members": {
+                        "m1": {
+                            "name": "Celia",
+                            "role": "Team Manager",
+                            "bio": "Celia is the founder and past leader of Icarus. At the forefront of our team, Celia undertook numerous tasks across all fields, ranging from administration to car design. "
+                        },
+                        "m2": {
+                            "name": "Nikos",
+                            "role": "Design & Manufacturing Engineer",
+                            "bio": "Nikos was responsible for combining the performance and design of our car, relentlessly working on every detail in search of the greatest competitive edge. "
+                        },
+                        "m3": {
+                            "name": "Lukas",
+                            "role": "IT & Designer",
+                            "bio": "Lukas managed our online presence. Maintaining our website and responsible for the team’s online collaboration, Lukas invaluably brought the entire team together. "
+                        },
+                        "m4": {
+                            "name": "Jan",
+                            "role": "Graphical Designer",
+                            "bio": "Jan’s creative mind not only provided us with our logo and pit display but has also been a source of significant improvement in our overall presentation. "
+                        },
+                        "m5": {
+                            "name": "Rohan",
+                            "role": "Finance Manager",
+                            "bio": "Rohan, responsible for the team’s external communication, simultaneously looked after the team’s funds, overseeing team decisions from a financial perspective. "
+                        },
+                        "m6": {
+                            "name": "Romeo",
+                            "role": "Marketing Manager",
+                            "bio": "Romeo was in charge of our team’s marketing strategies and securing sponsorship deals for our team. In parallel, he added to all administrative tasks, working particularly closely with Rohan. "
+                        }
+                    }
                 },
-                "gen1": {  
-                    "title": "Generation I",  
-                    "years": "2022 — 2023",  
-                    "tagline": "The Beginnings",  
-                    "description": "Gen I was going into the project (still called F1 in Schools then) without 0 experience or knowledge. In just two months, we managed to create a small brand and a working car with very little guidance and help.",  
-                    "members": {  
-                        "m1": { "name": "Celia", "role": "Team Manager", "bio": "Celia is the founder of Icarus and has led the first generation to to success. By nature, she handled many of the administrative tasks of the team. " },
-                        "m2": { "name": "Nikos", "role": "Design & Manufacturing Engineer", "bio": "Nikos was responsible designing and manufacturing our very first car. " },
-                        "m3": { "name": "Lukas", "role": "IT & Designer", "bio": "Lukas led the team in all things IT, mainly creating the first team website and maintaining it. " },
-                        "m4": { "name": "Maria", "role": "Designer", "bio": "Maria was our first designer, making the first 3 versions of our logo, as well as satisfying all other needs of the team. "}
-                    }  
+                "gen1": {
+                    "title": "Generation I",
+                    "years": "2022 — 2023",
+                    "tagline": "The Beginnings",
+                    "description": "Gen I was going into the project (still called F1 in Schools then) without 0 experience or knowledge. In just two months, we managed to create a small brand and a working car with very little guidance and help.",
+                    "members": {
+                        "m1": {
+                            "name": "Celia",
+                            "role": "Team Manager",
+                            "bio": "Celia is the founder of Icarus and has led the first generation to to success. By nature, she handled many of the administrative tasks of the team. "
+                        },
+                        "m2": {
+                            "name": "Nikos",
+                            "role": "Design & Manufacturing Engineer",
+                            "bio": "Nikos was responsible designing and manufacturing our very first car. "
+                        },
+                        "m3": {
+                            "name": "Lukas",
+                            "role": "IT & Designer",
+                            "bio": "Lukas led the team in all things IT, mainly creating the first team website and maintaining it. "
+                        },
+                        "m4": {
+                            "name": "Maria",
+                            "role": "Designer",
+                            "bio": "Maria was our first designer, making the first 3 versions of our logo, as well as satisfying all other needs of the team. "
+                        }
+                    }
                 }
-            }  
+            }
+        },
+        "timeline": {
+            "establishment_22": {
+                "date": "October 2022",
+                "title": "Establishment of the team",
+                "text": "Being fascinated by Formula 1 and engineering, Celia decided to form a new team, quickly inviting Nikos and Lukas to join. We worked tirelessly to create the very first car, portfolios and presentation."
+            },
+            "first_event_22": {
+                "date": "December 2022",
+                "title": "Our first event",
+                "text": "Our first race at Luxembourg's highest level of competition and despite our inexperience, lack of time and resources, we won the ‘Judges’ Favorite Award.’ Such performance set our standards high and has been a source of motivation and ambition for us to strive for excellence today."
+            },
+            "expansion_23": {
+                "date": "May 2023",
+                "title": "3 new members",
+                "text": "To help us with the increasing amount of work and our vision to qualify for the World Championships, we accepted 3 new members into the team: Jan, Rohan and Romeo."
+            },
+            "june_event_23": {
+                "date": "June 2023",
+                "title": "June event",
+                "text": "Right after our team expanded to 6 members, we took part in another event, where we were awarded the ‘Regional T1 Top Team’ for outperforming the competition since preparation."
+            },
+            "showrun_23": {
+                "date": "September 2023",
+                "title": "New school year Showrun",
+                "text": "At the beginning of the new school year in 2023, we participated in a Showrun, getting to share some of our insights with new enthusiasts and showcase our journey."
+            },
+            "national_finals_24": {
+                "date": "April 2024",
+                "title": "Luxembourg National Finals",
+                "text": "Knowing that winning this event would take us to the World Championships, we went all-in, ensuring that everything was top-notch and of best quality. Despite doing our best, we fell short to fierce and more experienced competition. We nonetheless won the Knockout Champions and the Fastest Car Awards."
+            },
+            "reorg_24": {
+                "date": "July-October 2024",
+                "title": "Team reorganization",
+                "text": "Since Jan, Rohan and Romeo graduated high school in July, we were back to 3 members over the summer holidays. Our worries were however proved unnecessary, since we quickly adopted 2 new members: Petar and Konstantina into the team."
+            },
+            "showrun_24": {
+                "date": "October 2024",
+                "title": "Showrun 2024",
+                "text": "Similarly to the previous year, we were invited to the Showrun at ISL. Now being one of the most experienced teams, we shared our insights, tips and tricks with the younger participants. We also won the Best Logo Award."
+            },
+            "prep_24_25": {
+                "date": "School Year 2024-25",
+                "title": "Preparation",
+                "text": "Together with our studies we have worked tirelessly on designing a new car, upgrading our project enterprise and project management, approaching and pitching to sponsors to give us the best possible odds for qualification to the World Finals."
+            },
+            "national_finals_25": {
+                "date":"May 2025",
+                "title": "National Finals 2025",
+                "text": "We competed in our 3rd National Finals in May of 2025. After 3 years, we finally managed to qualify to represent Luxembourg at the World Finals in Singapore1"   
+            },
+            "world_finals": {
+                "date": "September 2025",
+                "title": "World Finals",
+                "text": "In September, we flew as a team to Singapore to represent Luxembourg at the highest level of the STEM Racing competition - the World Finals. Although we did not win any trophies, it was nonetheless a surreal experience, which propelled Icarus to miles forward."
+            }
         }
     }
 }
