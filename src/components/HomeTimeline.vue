@@ -89,7 +89,7 @@ import { RouterLink } from 'vue-router'
       <!-- CTA to Full History -->
       <div class="mt-16 flex justify-end">
         <RouterLink 
-          to="/team-history" 
+          to="/team"
           class="group flex items-center gap-2 text-icarus-red font-bold uppercase tracking-widest text-xs hover:gap-4 transition-all"
         >
           Full Team History
