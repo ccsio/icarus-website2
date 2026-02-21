@@ -7,7 +7,7 @@ const mobileOpen = ref(false)
   
 const navItems = [  
   { label: 'Home', to: '/' },  
-  { label: 'Team History', to: '/team-history' },  
+  { label: 'The Team', to: '/team' },  
   { label: 'Work With Us', to: '/work-with-us' },  
   { label: 'Contact', to: '/contact' }  
 ]  
@@ -42,8 +42,11 @@ const route = useRoute()
 
 const navClass = computed(() => {
   const isHome = route.path === '/'
-  const useDark = isScrolled.value || !isHome
+  const isTeam = route.path === '/team'
   const isContact = route.path === '/contact'
+  const isCollaboration = route.path === "/work-with-us"
+  const useDark = isScrolled.value || isCollaboration
+  
 
   if (isContact) {
     return [

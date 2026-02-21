@@ -45,144 +45,163 @@
             "efg": { 
             "name": "EFG Bank",
             "description": "EFG is our biggest sponsor. We could have not done this journey without them."
-        },
-        "eurobank": {
-            "name": "EuroBank",
-            "description": "Eurobank were our first big private sponsors. We are very grateful for their support."
-        },
-        "apeeel2": {
-            "name": "APEEEL",
-            "description": "We are fortunate to have support from our school's parents' association since day one!"
-        },
-        "esl2": {
-            "name": "European School of Luxembourg II",
-            "description": "We are supported by our school, who have provided us with a workspace and many necessary tools."
-        },
-        "dreamcars": {
-            "name": "Dream Cars",
-            "description": "Dream Cars are private car dealership in Luxembourg, who believe in our mission. Thank you!"
-        },
-        "ortea": {
-            "name": "Ortea",
-            "description": "Ortea produce an organic iced tea in Luxembourg and were our first private sponsor."
-        },
-        "delphis": {
-            "name": "Delphis Studio",
-            "description": "Delphis Studio is a private 3D design studio. They helped us a advised us on many of our graphics."
-        },
-        "ratrig": {
-            "name": "RatRig",
-            "description": "RatRig were were very kind to give us a discount a sped up shipping on their CNC Mill. "
-        }
-    },
-    "partnership": {  
-      "title": "Partner With Purpose",  
-      "subtitle": "Fueling the Next Generation of Engineering",  
-      "description": "As a self-funded STEM Racing team, our journey to the World Finals is powered entirely by our partners. While financial support is critical for our operations, we highly value technical and material contributions—from precision manufacturing and 3D printing filaments to expert consultancy in aerodynamics, marketing, and visual design.",  
-      "cta_note": "Every contribution directly accelerates our performance on and off the track."  
-    },  
-    "funds": {  
-      "title": "Strategic Fund Allocation",  
-      "caption": "Icarus Gen 2: Aerodynamic validation in the smoke tunnel.",  
-      "allocation1": {  
-        "title": "Global Logistics & Accommodation",  
-        "description": "Ensuring the team is stationed at official venues during international World Finals."  
-      },  
-      "allocation2": {  
-        "title": "International Travel",  
-        "description": "Transporting our team and equipment to global competition host cities."  
-      },  
-      "allocation3": {  
-        "title": "Competition & Entry Fees",  
-        "description": "Covering mandatory team registration and individual participant accreditation."  
-      },  
-      "allocation4": {  
-        "title": "Advanced Manufacturing",  
-        "description": "Sourcing official racing blocks, high-performance paints, and precision tooling."  
-      },  
-      "allocation5": {  
-        "title": "Branding & Marketing",  
-        "description": "Producing team uniforms, pit displays, and high-impact marketing collateral."  
-      },  
-      "allocation6": {  
-        "title": "Sustainability Initiatives",  
-        "description": "Partnering with environmental leaders to offset our carbon footprint."  
-      }  
-    },
-    "benefits": {
-        "title": "What's in it for You?",
-        "caption": "Why support us?",
-        "benefits": {
-            "benefit1": {
-                "title": "Education",
-                "description": "You show commitment to supporting education and the young generation."
             },
-            "benefit2": {
-                "title": "Innovation",
-                "description": "You show commitment to innovative ideas, creativity and future engineers."
+            "eurobank": {
+                "name": "EuroBank",
+                "description": "Eurobank were our first big private sponsors. We are very grateful for their support."
             },
-            "benefit3": {
-                "title": "Global & Local Exposure", 
-                "description": "STEM Racing is a very global competition, but Icarus also heavily promotes the project and themselves in Luxembourg."
+            "apeeel2": {
+                "name": "APEEEL",
+                "description": "We are fortunate to have support from our school's parents' association since day one!"
             },
-            "benefit4": {
-                "title": "Experience",
-                "description": "Icarus has almost 4 years of experience in the project - by far the most in Luxembourg."
+            "esl2": {
+                "name": "European School of Luxembourg II",
+                "description": "We are supported by our school, who have provided us with a workspace and many necessary tools."
             },
-            "benefit5": {
-                "title":"Visibility Everywhere",
-                "description": "We are committed to making your investment worth it. We'll promote your logo on our materials and we can also agree on custom arrangements."
+            "dreamcars": {
+                "name": "Dream Cars",
+                "description": "Dream Cars are private car dealership in Luxembourg, who believe in our mission. Thank you!"
             },
-            "benefit6": {
-                "title": "Targeted Audience", 
-                "description": "By partnering with us, we expose your company to top current and future professionals in the STEM fields."
+            "ortea": {
+                "name": "Ortea",
+                "description": "Ortea produce an organic iced tea in Luxembourg and were our first private sponsor."
+            },
+            "delphis": {
+                "name": "Delphis Studio",
+                "description": "Delphis Studio is a private 3D design studio. They helped us a advised us on many of our graphics."
+            },
+            "ratrig": {
+                "name": "RatRig",
+                "description": "RatRig were were very kind to give us a discount a sped up shipping on their CNC Mill. "
             }
-            
+        },
+        "partnership": {  
+            "title": "Partner With Purpose",  
+            "subtitle": "Fueling the Next Generation of Engineering",  
+            "description": "As a self-funded STEM Racing team, our journey to the World Finals is powered entirely by our partners. While financial support is critical for our operations, we highly value technical and material contributions—from precision manufacturing and 3D printing filaments to expert consultancy in aerodynamics, marketing, and visual design.",  
+            "cta_note": "Every contribution directly accelerates our performance on and off the track."  
+        },  
+        "funds": {  
+            "title": "Strategic Fund Allocation",  
+            "caption": "Icarus Gen 2: Aerodynamic validation in the smoke tunnel.",  
+            "allocation1": {  
+                "title": "Global Logistics & Accommodation",  
+                "description": "Ensuring the team is stationed at official venues during international World Finals."  
+            },  
+            "allocation2": {  
+                "title": "International Travel",  
+                "description": "Transporting our team and equipment to global competition host cities."  
+            },  
+            "allocation3": {  
+                "title": "Competition & Entry Fees",  
+                "description": "Covering mandatory team registration and individual participant accreditation."  
+            },  
+            "allocation4": {  
+                "title": "Advanced Manufacturing",  
+                "description": "Sourcing official racing blocks, high-performance paints, and precision tooling."  
+            },  
+            "allocation5": {  
+                "title": "Branding & Marketing",  
+                "description": "Producing team uniforms, pit displays, and high-impact marketing collateral."  
+            },  
+            "allocation6": {  
+                "title": "Sustainability Initiatives",  
+                "description": "Partnering with environmental leaders to offset our carbon footprint."  
+            }  
+        },
+        "benefits": {
+            "title": "What's in it for You?",
+            "caption": "Why support us?",
+            "benefits": {
+                "benefit1": {
+                    "title": "Education",
+                    "description": "You show commitment to supporting education and the young generation."
+                },
+                "benefit2": {
+                    "title": "Innovation",
+                    "description": "You show commitment to innovative ideas, creativity and future engineers."
+                },
+                "benefit3": {
+                    "title": "Global & Local Exposure", 
+                    "description": "STEM Racing is a very global competition, but Icarus also heavily promotes the project and themselves in Luxembourg."
+                },
+                "benefit4": {
+                    "title": "Experience",
+                    "description": "Icarus has almost 4 years of experience in the project - by far the most in Luxembourg."
+                },
+                "benefit5": {
+                    "title":"Visibility Everywhere",
+                    "description": "We are committed to making your investment worth it. We'll promote your logo on our materials and we can also agree on custom arrangements."
+                },
+                "benefit6": {
+                    "title": "Targeted Audience", 
+                    "description": "By partnering with us, we expose your company to top current and future professionals in the STEM fields."
+                }
+                
+            }
+        },
+        "tiers": {
+            "title": "Sponsorship Tiers",
+            "heading": "Join The Pantheon",
+            "caption": "Choose the sponsorship level that aligns with your goals. Every tier fuels our mission to push the boundaries of engineering excellence.",
+            "requirements": "Partnership Requirement",
+            "requirement_title": "What We're Looking For",
+            "type": "TYPE",
+            "cta": "Ready to fuel the future of engineering?",
+            "cta_button": "Let's Discuss Partnership Details",
+            "contact_info": "Or email us directly at",
+            "contact_email": "contact@icarus-team.com",
+            "mailto_subject": "Sponsorship Inquiry",
+            "mailto_body": "Hi, I'm interested in discussing sponsorship opportunities with your team.",
+            "zeus": {
+                "name": "Zeus",
+                "tagline": "King of the Gods",
+                "description": "Our most prestigious partners. Zeus-tier sponsors provide substantial monetary support that powers our entire operation—from chassis fabrication to competition travel.",
+                "perk1": "Prime logo placement on vehicle",
+                "perk2": "Custom tailored branding package",
+                "perk3": "Prime logo placement in all documents and materials",
+                "requirement_description": "Requires substantial monetary investment. Zeus-tier partners are our primary stakeholders, providing the capital necessary for major R&D and international competition logistics.",
+                "type": "CORE_FUNDING"
+            },
+            "poseidon": {
+                "name": "Poseidon",
+                "tagline": "Master of the Seas",
+                "description": "Strategic partners who drive our technical capabilities. Poseidon-tier sponsors contribute significantly through funding or high-value material donations that shape our car's performance.",
+                "perk1": "Prominent logo placement on vehicle",
+                "perk2": "Logo featured on team apparel",
+                "perk3": "Logo placement in key documents and materials",
+                "requirement_description": "Open to significant monetary contributions or substantial in-kind material donations such as high-grade filaments, specialized components, or electronics suites.",
+                "type": "TECH_MATERIAL"
+            },
+            "demeter": {
+                "name": "Demeter",
+                "tagline": "Guardian of the Harvest",
+                "description": "The backbone of our daily operations. Demeter-tier sponsors provide essential services and support that keep our team running smoothly throughout the season.",
+                "perk1": "Logo placement on team materials",
+                "perk2": "Social media spotlight and recognition",
+                "perk3": "Listed as official team supporter",
+                "requirement_description": "Ideal for local businesses or specialists offering medium-impact technical services, printing, consulting, or entry-level financial contributions that support our day-to-day operations.",
+                "type": "SUPPORT_SERVICES"
+            }
         }
     },
-    "tiers": {
-        "title": "Sponsorship Tiers",
-        "heading": "Join The Pantheon",
-        "caption": "Choose the sponsorship level that aligns with your goals. Every tier fuels our mission to push the boundaries of engineering excellence.",
-        "requirements": "Partnership Requirement",
-        "requirement_title": "What We're Looking For",
-        "type": "TYPE",
-        "cta": "Ready to fuel the future of engineering?",
-        "cta_button": "Let's Discuss Partnership Details",
-        "contact_info": "Or email us directly at",
-        "contact_email": "contact@icarus-team.com",
-        "mailto_subject": "Sponsorship Inquiry",
-        "mailto_body": "Hi, I'm interested in discussing sponsorship opportunities with your team.",
-        "zeus": {
-            "name": "Zeus",
-            "tagline": "King of the Gods",
-            "description": "Our most prestigious partners. Zeus-tier sponsors provide substantial monetary support that powers our entire operation—from chassis fabrication to competition travel.",
-            "perk1": "Prime logo placement on vehicle",
-            "perk2": "Custom tailored branding package",
-            "perk3": "Prime logo placement in all documents and materials",
-            "requirement_description": "Requires substantial monetary investment. Zeus-tier partners are our primary stakeholders, providing the capital necessary for major R&D and international competition logistics.",
-            "type": "CORE_FUNDING"
+    "team": {
+        "hero_title": "Meet the Team",
+        "hero_caption": "The People Behind the Machine",
+        "hero_subtitle": "From engineers and designers to marketing specialists, Icarus is a collective of students driven by a shared passion for speed, innovation, and the future of STEM.",
+        "mentors": {
+            "lukas_role": "IT Mentor",
+            "petar_role": "Manager & Manufacturing Mentor"
         },
-        "poseidon": {
-            "name": "Poseidon",
-            "tagline": "Master of the Seas",
-            "description": "Strategic partners who drive our technical capabilities. Poseidon-tier sponsors contribute significantly through funding or high-value material donations that shape our car's performance.",
-            "perk1": "Prominent logo placement on vehicle",
-            "perk2": "Logo featured on team apparel",
-            "perk3": "Logo placement in key documents and materials",
-            "requirement_description": "Open to significant monetary contributions or substantial in-kind material donations such as high-grade filaments, specialized components, or electronics suites.",
-            "type": "TECH_MATERIAL"
+        "support": {
+
         },
-        "demeter": {
-            "name": "Demeter",
-            "tagline": "Guardian of the Harvest",
-            "description": "The backbone of our daily operations. Demeter-tier sponsors provide essential services and support that keep our team running smoothly throughout the season.",
-            "perk1": "Logo placement on team materials",
-            "perk2": "Social media spotlight and recognition",
-            "perk3": "Listed as official team supporter",
-            "requirement_description": "Ideal for local businesses or specialists offering medium-impact technical services, printing, consulting, or entry-level financial contributions that support our day-to-day operations.",
-            "type": "SUPPORT_SERVICES"
+        "core": {
+            "vlad": {
+                "role": "..",
+                "bio": "This is a longer description to see whether the black backdrop will change. Leading the design and manufacturing process of the Icarus Gen 3 car, focusing on aerodynamic efficiency and weight reduction."
+
+            }
         }
     }
-}
 }
