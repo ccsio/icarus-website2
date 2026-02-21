@@ -3,7 +3,7 @@
 /* Make sure this URL is correct from your site root */
 @font-face {
   font-family: 'Dela Gothic One';
-  src: url("../src/assets/fonts/DelaGothicOne.woff2") format("woff2");
+  src: url("../fonts/DelaGothicOne.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
