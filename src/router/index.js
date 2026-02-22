@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CollaborationView from '@/views/CollaborationView.vue'
 import ContactView from '@/views/ContactView.vue'
 import TeamView from '@/views/TeamView.vue'
+import VideoView from '@/views/VideoView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,14 @@ const router = createRouter({
       meta: {
         title: "The Team"
       }
+    },
+    {
+      path: "/video",
+      name: "video",
+      component: VideoView,
+      meta: {
+        title: "Video"
+      }    
     }
   ]
 })
