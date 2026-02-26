@@ -2,15 +2,19 @@
 import { ref, onMounted, onUnmounted, computed } from 'vue'  
 import { RouterLink, useRoute } from 'vue-router'  
 import LanguageDropdown from '../components/LanguageDropdown.vue'  
+import { useI18n } from 'vue-i18n'  
+const { t } = useI18n()
   
+
 const mobileOpen = ref(false)  
-  
-const navItems = [  
-  { label: 'Home', to: '/' },  
-  { label: 'The Team', to: '/team' },  
-  { label: 'Work With Us', to: '/work-with-us' },  
-  { label: 'Contact', to: '/contact' }  
-]  
+
+
+const navItems = computed(() => [  
+  { label: t("navbar.home"), to: '/' },  
+  { label: t("navbar.team"), to: '/team' },  
+  { label: t("navbar.collaboration"), to: '/work-with-us' },  
+  { label: t("navbar.contact"), to: '/contact' }  
+])  
   
 const closeMobile = () => (mobileOpen.value = false)  
   

@@ -374,5 +374,11 @@
     "video": {
         "title": "Icarus STEM Racing Video",
         "label": "Introducing STEM Racing"
+    },
+    "navbar": {
+        "home": "Home",
+        "team": "Team",
+        "collaboration": "Collaboration",
+        "contact": "Contact"
     }
 }
