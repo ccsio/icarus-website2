@@ -203,12 +203,24 @@
         "hero_title": "Meet the Team",
         "hero_caption": "The People Behind the Machine",
         "hero_subtitle": "From engineers and designers to marketing specialists, Icarus is a collective of students driven by a shared passion for speed, innovation, and the future of STEM.",
+        "current": {
+            "label": "Current Generation",
+            "title": "The 2025/26 Squad"
+        },
+        "supervisor": {
+            "title": "Faculty Oversight",
+            "role": "Team Supervisor"
+        },
         "mentors": {
+            "title": "Student Mentors",
             "lukas_role": "IT Mentor",
             "petar_role": "Manager & Manufacturing Mentor"
         },
-        "support": {},
+        "support": {
+            "title": "Support Members"
+        },
         "core": {
+            "title": "Core Members",
             "vlad": {
                 "role": "Design Engineer",
                 "bio": "Leading the design and manufacturing process of the Icarus Gen 4 car, focusing on aerodynamic efficiency and weight reduction."
@@ -321,6 +333,10 @@
             }
         },
         "timeline": {
+            "label": "The Archive",
+            "title": "Our Full History",
+            "major_badge": "Major Achievement",
+            "pinnacle_badge": "World Finals",
             "establishment_22": {
                 "date": "October 2022",
                 "title": "Establishment of the Team",

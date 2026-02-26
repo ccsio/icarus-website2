@@ -41,8 +41,8 @@ const supportMembers = [
             
             <!-- Section Header -->
             <div class="mb-16 border-b border-white/10 pb-8">
-                <h2 class="text-icarus-red font-black uppercase tracking-[0.3em] text-xs mb-3">Current Generation</h2>
-                <h3 class="text-3xl md:text-4xl font-bold text-white tracking-tight italic">The 2025/26 Squad</h3>
+                <h2 class="text-icarus-red font-black uppercase tracking-[0.3em] text-xs mb-3">{{ $t('team.current.label') }}</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-white tracking-tight italic">{{ $t('team.current.title') }}</h3>
             </div>
             
             <div class="flex flex-col lg:flex-row gap-12">
@@ -51,21 +51,21 @@ const supportMembers = [
                 <aside class="lg:w-1/4 space-y-12">
                     <!-- Supervisor: Minimalist & Distinct -->
                     <div>
-                        <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">Faculty Oversight</h4>
+                        <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">{{ $t('team.supervisor.title') }}</h4>
                         <div class="flex items-center gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                             <div class="w-16 h-16 rounded-full overflow-hidden border border-white/20 shrink-0">
                                 <img src="/images/team/cheilas.webp" class="w-full h-full object-cover" alt="Supervisor" />
                             </div>
                             <div>
                                 <p class="text-white font-bold text-sm">Mr. Cheilas</p>
-                                <p class="text-icarus-red text-[9px] font-black uppercase tracking-widest">Team Supervisor</p>
+                                <p class="text-icarus-red text-[9px] font-black uppercase tracking-widest">{{ $t('team.supervisor.role') }}</p>
                             </div>
                         </div>
                     </div>
                     
                     <!-- Mentors: Small & Clean -->
                     <div>
-                        <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">Student Mentors</h4>
+                        <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">{{ $t('team.mentors.title') }}</h4>
                         <div class="space-y-3">
                             <div v-for="mentor in mentors" :key="mentor.name" class="flex items-center gap-4 p-3 rounded-lg bg-white/5 transition-colors group hover:border-icarus-red/80 border border-white/10">
                                 <div class="w-12 h-12 rounded-full overflow-hidden border border-white/10  transition-all">
@@ -82,7 +82,7 @@ const supportMembers = [
 
                     <!-- Support Members -->
                     <div>
-                        <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">Support Members</h4>
+                        <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">{{ $t('team.support.title') }}</h4>
                         <div class="space-y-3">
                             <div v-for="support in supportMembers" :key="support.name" class="flex items-center gap-4 p-3 rounded-lg hover:bg-white/5 transition-colors group">
                                 <div class="w-12 h-12 rounded-full overflow-hidden border border-white/10 group-hover:grayscale-0 transition-all">
@@ -97,7 +97,7 @@ const supportMembers = [
                 
                 <!-- RIGHT: Core Members (The "Main Event") -->
                 <div class="lg:w-3/4">
-                    <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">Core Team</h4>
+                    <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">{{ $t('team.core.title') }}</h4>
                     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                         <div 
                         v-for="member in coreMembers" 

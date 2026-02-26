@@ -1,4 +1,7 @@
 <script setup>
+import { useI18n } from 'vue-i18n'  
+const { t } = useI18n()
+
 const timelineEvents = [
   { id: 'world_finals', type: 'pinnacle' },
   { id: 'national_finals_25', type: 'major' },
@@ -22,8 +25,8 @@ const timelineEvents = [
     <div class="max-w-4xl mx-auto px-6">
       <!-- Header -->
       <div class="mb-20 text-center">
-        <h2 class="text-icarus-red font-black uppercase tracking-[0.4em] text-xs mb-4">The Archive</h2>
-        <h3 class="text-4xl font-bold text-white tracking-tight">Our Full History</h3>
+        <h2 class="text-icarus-red font-black uppercase tracking-[0.4em] text-xs mb-4">{{ $t('team.timeline.label') }}</h2>
+        <h3 class="text-4xl font-bold text-white tracking-tight">{{ $t('team.timeline.title') }}</h3>
       </div>
 
       <!-- Vertical Timeline -->
@@ -74,7 +77,7 @@ const timelineEvents = [
                     event.type === 'pinnacle' ? 'bg-white text-black' : 'bg-yellow-500/20 text-yellow-500'
                   ]"
                 >
-                  {{ event.type === 'pinnacle' ? 'World Finals' : 'Major Achievement' }}
+                  {{ event.type === 'pinnacle' ? $t('team.timeline.pinnacle_badge') : $t('team.timeline.major_badge') }}
                 </span>
               </div>
             </div>
