@@ -1,7 +1,407 @@
 {
     "home": {
         "splash": {
-            "caption": "Equipe Officielle "
+            "caption": "Équipe officielle {STEMRacing} !",
+            "subheading": "Fiers lauréats de {awards} et représentants du Luxembourg aux {finals}",
+            "awards_count": "5 prix",
+            "finals_name": "World Finals 2025"
+        },
+        "stem": {
+            "title": "STEM Racing",
+            "subtitle": "Qu'est-ce que c'est ?",
+            "body_part_1": "STEM Racing, anciennement connu sous le nom de F1 in Schools, est un programme éducatif international qui encourage les ",
+            "body_part_2": " à s'initier aux sciences, à la technologie, à l'ingénierie et aux mathématiques (",
+            "body_part_3": ") à travers la conception, la construction et la course de ",
+            "body_part_4": ". Le programme favorise l'apprentissage pratique et aide les étudiants à développer des compétences essentielles telles que le travail d'équipe, la résolution de problèmes et la gestion de projet.",
+            "keywords": {
+                "students": "étudiants",
+                "stem": "STEM",
+                "cars": "voitures de Formule 1 miniatures"
+            },
+            "ctaVideo": "Notre Vidéo",
+            "ctaOfficial": "Site Officiel",
+            "imageCaption": "Petar sur la grille de départ aux World Finals 2025",
+            "stats": {
+                "countries": { "label": "pays activement impliqués" },
+                "schools": { "label": "écoles participantes" },
+                "students": { "label": "étudiants en compétition" }
+                }
+        },
+        "timeline": {
+            "label": "Notre Parcours",
+            "title": "Du Luxembourg à la Scène Mondiale",
+            "body_part_1": "Nous sommes une équipe dirigée par des étudiants de l'",
+            "body_part_2": "Depuis 2022, nous repoussons les limites de l'ingénierie et du design pour représenter notre pays dans la compétition STEM la plus prestigieuse au monde.",
+            "keywords": {
+                "esl2": "École Européenne de Luxembourg II"
+            },
+            "item1": {
+                "date": "Octobre 2022",
+                "title": "Création de l'Équipe",
+                "text": "En octobre 2022, la première génération d'Icarus a été formée avec nos membres fondateurs : Celia, Nikos, Lukas et Maria."
+            },
+            "item2": {
+                "date": "2022-2025",
+                "title": "Compétitions Nationales",
+                "text": "Entre 2022 et 2025, nous avons participé à trois finales nationales au Luxembourg et à deux démonstrations, remportant plusieurs trophées en cours de route."
+            },
+            "item3": {
+                "date": "Juin-Septembre 2025",
+                "title": "World Finals",
+                "text": "En juin 2025, nous nous sommes qualifiés pour représenter le Luxembourg aux World Finals à Singapour. Nous avons travaillé sans relâche tout au long de l'été pour préparer l'événement en septembre."
+            },
+            "cta": "Voir l'Historique Complet"
         }
+    },
+    "collaboration": {
+        "sponsors": {
+            "title": "Nos Sponsors",
+            "description": "Nous sommes immensément reconnaissants envers tous les sponsors qui travaillent avec nous. Nous n'aurions pas pu entreprendre ce voyage sans leur soutien !",
+            "efg": {
+                "name": "EFG Bank",
+                "description": "EFG est notre sponsor principal. Ce voyage n'aurait pas été possible sans eux."
+            },
+            "eurobank": {
+                "name": "EuroBank",
+                "description": "Eurobank a été notre premier sponsor privé majeur. Nous sommes très reconnaissants pour leur soutien précoce."
+            },
+            "apeeel2": {
+                "name": "APEEEL",
+                "description": "Nous avons la chance de bénéficier du soutien de l'association des parents d'élèves de notre école depuis le premier jour !"
+            },
+            "esl2": {
+                "name": "École Européenne de Luxembourg II",
+                "description": "Nous sommes soutenus par notre école, qui nous fournit un espace de travail dédié et des outils essentiels."
+            },
+            "dreamcars": {
+                "name": "Dream Cars",
+                "description": "Dream Cars est un concessionnaire automobile privé au Luxembourg qui croit en notre mission. Merci !"
+            },
+            "ortea": {
+                "name": "Ortea",
+                "description": "Ortea produit du thé glacé biologique au Luxembourg et a été notre tout premier sponsor privé."
+            },
+            "delphis": {
+                "name": "Delphis Studio",
+                "description": "Delphis Studio est un studio de conception 3D privé. Ils nous ont apporté des conseils d'experts sur plusieurs de nos graphismes."
+            },
+            "ratrig": {
+                "name": "RatRig",
+                "description": "RatRig a gentiment offert une réduction et une expédition accélérée pour notre fraiseuse CNC."
+            }
+        },
+        "partnership": {
+            "title": "Partenariat avec un Objectif",
+            "subtitle": "Propulser la Prochaine Génération d'Ingénieurs",
+            "description": "En tant qu'équipe STEM Racing autofinancée, notre voyage vers les World Finals est entièrement propulsé par nos partenaires. Bien que le soutien financier soit crucial pour nos opérations, nous accordons une grande valeur aux contributions techniques et matérielles — allant de la fabrication de précision et des filaments d'impression 3D aux conseils d'experts en aérodynamique, marketing et design visuel.",
+            "cta_note": "Chaque contribution accélère directement nos performances sur et hors piste."
+        },
+        "funds": {
+            "title": "Allocation Stratégique des Fonds",
+            "caption": "Icarus Gen 2 : Validation aérodynamique dans le tunnel à fumée.",
+            "allocation1": {
+                "title": "Logistique Mondiale & Hébergement",
+                "description": "Assurer le logement de l'équipe sur les sites officiels lors des World Finals internationales."
+            },
+            "allocation2": {
+                "title": "Voyages Internationaux",
+                "description": "Transporter notre équipe et notre équipement vers les villes hôtes des compétitions mondiales."
+            },
+            "allocation3": {
+                "title": "Frais de Compétition & d'Inscription",
+                "description": "Couvrir l'inscription obligatoire de l'équipe et l'accréditation individuelle des participants."
+            },
+            "allocation4": {
+                "title": "Fabrication Avancée",
+                "description": "Sourcing des blocs de course officiels, peintures haute performance et outillage de précision."
+            },
+            "allocation5": {
+                "title": "Branding & Marketing",
+                "description": "Produire les uniformes de l'équipe, les stands d'exposition et les supports marketing à fort impact."
+            },
+            "allocation6": {
+                "title": "Initiatives de Durabilité",
+                "description": "Partenariat avec des leaders environnementaux pour compenser notre empreinte carbone."
+            }
+        },
+        "benefits": {
+            "title": "Quels sont vos Avantages ?",
+            "caption": "Pourquoi nous soutenir ?",
+            "benefits": {
+                "benefit1": {
+                    "title": "Éducation",
+                    "description": "Démontrez votre engagement envers le soutien à l'éducation et à la prochaine génération."
+                },
+                "benefit2": {
+                    "title": "Innovation",
+                    "description": "Affichez votre soutien aux idées innovantes, à la créativité et aux futurs ingénieurs."
+                },
+                "benefit3": {
+                    "title": "Exposition Mondiale & Locale",
+                    "description": "STEM Racing est une compétition mondiale, et Icarus promeut activement le projet à l'international et au Luxembourg."
+                },
+                "benefit4": {
+                    "title": "Expérience",
+                    "description": "Icarus a près de quatre ans d'expérience dans le projet — le plus long parcours de toutes les équipes au Luxembourg."
+                },
+                "benefit5": {
+                    "title": "Visibilité Partout",
+                    "description": "Nous nous engageons à maximiser votre investissement en affichant votre logo sur nos supports et via des arrangements personnalisés."
+                },
+                "benefit6": {
+                    "title": "Public Cible",
+                    "description": "Un partenariat avec nous expose votre entreprise aux meilleurs professionnels actuels et futurs des domaines STEM."
+                }
+            }
+        },
+        "tiers": {
+            "title": "Niveaux de Sponsoring",
+            "heading": "Rejoignez le Panthéon",
+            "caption": "Choisissez le niveau de parrainage qui correspond à vos objectifs. Chaque niveau alimente notre mission de repousser les limites de l'excellence en ingénierie.",
+            "requirements": "Exigences du Partenariat",
+            "requirement_title": "Ce que nous recherchons",
+            "type": "TYPE",
+            "cta": "Prêt à propulser l'avenir de l'ingénierie ?",
+            "cta_button": "Discutons des Détails du Partenariat",
+            "contact_info": "Ou envoyez-nous un e-mail directement à",
+            "contact_email": "contact@icarus-team.com",
+            "mailto_subject": "Demande de Sponsoring",
+            "mailto_body": "Bonjour, je suis intéressé par une discussion sur les opportunités de sponsoring avec votre équipe.",
+            "zeus": {
+                "name": "Zeus",
+                "tagline": "Roi des Dieux",
+                "description": "Nos partenaires les plus prestigieux. Les sponsors de niveau Zeus apportent un soutien financier substantiel qui alimente l'ensemble de nos opérations — de la fabrication du châssis aux voyages internationaux.",
+                "perk1": "Emplacement privilégié du logo sur le véhicule",
+                "perk2": "Pack de branding sur mesure",
+                "perk3": "Emplacement privilégié du logo dans tous les documents et supports",
+                "requirement_description": "Nécessite un investissement financier substantiel. Les partenaires de niveau Zeus sont nos principales parties prenantes, fournissant le capital nécessaire à la R&D majeure et à la logistique internationale.",
+                "type": "FINANCEMENT_CORE"
+            },
+            "poseidon": {
+                "name": "Poseidon",
+                "tagline": "Maître des Mers",
+                "description": "Partenaires stratégiques qui renforcent nos capacités techniques. Les sponsors de niveau Poseidon contribuent de manière significative par un financement ou des dons de matériel de haute valeur qui façonnent les performances de notre voiture.",
+                "perk1": "Emplacement proéminent du logo sur le véhicule",
+                "perk2": "Logo présent sur les vêtements de l'équipe",
+                "perk3": "Emplacement du logo dans les documents et supports clés",
+                "requirement_description": "Ouvert aux contributions financières importantes ou aux dons matériels substantiels tels que des filaments de haute qualité, des composants spécialisés ou de l'électronique.",
+                "type": "TECH_MATÉRIEL"
+            },
+            "demeter": {
+                "name": "Demeter",
+                "tagline": "Gardienne des Moissons",
+                "description": "Le pilier de nos opérations quotidiennes. Les sponsors de niveau Demeter fournissent des services et un soutien essentiels qui permettent à notre équipe de fonctionner sans accroc tout au long de la saison.",
+                "perk1": "Emplacement du logo sur les supports de l'équipe",
+                "perk2": "Mise en avant et reconnaissance sur les réseaux sociaux",
+                "perk3": "Répertorié comme supporter officiel de l'équipe",
+                "requirement_description": "Idéal pour les entreprises locales ou les spécialistes offrant des services techniques, de l'impression, du conseil ou des contributions financières d'entrée de gamme.",
+                "type": "SERVICES_SUPPORT"
+            }
+        }
+    },
+    "team": {
+        "hero_title": "Rencontrez l'Équipe",
+        "hero_caption": "Les Personnes derrière la Machine",
+        "hero_subtitle": "Des ingénieurs et designers aux spécialistes du marketing, Icarus est un collectif d'étudiants animés par une passion commune pour la vitesse, l'innovation et l'avenir des STEM.",
+        "supervisor": {  
+            "title": "Supervision Académique",  
+            "role": "Superviseur de l'Équipe"  
+        },
+        "current": {
+            "label": "Génération Actuelle",
+            "title": "L'Équipe 2025/26"
+        },
+        "mentors": {
+            "title": "Mentors Étudiants",
+            "lukas_role": "Mentor IT",
+            "petar_role": "Manager & Mentor Fabrication"
+        },
+        "support": {
+            "title": "Membres de Soutien"
+        },
+        "core": {
+            "title": "Membres Principaux",  
+            "vlad": {
+                "role": "Ingénieur de Conception",
+                "bio": "Dirige le processus de conception et de fabrication de la voiture Icarus Gen 4, en se concentrant sur l'efficacité aérodynamique et la réduction de poids."
+            }
+        },
+        "hall_of_fame": {
+            "title": "Hall of Fame",
+            "subtitle": "Commémoration de ceux qui ont bâti les fondations d'Icarus.",
+            "legacy_label": "Héritage",
+            "generations": {
+                "gen3": {
+                    "title": "Génération III",
+                    "years": "2024 — 2025",
+                    "tagline": "Les Premières World Finals",
+                    "description": "Forts de notre expérience, nous nous sommes concentrés sur notre défi principal : le sponsoring. Nous avons réussi à obtenir les fonds nécessaires pour les World Finals tout en améliorant notre image de marque, la conception de la voiture et les opérations globales de l'équipe.",
+                    "members": {
+                        "m1": {
+                            "name": "Petar",
+                            "role": "Team Manager & Fabrication",
+                            "bio": "Petar a mené Icarus aux World Finals en 2025. Il a travaillé étroitement avec chaque membre pour assurer la qualité et la coopération, tout en supervisant la fabrication des voitures."
+                        },
+                        "m2": {
+                            "name": "Celia",
+                            "role": "Team Manager",
+                            "bio": "Celia a géré un ensemble diversifié de responsabilités, incluant les livrables écrits et graphiques tels que les portfolios, les uniformes et les bannières. En tant que fondatrice d'Icarus, elle a établi notre image de marque de base."
+                        },
+                        "m3": {
+                            "name": "Nikos",
+                            "role": "Ingénieur de Conception",
+                            "bio": "Nikos était en charge de toute la conception et des tests. Sa responsabilité était de développer des designs innovants et performants pour garantir la compétitivité de l'équipe."
+                        },
+                        "m4": {
+                            "name": "Lukas",
+                            "role": "Manager Finance & IT",
+                            "bio": "Lukas a servi comme responsable financier et spécialiste informatique. En gérant le budget, la planification financière et l'infrastructure informatique, il a assuré l'efficacité opérationnelle de l'équipe."
+                        },
+                        "m5": {
+                            "name": "Konstantina",
+                            "role": "Manager Marketing & RP",
+                            "bio": "Konstantina a géré tout le marketing, les relations publiques et la communication avec les parties prenantes, maintenant nos liens étroits avec la communauté locale et au-delà."
+                        }
+                    }
+                },
+                "gen2": {
+                    "title": "Génération II",
+                    "years": "2023 — 2024",
+                    "tagline": "L'Expansion",
+                    "description": "Suite au succès de la Gen I, nous sommes passés à six membres, avons amélioré nos ressources et avons commencé à évoluer vers une équipe compétitive de premier plan au Luxembourg.",
+                    "members": {
+                        "m1": {
+                            "name": "Celia",
+                            "role": "Team Manager",
+                            "bio": "Celia est la fondatrice et l'ancienne leader d'Icarus. Elle a géré de nombreuses tâches dans tous les domaines, de l'administration à la conception de la voiture."
+                        },
+                        "m2": {
+                            "name": "Nikos",
+                            "role": "Ingénieur Conception & Fabrication",
+                            "bio": "Nikos était responsable de l'équilibre entre performance et design, affinant sans relâche chaque détail pour trouver un avantage compétitif."
+                        },
+                        "m3": {
+                            "name": "Lukas",
+                            "role": "IT & Designer",
+                            "bio": "Lukas a géré notre présence en ligne. En maintenant notre site web et en facilitant la collaboration en ligne, Lukas a joué un rôle déterminant dans la cohésion de l'équipe."
+                        },
+                        "m4": {
+                            "name": "Jan",
+                            "role": "Designer Graphique",
+                            "bio": "La vision créative de Jan a donné naissance à notre logo et à notre stand d'exposition, améliorant considérablement notre présentation globale."
+                        },
+                        "m5": {
+                            "name": "Rohan",
+                            "role": "Manager Finance",
+                            "bio": "Rohan a géré les communications externes et les fonds de l'équipe, apportant une perspective financière à toutes les décisions majeures de l'équipe."
+                        },
+                        "m6": {
+                            "name": "Romeo",
+                            "role": "Manager Marketing",
+                            "bio": "Romeo était en charge des stratégies marketing et de l'obtention de contrats de sponsoring, tout en aidant aux tâches administratives."
+                        }
+                    }
+                },
+                "gen1": {
+                    "title": "Génération I",
+                    "years": "2022 — 2023",
+                    "tagline": "Les Débuts",
+                    "description": "La Gen I a rejoint le projet (alors appelé F1 in Schools) sans expérience préalable. En seulement deux mois, nous avons créé une marque et une voiture fonctionnelle avec un minimum de conseils.",
+                    "members": {
+                        "m1": {
+                            "name": "Celia",
+                            "role": "Team Manager",
+                            "bio": "Celia a fondé Icarus et a mené la première génération au succès, gérant la majorité des tâches administratives de l'équipe."
+                        },
+                        "m2": {
+                            "name": "Nikos",
+                            "role": "Ingénieur Conception & Fabrication",
+                            "bio": "Nikos était responsable de la conception et de la fabrication de notre toute première voiture."
+                        },
+                        "m3": {
+                            "name": "Lukas",
+                            "role": "IT & Designer",
+                            "bio": "Lukas a dirigé l'équipe pour toutes les questions informatiques, créant et maintenant principalement le premier site web de l'équipe."
+                        },
+                        "m4": {
+                            "name": "Maria",
+                            "role": "Designer",
+                            "bio": "Maria était notre première designer, créant les versions initiales de notre logo et répondant aux besoins visuels de l'équipe."
+                        }
+                    }
+                }
+            }
+        },
+        "timeline": {
+            "label": "Les Archives",
+            "title": "Notre Historique Complet",
+            "major_badge": "Réalisation Majeure",
+            "pinnacle_badge": "World Finals",
+            "establishment_22": {
+                "date": "Octobre 2022",
+                "title": "Création de l'Équipe",
+                "text": "Fascinée par la Formule 1 et l'ingénierie, Celia a formé l'équipe et a invité Nikos et Lukas à la rejoindre. Nous avons travaillé sans relâche pour créer notre première voiture, nos portfolios et notre présentation."
+            },
+            "first_event_22": {
+                "date": "Décembre 2022",
+                "title": "Notre Premier Événement",
+                "text": "Lors de notre première course au plus haut niveau de compétition du Luxembourg, nous avons remporté le prix 'Coup de Cœur du Jury' malgré notre manque de ressources. Ce succès a fixé des standards élevés et nous a motivés à viser l'excellence."
+            },
+            "expansion_23": {
+                "date": "Mai 2023",
+                "title": "Trois Nouveaux Membres",
+                "text": "Pour gérer la charge de travail croissante et notre vision pour les championnats du monde, nous avons accueilli trois nouveaux membres : Jan, Rohan et Romeo."
+            },
+            "june_event_23": {
+                "date": "Juin 2023",
+                "title": "Événement de Juin",
+                "text": "Peu après être passés à six membres, nous avons participé à un événement où nous avons reçu le prix 'Regional T1 Top Team' pour notre préparation supérieure."
+            },
+            "showrun_23": {
+                "date": "Septembre 2023",
+                "title": "Showrun de la Rentrée",
+                "text": "Au début de l'année scolaire 2023, nous avons participé à un Showrun, partageant nos connaissances avec de nouveaux passionnés et présentant notre parcours."
+            },
+            "national_finals_24": {
+                "date": "Avril 2024",
+                "title": "Finales Nationales du Luxembourg",
+                "text": "Visant les championnats du monde, nous nous sommes assurés que chaque aspect de notre participation était de premier ordre. Bien que nous ayons échoué face à une concurrence expérimentée, nous avons remporté les prix 'Knockout Champions' et 'Voiture la plus Rapide'."
+            },
+            "reorg_24": {
+                "date": "Juillet-Octobre 2024",
+                "title": "Réorganisation de l'Équipe",
+                "text": "Après la remise des diplômes de trois membres en juillet, nous avons rapidement recruté Petar et Konstantina pour assurer la croissance continue de l'équipe."
+            },
+            "showrun_24": {
+                "date": "Octobre 2024",
+                "title": "Showrun 2024",
+                "text": "Invités à nouveau au Showrun de l'ISL en tant qu'une des équipes les plus expérimentées, nous avons partagé des conseils avec les plus jeunes participants et remporté le prix du 'Meilleur Logo'."
+            },
+            "prep_24_25": {
+                "date": "Année Scolaire 2024-25",
+                "title": "Préparation",
+                "text": "Parallèlement à nos études, nous avons travaillé sans relâche sur un nouveau design de voiture, amélioré notre gestion de projet et démarché des sponsors pour assurer notre qualification pour les World Finals."
+            },
+            "national_finals_25": {
+                "date":"Mai 2025",
+                "title": "Finales Nationales 2025",
+                "text": "Nous avons participé à nos troisièmes finales nationales en mai 2025. Après trois ans de travail acharné, nous nous sommes qualifiés avec succès pour représenter le Luxembourg aux World Finals à Singapour !"   
+            },
+            "world_finals": {
+                "date": "Septembre 2025",
+                "title": "World Finals",
+                "text": "En septembre, nous nous sommes rendus à Singapour pour représenter le Luxembourg aux World Finals. Bien que nous n'ayons pas ramené de trophée, l'expérience a été surréaliste et a propulsé Icarus de manière significative."
+            }
+        }
+    },
+    "video": {
+        "title": "Vidéo Icarus STEM Racing",
+        "label": "Présentation de STEM Racing"
+    },
+    "navbar": {
+        "home": "Accueil",
+        "team": "Équipe",
+        "collaboration": "Collaboration",
+        "contact": "Contact"
     }
 }
