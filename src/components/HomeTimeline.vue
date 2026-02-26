@@ -9,15 +9,15 @@ import { RouterLink } from 'vue-router'
      <!-- Section Header -->
     <div class="mb-16 max-w-2xl"> <!-- Added max-w-2xl to keep text readable -->
       <h2 class="text-icarus-red font-black uppercase tracking-[0.3em] text-xs mb-3">
-        Our Journey
+        {{ $t('home.timeline.label') }}
       </h2>
       <h3 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-        From Luxembourg to the World Stage
+        {{ $t('home.timeline.title') }}
       </h3>
       <p class="text-slate-600 leading-relaxed">
-        We are a student-led team from the 
-        <span class="font-semibold text-slate-900">European School of Luxembourg II</span>. 
-        Since 2022, we have been pushing the boundaries of engineering and design to represent our country in the world's most prestigious STEM competition.
+        {{ $t('home.timeline.body_part_1') }}
+        <span class="font-semibold text-slate-900">{{ $t('home.timeline.keywords.esl2') }}</span>. 
+        {{ $t('home.timeline.body_part_2') }}
       </p>
     </div>
 

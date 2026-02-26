@@ -26,8 +26,15 @@
                 "schools": { "label": "participating schools" },
                 "students": { "label": "competing students" }
                 }
+        },
+        "timeline": {
+            "label": "Our Journey",
+            "title": "From Luxembourg to the World Stage",
+            "body_part_1": "We are a student-led team from the ",
+            "body_part_2": "Since 2022, we have been pushing the boundaries of engineering and design to represent our country in the world's most prestigious STEM competition.",
+            "keywords": {
+                "esl2": "European School of Luxembourg II"
             },
-            "timeline": {
             "item1": {
                 "date": "October 2022",
                 "title": "Team Creation",
