@@ -8,7 +8,7 @@ const links = [
   { label: 'TikTok', url: 'https://tiktok.com/@icarus.luxembourg', primary: false },
   { label: 'Support our Journey (GoFundMe)', url: 'https://gofund.me/d2a253b6', primary: true },
   { label: 'Our STEM Racing Video', to: '/video', primary: false },
-  { label: 'Email Us', url: 'mailto:contact@icarus-team.com', primary: false },
+  { label: 'Email Us', url: 'mailto:contact@icarusluxembourg.com', primary: false },
 ]
 
 // Define the base classes in a variable to keep the template clean

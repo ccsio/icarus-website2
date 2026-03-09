@@ -132,15 +132,15 @@ const sponsorsTiers = {
             <!-- Ready to fuel the future of engineering? -->
         </p>
             <a 
-            href="mailto:contact@icarus-team.com?subject=Sponsorship Inquiry&body=Hi, I'm interested in discussing sponsorship opportunities with your team."
+            href="mailto:contact@icarusluxembourg.com?subject=Sponsorship Inquiry&body=Hi, I'm interested in discussing sponsorship opportunities with your team."
             class="inline-block bg-icarus-red hover:shadow-icarus-red-50 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 hover:shadow-xl hover:scale-105 uppercase tracking-widest text-sm"
             >
             {{ $t('collaboration.tiers.cta_button') }}
             <!-- Let's Discuss Partnership Details -->
         </a>
         <p class="text-gray-500 dark:text-gray-500 text-xs mt-4">
-            {{ $t('collaboration.tiers.contact_info') }} <a href="mailto:contact@icarus-team.com" class="underline hover:text-icarus-red">contact@icarus-team.com</a>
-            <!-- Or email us directly at <a href="mailto:contact@icarus-team.com" class="underline hover:text-icarus-red">contact@icarus-team.com</a> -->
+            {{ $t('collaboration.tiers.contact_info') }} <a href="mailto:contact@icarusluxembourg.com" class="underline hover:text-icarus-red">contact@icarusluxembourg.com</a>
+            <!-- Or email us directly at <a href="mailto:contact@icarusluxembourg.com" class="underline hover:text-icarus-red">contact@icarusluxembourg.com</a> -->
         </p>
     </div>
 </template>
