@@ -6,7 +6,7 @@ const links = [
   { label: 'Instagram', url: 'https://www.instagram.com/icarusluxembourg', primary: false },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/company/teamicarus/', primary: false },
   { label: 'TikTok', url: 'https://tiktok.com/@icarus.luxembourg', primary: false },
-  { label: 'Support our Journey (GoFundMe)', url: 'https://gofund.me/d2a253b6', primary: true },
+  { label: 'Support our Journey (GoFundMe)', url: 'https://gofund.me/9d1eebdb8', primary: true },
   { label: 'Our STEM Racing Video', to: '/video', primary: false },
   { label: 'Email Us', url: 'mailto:contact@icarusluxembourg.com', primary: false },
 ]
