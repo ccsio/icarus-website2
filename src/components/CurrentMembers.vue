@@ -14,16 +14,21 @@ const coreMembers = computed(() => [
 ])
 
 const mentors = computed(() => [  
-  {  
-    name: "Lukas",
-    role: t("team.mentors.lukas_role"),
-    image: "/images/team/gen3/lukas.webp"  
-  },  
-  {  
-    name: "Petar",  
-    role: t("team.mentors.petar_role"),
-    image: "/images/team/gen3/petar.webp"  
-  }  
+    {  
+        name: "Lukas",
+        role: t("team.mentors.lukas_role"),
+        image: "/images/team/gen3/lukas.webp"  
+    },  
+    {  
+        name: "Petar",  
+        role: t("team.mentors.petar_role"),
+        image: "/images/team/gen3/petar.webp"  
+    },
+    {  
+        name: "Nikos",  
+        role: t("team.mentors.nikos_role"),
+        image: "/images/team/gen3/nikos.webp"  
+    }
 ])
 
 const supportMembers = [  
