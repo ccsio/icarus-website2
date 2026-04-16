@@ -1,0 +1,415 @@
+{
+    "home": {
+        "splash": {
+            "caption": "Offiziellt {STEMRacing}-Team!",
+            "subheading": "Stolz Gewënner vu {awards} an d’Representante vu Lëtzebuerg bei de {finals}",
+            "awards_count": "5 Präisser",
+            "finals_name": "World Finals 2025"
+        },
+        "stem": {
+            "title": "STEM Racing",
+            "subtitle": "Wat ass dat?",
+            "body_part_1": "STEM Racing, fréier bekannt als F1 in Schools, ass en internationale Bildungsprogramm, deen ",
+            "body_part_2": " encouragéiert, méi iwwer Science, Technologie, Ingenieurswiesen a Mathematik (",
+            "body_part_3": ") ze léieren, andeems si ",
+            "body_part_4": " designen, bauen a fueren. De Programm fërdert praktescht Léieren an hëlleft de Schüler, wichteg Fäegkeeten ze entwéckelen, wéi Teamwork, Problemléisung a Projetmanagement.",
+            "keywords": {
+                "students": "Schüler",
+                "stem": "STEM",
+                "cars": "Miniatur-Formel-1-Autoen"
+            },
+            "ctaVideo": "Eise Video",
+            "ctaGlobal": "Global Säit",
+            "ctaLuxembourg": "Lëtz. Säit",
+            "imageCaption": "De Petar op der Startlinn beim Weltfinale 2025",
+            "stats": {
+                "countries": { "label": "Länner, déi aktiv bedeelegt sinn" },
+                "schools": { "label": "Schoulen, déi deelhuelen" },
+                "students": { "label": "Schüler, déi matmaachen" }
+            }
+        },
+        "timeline": {
+            "label": "Eis Rees",
+            "title": "Vu Lëtzebuerg op d’Weltbühn",
+            "body_part_1": "Mir sinn e Schülerteam aus der ",
+            "body_part_2": " Zanter 2022 drécke mir d’Grenze vum Ingenieurswiesen an Design, fir eist Land an der prestigiéister STEM-Competitioun op der Welt ze vertrieden.",
+            "keywords": {
+                "esl2": "Europäesch Schoul Lëtzebuerg II"
+            },
+            "item1": {
+                "date": "Oktober 2022",
+                "title": "Grënnung vum Team",
+                "text": "Am Oktober 2022 gouf déi éischt Generatioun vun Icarus gegrënnt, mat eise Grënnungsmemberen: Celia, Nikos, Lukas a Maria."
+            },
+            "item2": {
+                "date": "2022–2025",
+                "title": "National Competitiounen",
+                "text": "Tëscht 2022 an 2025 hu mir un dräi Nationalfinalen zu Lëtzebuerg an zwee Showruns deelgeholl an dobäi verschidde Präisser gewonnen."
+            },
+            "item3": {
+                "date": "Juni–September 2025",
+                "title": "World Finals",
+                "text": "Am Juni 2025 hu mir eis qualifizéiert, fir Lëtzebuerg beim World Finals zu Singapur ze vertrieden. Mir hunn de ganze Summer iwwer haart geschafft, fir eis op d’Event am September virzebereeden."
+            },
+            "cta": "Ganz Geschicht gesinn"
+        }
+    },
+    "collaboration": {
+        "sponsors": {
+            "title": "Eis Sponsoren",
+            "description": "Mir si ganz dankbar fir all eis Sponsoren, déi mat eis zesummeschaffen. Ouni hir Ënnerstëtzung wier dës Rees net méiglech gewiescht!",
+            "efg": {
+                "name": "EFG Bank",
+                "description": "EFG ass eisen Haaptsponsor. Dës Rees wier ouni si net méiglech gewiescht."
+            },
+            "eurobank": {
+                "name": "EuroBank",
+                "description": "Eurobank war eisen éischte grousse private Sponsor. Mir si ganz dankbar fir hir fréi Ënnerstëtzung."
+            },
+            "apeeel2": {
+                "name": "APEEEL",
+                "description": "Mir si frou, zënter dem éischten Dag d’Ënnerstëtzung vun der Eltereassociatioun vun eiser Schoul ze hunn!"
+            },
+            "esl2": {
+                "name": "Europäesch Schoul Lëtzebuerg II",
+                "description": "Mir ginn vun eiser Schoul ënnerstëtzt, déi eis en dedizéierte Workspace an essentiell Tools zur Verfügung stellt."
+            },
+            "dreamcars": {
+                "name": "Dream Cars",
+                "description": "Dream Cars ass en Autohändler zu Lëtzebuerg, deen un eis Missioun gleeft. Merci!"
+            },
+            "ortea": {
+                "name": "Ortea",
+                "description": "Ortea produzéiert Bio-Eistee zu Lëtzebuerg a war eisen alleréischte private Sponsor."
+            },
+            "delphis": {
+                "name": "Delphis Studio",
+                "description": "Delphis Studio ass en 3D Design Studio. Si hunn eis mat vill Expertise bei eise Grafiken gehollef."
+            },
+            "ratrig": {
+                "name": "RatRig",
+                "description": "RatRig huet eis frëndlecherweis Rabatt an eng séier Liwwerung fir eis CNC-Fräis zur Verfügung gestallt."
+            }
+        },
+        "partnership": {
+            "title": "Partnerschaft mat Zweck",
+            "subtitle": "Déi nächst Generatioun vun Ingenieuren ënnerstëtzen",
+            "description": "Als selwer finanzéiert STEM Racing Team gëtt eis Rees op de World Finals komplett vun eise Partner gedroen. Och wann finanziell Ënnerstëtzung wichteg ass, schätze mir technesch a materiell Bäiträg ganz héich — vu Präzisiounsproduktioun a 3D-Dréckmaterial bis zu Berodung an Aerodynamik, Marketing a visuellem Design.",
+            "cta_note": "All Bäitrag beschleunegt direkt eis Leeschtung op an nieft der Streck."
+        },
+        "funds": {
+            "title": "Strategesch Asaz vun de Mëttelen",
+            "caption": "Icarus Gen 2: Aerodynamesch Validatioun am Smoke Tunnel.",
+            "allocation1": {
+                "title": "Global Logistik & Ënnerkonft",
+                "description": "Sécherstellen, datt d’Team bei den offizielle Plazen vum internationale Weltfinale ënnerbruecht ass."
+            },
+            "allocation2": {
+                "title": "International Reesen",
+                "description": "Transport vun eisem Team an Equipement an d’Stied, wou d’Competitioune stattfannen."
+            },
+            "allocation3": {
+                "title": "Competitioun & Umeldungsgebühren",
+                "description": "Deckung vun obligatoreschen Teamregistratiounen an individueller Akkreditéierung."
+            },
+            "allocation4": {
+                "title": "Fortgeschratt Produktioun",
+                "description": "Beschaffung vun offiziellen Rennblécker, héich performante Faarwen a präzise Werkzeiger."
+            },
+            "allocation5": {
+                "title": "Branding & Marketing",
+                "description": "Produktioun vun Teamuniformen, Pit-Displays a Marketingmaterial mat héijem Impakt."
+            },
+            "allocation6": {
+                "title": "Nohaltegkeet Initiativen",
+                "description": "Zesummenaarbecht mat Ëmweltpartner fir eise CO₂-Foussofdrock ze kompenséieren."
+            }
+        },
+        "benefits": {
+            "title": "Wat bréngt et Iech?",
+            "caption": "Firwat eis ënnerstëtzen?",
+            "benefits": {
+                "benefit1": {
+                    "title": "Educatioun",
+                    "description": "Weist Äert Engagement fir Educatioun an déi nächst Generatioun."
+                },
+                "benefit2": {
+                    "title": "Innovatioun",
+                    "description": "Ënnerstëtzt innovativ Iddien, Kreativitéit an zukünfteg Ingenieuren."
+                },
+                "benefit3": {
+                    "title": "Global & Lokal Visibilitéit",
+                    "description": "STEM Racing ass eng global Competitioun, an Icarus promouvéiert de Projet international an och zu Lëtzebuerg."
+                },
+                "benefit4": {
+                    "title": "Erfarung",
+                    "description": "Icarus huet bal véier Joer Erfarung am Projet — déi meescht vun all Team zu Lëtzebuerg."
+                },
+                "benefit5": {
+                    "title": "Visibilitéit Iwwerall",
+                    "description": "Mir engagéieren eis fir Är Investitioun maximal ze valoriséieren, mat Logo-Plazéierung an individuellen Ofmaachungen."
+                },
+                "benefit6": {
+                    "title": "Gezielte Publikum",
+                    "description": "Eng Partnerschaft mat eis bréngt Iech a Kontakt mat aktuelle an zukünftege Fachleit am STEM-Bereich."
+                }
+            }
+        },
+        "tiers": {
+            "title": "Sponsoring Niveauen",
+            "heading": "Schléiss dech dem Pantheon un",
+            "caption": "Wielt de Sponsoringniveau, deen zu Ären Ziler passt. All Niveau dréit dozou bäi eis Missioun ze ënnerstëtzen.",
+            "requirements": "Partnerschaft Ufuerderung",
+            "requirement_title": "Wat mir sichen",
+            "type": "TYP",
+            "cta": "Bereet d’Zukunft vum Ingenieurswiesen ze ënnerstëtzen?",
+            "cta_button": "Loosst eis iwwer d’Partnerschaft schwätzen",
+            "contact_info": "Oder schreift eis direkt op",
+            "contact_email": "contact@icarus-team.com",
+            "mailto_subject": "Sponsoring Ufro",
+            "mailto_body": "Moien, ech sinn interesséiert fir Sponsoringméiglechkeeten mat Ärem Team ze diskutéieren.",
+            "zeus": {
+                "name": "Zeus",
+                "tagline": "Kinnech vun de Gëtter",
+                "description": "Eis prestigiéisst Partner. Zeus-Niveau-Sponsoren bidden substantiell finanziell Ënnerstëtzung, déi eis ganz Operatioun – vun der Chassis-Fabrikatioun bis zu internationalen Reesen – ugedriwwen.",
+                "perk1": "Primär Logo-Plazéierung um Auto",
+                "perk2": "Individuell Branding-Package",
+                "perk3": "Primär Logo-Plazéierung an allen Dokumenter",
+                "requirement_description": "Erfuerdert eng substantiell finanziell Investitioun. Partner vum Zeus-Niveau sinn eis Haaptinteressenten, déi dat néidegt Kapital fir grouss Fuerschungs- a Entwécklungsaarbechten an international Logistik liwweren.",
+                "type": "CORE_FUNDING"
+            },
+            "poseidon": {
+                "name": "Poseidon",
+                "tagline": "Meeschter vun de Mierer",
+                "description": "Strategesch Partner, déi eis technesch Fäegkeeten virunantreiwen. Sponsorë op Poseidon-Niveau droen wesentlech duerch Finanzéierung oder héichwäerteg Materialspenden bäi, déi d'Leeschtung vun eisem Auto formen.",
+                "perk1": "Prominent Logo-Plazéierung um Auto",
+                "perk2": "Logo op der Teamkleedung",
+                "perk3": "Logo-Plazéierung an wichtege Dokumenter a Materialien",
+                "requirement_description": "Opgemaach fir bedeitend finanziell Bäiträg oder substantiell Sachspenden wéi héichwäerteg Filamenter, spezialiséiert Komponenten oder Elektronik.",
+                "type": "TECH_MATERIAL"
+            },
+            "demeter": {
+                "name": "Demeter",
+                "tagline": "Wächter vun der Ernte",
+                "description": "D'Rëckgrat vun eise deegleche Operatiounen. Demeter-Niveau-Sponsoren bidden wesentlech Déngschter a Ënnerstëtzung, déi eis Equipe d'ganz Saison iwwer reibungslos lafen loossen.",
+                "perk1": "Logo-Plazéierung op de Team-Materialien",
+                "perk2": "Opmierksamkeet an Unerkennung an de soziale Medien",
+                "perk3": "Als offiziellen Team-Supporter opgelëscht",
+                "requirement_description": "Ideal fir lokal Betriber oder Spezialisten, déi technesch Déngschter, Dréckdéngschter, Berodung oder Finanzdéngschter op Ufängerniveau ubidden.",
+                "type": "SUPPORT_SERVICES"
+            }
+        }
+    },
+    "team": {
+        "hero_title": "Léiert d’Team kennen",
+        "hero_caption": "D’Leit hannert der Maschinn",
+        "hero_subtitle": "Vun Ingenieuren a Designer bis hin zu Marketing-Spezialisten ass Icarus e Kollektiv vu Studente, déi vun enger gemeinsamer Passioun fir Geschwindegkeet, Innovatioun an d'Zukunft vum STEM ugedriwwe ginn.",
+        "current": {
+            "label": "Aktuell Generatioun",
+            "title": "D’Equipe 2025/26"
+        },
+        "supervisor": {
+            "title": "Fakultéitsiwwerwaachung",
+            "role": "Equipe-Supervisor"
+        },
+        "mentors": {
+            "title": "Studentementoren",
+            "lukas_role": "IT-Mentor",
+            "petar_role": "Management- & Fabrikatiounsmentor",
+            "nikos_role": "Design- & Ingenieursmentor"
+        },
+        "support": {
+            "title": "Support-Memberen"
+        },
+        "core": {
+            "title": "Kärmemberen",
+            "vlad": {
+                "role": "Designingenieur",
+                "bio": "Leet den Design- an de Fabrikatiounsprozess vum Icarus Gen 4 Auto, mat Fokus op aerodynamesch Effizienz an Gewiichtsreduktioun."
+            }
+        },
+        "hall_of_fame": {
+            "title": "Hall of Fame",
+            "subtitle": "Mir gedenken deenen, déi d'Fundament vum Icarus geluecht hunn.",
+            "legacy_label": "Legacy",
+            "generations": {
+                "gen3": {
+                    "title": "Generatioun III",
+                    "years": "2024 — 2025",
+                    "tagline": "Déi éischt World Finals",
+                    "description": "Mat méi Erfahrung hu mir eis op eis Haaptusproch konzentréiert: Sponsoring. Mir hunn et fäerdeg bruecht déi néideg Fongen fir d'Weltfinallen ze sécheren, wärend mir eis Markenimage, den Autodesign an déi allgemeng Teamoperatiounen verbessert hunn.",
+                    "members": {
+                        "m1": {
+                            "name": "Petar",
+                            "role": "Teammanager & Fabrikatioun",
+                            "bio": "De Petar huet den Icarus an d'World Finals am Joer 2025 gefouert. Hien huet enk mat all Member zesummegeschafft fir Qualitéit a Kooperatioun ze garantéieren, a war och fir d'Fabrikatioun vun den Autoe verantwortlech."
+                        },
+                        "m2": {
+                            "name": "Celia",
+                            "role": "Teammanager",
+                            "bio": "D'Celia huet eng breet Palette u Verantwortung iwwerholl, dorënner schrëftlech a grafesch Deliverables wéi Portefeuillen, Uniformen a Banneren. Als Grënnerin vum Icarus huet si eist Kär-Markebild opgebaut."
+                        },
+                        "m3": {
+                            "name": "Nikos",
+                            "role": "Designingenieur",
+                            "bio": "Den Nikos war zoustänneg fir den Design an d'Testen. Seng Aufgab war et innovativ, héich performant Designen ze entwéckelen, fir sécherzestellen datt d'Equipe kompetitiv bleift."
+                        },
+                        "m4": {
+                            "name": "Lukas",
+                            "role": "Finanzen- & IT-Manager",
+                            "bio": "De Lukas war de Finanzmanager an IT-Spezialist. Mat der Gestioun vum Budget, finanzieller Planung an IT-Infrastruktur huet hien dofir gesuergt datt d'Equipe effizient funktionéiert."
+                        },
+                        "m5": {
+                            "name": "Konstantina",
+                            "role": "Marketing- & PR-Manager",
+                            "bio": "D'Konstantina war zoustänneg fir Marketing, Public Relations an d'Kommunikatioun mat Stakeholderen, a huet eis staark Verbindungen mat der lokaler Gemeinschaft an doriwwer eraus erhale gelooss."
+                        }
+                    }
+                },
+                "gen2": {
+                    "title": "Generatioun II",
+                    "years": "2023 — 2024",
+                    "tagline": "D'Expansioun",
+                    "description": "No dem Succès vun der Generatioun I hu mir op sechs Memberen erweidert, eis Ressourcen verbessert a ugefaang eis zu enger Top-Equipe zu Lëtzebuerg z'entwéckelen.",
+                    "members": {
+                        "m1": {
+                            "name": "Celia",
+                            "role": "Teammanager",
+                            "bio": "D'Celia ass d'Grënnerin an fréier Leaderin vum Icarus. Si huet vill Aufgaben an alle Beräicher iwwerholl, vun Administratioun bis zum Autodesign."
+                        },
+                        "m2": {
+                            "name": "Nikos",
+                            "role": "Design- & Fabrikatiounsingenieur",
+                            "bio": "Den Nikos war responsabel fir d'Balance tëscht Leeschtung an Design, an huet all Detail konsequent optiméiert fir e kompetitive Virdeel ze fannen."
+                        },
+                        "m3": {
+                            "name": "Lukas",
+                            "role": "IT & Designer",
+                            "bio": "De Lukas huet eis Online-Präsenz geréiert. Duerch d'Ënnerhalt vun eiser Websäit an d'Erméigleche vun Online-Zesummenaarbecht war hien essentiell fir d'Equipe zesummenzebréngen."
+                        },
+                        "m4": {
+                            "name": "Jan",
+                            "role": "Grafikdesigner",
+                            "bio": "Dem Jan seng kreativ Visioun huet eist Logo an eise Pit-Display geliwwert an eis Presentatioun wesentlech verbessert."
+                        },
+                        "m5": {
+                            "name": "Rohan",
+                            "role": "Finanzmanager",
+                            "bio": "De Rohan huet extern Kommunikatiounen an d'Equipefongen geréiert a fir eng finanziell Perspektiv bei allen wichtegen Entscheedunge gesuergt."
+                        },
+                        "m6": {
+                            "name": "Romeo",
+                            "role": "Marketingmanager",
+                            "bio": "De Romeo war zoustänneg fir Marketingstrategien an d'Séchere vu Sponsoring-Deals, an huet och bei administrativen Aufgaben gehollef."
+                        }
+                    }
+                },
+                "gen1": {
+                    "title": "Generatioun I",
+                    "years": "2022 — 2023",
+                    "tagline": "D'Ufäng",
+                    "description": "D'Generatioun I ass an de Projet (deemools F1 in Schools genannt) ouni virdrun Erfarung agaangen. An nëmmen zwee Méint hu mir eng Mark an en funktionéierenden Auto mat minimaler Ënnerstëtzung geschaf.",
+                    "members": {
+                        "m1": {
+                            "name": "Celia",
+                            "role": "Teammanager",
+                            "bio": "D'Celia huet den Icarus gegrënnt an déi éischt Generatioun zum Succès gefouert, dobäi huet si déi meescht administrativ Aufgaben iwwerholl."
+                        },
+                        "m2": {
+                            "name": "Nikos",
+                            "role": "Design- & Fabrikatiounsingenieur",
+                            "bio": "Den Nikos war zoustänneg fir den Design an d'Fabrikatioun vun eisem éischten Auto."
+                        },
+                        "m3": {
+                            "name": "Lukas",
+                            "role": "IT & Designer",
+                            "bio": "De Lukas huet d'Equipe an allen IT-Belangen ugefouert, virun allem beim Opbau an Ënnerhalt vun der éischter Team-Websäit."
+                        },
+                        "m4": {
+                            "name": "Maria",
+                            "role": "Designer",
+                            "bio": "D'Maria war eis éischt Designerin, huet déi éischt Versioune vun eisem Logo erstallt an d'visuell Bedierfnesser vun der Equipe ënnerstëtzt."
+                        }
+                    }
+                }
+            }
+        },
+        "timeline": {
+        "label": "D'Archiv",
+        "title": "Eis komplett Geschicht",
+        "major_badge": "Grouss Leeschtung",
+        "pinnacle_badge": "World Finals",
+        "establishment_22": {
+            "date": "Oktober 2022",
+            "title": "Grënnung vun der Equipe",
+            "text": "Faszinéiert vun der Formel 1 an der Ingenieurskonscht huet d'Celia d'Equipe gegrënnt an den Nikos an de Lukas invitéiert matzemaachen. Mir hu onermiddlech geschafft fir eisen éischten Auto, eis Portefeuillen an eis Presentatioun ze schafen."
+        },
+        "first_event_22": {
+            "date": "Dezember 2022",
+            "title": "Eist éischt Event",
+            "text": "Bei eiser éischter Course op dem héchste Kompetitiounsniveau zu Lëtzebuerg hu mir trotz eise limitéierte Ressourcen de Präis ‘Judges’ Favorite Award’ gewonnen. Dëse Succès huet héich Standarden gesat an eis motivéiert no Exzellenz ze striewen."
+        },
+        "expansion_23": {
+            "date": "Mee 2023",
+            "title": "Dräi nei Memberen",
+            "text": "Fir déi zouhuelend Aarbechtslaascht an eis Visioun fir d'Weltmeeschterschaften ze geréieren, hu mir dräi nei Memberen opgeholl: de Jan, de Rohan an de Romeo."
+        },
+        "june_event_23": {
+            "date": "Juni 2023",
+            "title": "Juni Event",
+            "text": "Kuerz nodeems mir op sechs Memberen erweidert haten, hu mir un engem Event deelgeholl, wou mir fir eis exzellent Virbereedung mam Präis ‘Regional T1 Top Team’ ausgezeechent goufen."
+        },
+        "showrun_23": {
+            "date": "September 2023",
+            "title": "Neit Schouljoer Showrun",
+            "text": "Um Ufank vum Schouljoer 2023 hu mir un engem Showrun deelgeholl, wou mir eis Erfarunge mat neien Interesséierten gedeelt an eis Rees presentéiert hunn."
+        },
+        "national_finals_24": {
+            "date": "Abrëll 2024",
+            "title": "Lëtzebuerger Nationalfinallen",
+            "text": "Mat dem Zil d'Weltmeeschterschaften z'erreechen, hu mir dofir gesuergt datt all Aspekt vun eiser Participatioun op héchstem Niveau war. Och wann mir géint erfuerene Konkurrenten net gewanne konnten, hu mir d'Präisser ‘Knockout Champions’ an ‘Fastest Car’ gewonnen."
+        },
+        "reorg_24": {
+            "date": "Juli-Oktober 2024",
+            "title": "Reorganisatioun vun der Equipe",
+            "text": "Nodeems dräi Memberen am Juli ofgeschloss hunn, hu mir séier de Petar an d'Konstantina rekrutéiert fir de weidere Wuesstem vun der Equipe ze garantéieren."
+        },
+        "showrun_24": {
+            "date": "Oktober 2024",
+            "title": "Showrun 2024",
+            "text": "Als eng vun den erfuerste Equipen si mir nees op de Showrun am ISL invitéiert ginn, wou mir Tipps mat méi jonke Participanten gedeelt hunn an de Präis ‘Best Logo’ gewonnen hunn."
+        },
+        "prep_24_25": {
+            "date": "Schouljoer 2024-25",
+            "title": "Virbereedung",
+            "text": "Nieft eise Studien hu mir intensiv un engem neien Autodesign geschafft, eis Projetmanagement verbessert an Sponsoren iwwerzeegt fir eis Qualifikatioun fir d'Weltfinallen ze sécheren."
+        },
+        "national_finals_25": {
+            "date": "Mee 2025",
+            "title": "Nationalfinallen 2025",
+            "text": "Am Mee 2025 hu mir un eisen drëtte Nationalfinallen deelgeholl. No dräi Joer haarder Aarbecht hu mir eis erfollegräich qualifizéiert fir Lëtzebuerg op de Weltfinallen zu Singapur ze vertrieden!"
+        },
+        "world_finals": {
+            "date": "September 2025",
+            "title": "Weltfinallen",
+            "text": "Am September si mir op Singapur gereest fir Lëtzebuerg op de Weltfinallen ze vertrieden. Och wa mir keng Trophäe mat heem bruecht hunn, war d'Erfarung immens a huet den Icarus bedeitend no vir bruecht."
+        },
+        "new_team": {
+            "date": "November 2025",
+            "title": "Nei Equipe",
+            "text": "Mat der Generatioun 3, déi hir Universitéiten ugefaangen huet, hu si gehollef e Selektiounsprozess fir nei Memberen vum Icarus z'organiséieren. E puer vun hinnen hëllefen och reegelméisseg a mentoréieren déi nei Equipe."
+        }
+    }
+
+    },
+    "video": {
+        "title": "Icarus STEM Racing Video",
+        "label": "Aféierung an STEM Racing"
+    },
+    "navbar": {
+        "home": "Home",
+        "team": "D'Ekipp",
+        "collaboration": "Zesummenaarbecht",
+        "contact": "Kontakt"
+    }
+}

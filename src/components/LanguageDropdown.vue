@@ -9,7 +9,9 @@ const dropdownRef = ref(null)
 // 1. Define your languages and flag paths (pointing to /public/flags/)
 const languages = [
   { code: 'en', name: 'English', flag: 'icons/flags/en.svg' },
-  { code: 'fr', name: 'Français', flag: 'icons/flags/fr.svg' }
+  { code: 'lb', name: 'Lëtzebuergesch', flag: 'icons/flags/lb.svg' },
+  { code: 'fr', name: 'Français', flag: 'icons/flags/fr.svg' },
+  { code: 'de', name: 'Deutsch', flag: 'icons/flags/de.svg' }
 ]
 
 // 2. Get the currently active language object

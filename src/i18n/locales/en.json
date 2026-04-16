@@ -215,7 +215,7 @@
         "mentors": {
             "title": "Student Mentors",
             "lukas_role": "IT Mentor",
-            "petar_role": "Manager & Manufacturing Mentor",
+            "petar_role": "Management & Manufacturing Mentor",
             "nikos_role": "Design & Engineering Mentor"
         },
         "support": {
@@ -246,7 +246,7 @@
                         },
                         "m2": {
                             "name": "Celia",
-                            "role": "Team Manager",
+                            "role": "Operations Manager",
                             "bio": "Celia managed a diverse set of responsibilities, including written and graphic deliverables such as portfolios, uniforms, and banners. As the founder of Icarus, she established our core brand image."
                         },
                         "m3": {
