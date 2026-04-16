@@ -95,8 +95,11 @@ onUnmounted(() => observer?.disconnect())
           <a href="/video/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
             {{ $t('home.stem.ctaVideo') }}
           </a>
+          <a href="https://www.stemracing.lu/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
+            {{ $t('home.stem.ctaLuxembourg') }}
+          </a>
           <a href="https://www.stemracing.com/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
-            {{ $t('home.stem.ctaOfficial') }}
+            {{ $t('home.stem.ctaGlobal') }}
           </a>
         </div>
       </div>

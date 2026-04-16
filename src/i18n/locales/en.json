@@ -19,7 +19,8 @@
                 "cars": "miniature Formula One cars"
             },
             "ctaVideo": "Our Video",
-            "ctaOfficial": "Official Site",
+            "ctaGlobal": "Global Site",
+            "ctaLuxembourg": "Lux. Site",
             "imageCaption": "Petar on the starting grid at the World Finals 2025",
             "stats": {
                 "countries": { "label": "countries actively involved" },

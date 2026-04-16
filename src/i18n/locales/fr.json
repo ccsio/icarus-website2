@@ -19,7 +19,8 @@
                 "cars": "voitures de Formule 1 miniatures"
             },
             "ctaVideo": "Notre Vidéo",
-            "ctaOfficial": "Site Officiel",
+            "ctaGlobal": "Site Mondiale",
+            "ctaLuxembourg": "Site Lux.",
             "imageCaption": "Petar sur la grille de départ aux World Finals 2025",
             "stats": {
                 "countries": { "label": "pays activement impliqués" },
