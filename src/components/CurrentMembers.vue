@@ -61,11 +61,16 @@ const mentors = computed(() => [
 ])
 
 const supportMembers = [  
-//   {  
-//     name: "Sophie",
-//     role: t("team.support.sophie_role"),
-//     image: "/images/team/sophie.webp"  
-//   },  
+{
+    name: "Vasilis",
+    role: t("team.support.vasilis.role"),
+    image: "/images/team/gen4/vasilis.webp"
+},
+{
+    name: "Alina",
+    role: t("team.support.alina.role"),
+    image: "/images/team/gen4/alina.webp"
+}
 ]
 </script>
 
@@ -120,7 +125,7 @@ const supportMembers = [
                         <div class="space-y-3">
                             <div v-for="support in supportMembers" :key="support.name" class="flex items-center gap-4 p-3 rounded-lg hover:bg-white/5 transition-colors group">
                                 <div class="w-12 h-12 rounded-full overflow-hidden border border-white/10 group-hover:grayscale-0 transition-all">
-                                    <img :src="support.image" class="w-full h-full object-cover" />
+                                    <img :src="support.image" class="w-full h-full object-cover scale-150" />
                                 </div>
                                 <p class="text-gray-300 text-xs font-medium group-hover:text-white transition-colors">{{ support.name }}</p>
                                 <p class="text-icarus-red text-[8px] font-black uppercase tracking-widest group-hover:text-icarus-red/80 transition-colors">{{ support.role }}</p>

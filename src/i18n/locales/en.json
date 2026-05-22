@@ -219,7 +219,13 @@
             "nikos_role": "Design & Engineering Mentor"
         },
         "support": {
-            "title": "Support Members"
+            "title": "Support Members",
+            "alina": {
+                "role": "Visual Designer"
+            },
+            "vasilis": {
+                "role": "Finance & Operations Support"
+            } 
         },
         "core": {
             "title": "Core Members",
