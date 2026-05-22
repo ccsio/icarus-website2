@@ -12,10 +12,13 @@ const carouselConfig = {
 }
 
     const imagePaths = [
-        {"path": "/image_carousel/bake_sale_gen3.webp", "id": 0},
+        // {"path": "/image_carousel/bake_sale_gen3.webp", "id": 0},
+        {"path": "/image_carousel/group_gen4.webp", "id": 0},
         {"path": "/image_carousel/smoketunnel_gen2.webp", "id": 1},
-        {"path": "/image_carousel/team_gen3.webp", "id": 2},
-        {"path": "/image_carousel/team_gen3_2.webp", "id": 3}
+        {"path": "/image_carousel/gen4_ortea.webp", "id": 2},
+        {"path": "/image_carousel/team_gen3.webp", "id": 3},
+        {"path": "/image_carousel/gen4_bake_sale.webp", "id": 4}
+        // {"path": "/image_carousel/team_gen3_2.webp", "id": 3}
     ]
 </script>
 
