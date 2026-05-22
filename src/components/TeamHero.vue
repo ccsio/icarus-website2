@@ -3,8 +3,8 @@
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
         <img 
-        src="/image_carousel/team_gen3.webp" 
-        class="w-full h-full object-cover brightness-[0.4] scale-105 object-[50%_20%]"
+        src="/images/team/gen4/group_gen4.webp"
+        class="w-full h-full object-cover brightness-[0.4] scale-105 object-[50%_43%]"
         alt="Team Background"
         />
         <!-- Gradient Overlay for smooth transition to content -->
