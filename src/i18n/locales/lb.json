@@ -219,14 +219,41 @@
             "nikos_role": "Design- & Ingenieursmentor"
         },
         "support": {
-            "title": "Support-Memberen"
+            "title": "Support-Memberen",
+            "alina": {  
+                "role": "Visuell Designerin"  
+            },  
+            "vasilis": {  
+                "role": "Ënnerstëtzung am Beräich Finanzen an Operatiounen"  
+            }
         },
         "core": {
             "title": "Kärmemberen",
-            "vlad": {
+            "maia": {
+                "role": "Ekipemanagerin",
+                "bio": "D’Maia geréiert an iwwerwaacht all Aktivitéiten am Team. Si organiséiert Aufgaben, geréiert d’Zäit a suergt fir eng effektiv Zesummenaarbecht an der Grupp."
+            },
+            "tomas": {
                 "role": "Designingenieur",
-                "bio": "Leet den Design- an de Fabrikatiounsprozess vum Icarus Gen 4 Auto, mat Fokus op aerodynamesch Effizienz an Gewiichtsreduktioun."
+                "bio": "Den Tomáš entwërft, test an verbessert den Auto, fir datt en déi séierst Zäit op der Streck erreecht. Hie benotzt CAD-Software fir den Auto ze entwërfen an ze simuléieren, ier en vum Matej hiergestallt gëtt."
+            },
+            "matej": {
+                "role": "Fabrikatiounsingenieur",
+                "bio": "De Matej ass responsabel fir d’Produktioun vun den Autoen a mécht Iddien zur Realitéit. Hie schafft enk mam Tomáš zesummen a beréit hien iwwer den Design an d’Fabrikatiounsfäegkeet vum Auto."
+            },
+            "margaux": {
+                "role": "Finance- a Sponsoring-Managerin",
+                "bio": "D’Margaux këmmert sech ëm Recherche, Kommunikatioun an eng gutt Zesummenaarbecht mat de verschiddene Sponsoren vum Team. Zousätzlech geréiert si déi verschidde Sponsoring-Aktivitéiten."
+            },
+            "alexandru": {
+                "role": "Techneschen Operateur a Pilot",
+                "bio": "Den Alexandru ënnerstëtzt den techneschen Departement an entlaascht hir Aarbecht. Hien ass och de Pilot mat der séierster Reaktiounszäit an der Grupp."
+            },
+            "ana": {
+                "role": "Marketing-Managerin",
+                "bio": "D’Ana ass responsabel fir d’Gestioun vum ëffentleche Bild an der digitaler Präsenz vun Icarus. Si koordinéiert a suergt fir eng konsequent a professionell Identitéit op alle Plattformen."
             }
+
         },
         "hall_of_fame": {
             "title": "Hall of Fame",

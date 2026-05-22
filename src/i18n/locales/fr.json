@@ -219,13 +219,39 @@
             "nikos_role": "Mentor en Conception & Ingénierie"
         },
         "support": {
-            "title": "Membres de Soutien"
+            "title": "Membres de Soutien",
+            "alina": {
+                "role": "Designer visuelle"
+            },
+            "vasilis": {
+                "role": "Support finance et opérations"
+            }
         },
         "core": {
             "title": "Membres Principaux",  
-            "vlad": {
-                "role": "Ingénieur de Conception",
-                "bio": "Dirige le processus de conception et de fabrication de la voiture Icarus Gen 4, en se concentrant sur l'efficacité aérodynamique et la réduction de poids."
+            "maia": {
+                "role": "Cheffe d'équipe",
+                "bio": "Maia gère et supervise toutes les activités de l'équipe. Elle organise les tâches, gère le temps et assure une collaboration efficace du groupe."
+            },
+            "tomas": {
+                "role": "Ingénieur en conception",
+                "bio": "Tomáš conçoit, teste et améliore la voiture afin qu'elle réalise le meilleur temps sur la piste. Il utilise des logiciels de CAO pour concevoir et simuler la voiture avant qu'elle ne soit fabriquée par Matej."
+            },
+            "matej": {
+                "role": "Ingénieur en fabrication",
+                "bio": "Matej est responsable de la production des voitures, transformant les idées en réalité. Il travaille en étroite collaboration avec Tomáš, en le conseillant sur la conception et la fabricabilité de la voiture."
+            },
+            "margaux": {
+                "role": "Responsable finance et sponsoring",
+                "bio": "Margaux gère la recherche, la communication et la bonne collaboration avec les différents sponsors de l'équipe. De plus, elle est responsable de la gestion des diverses activités de sponsoring."
+            },
+            "alexandru": {
+                "role": "Opérateur technique et pilote",
+                "bio": "Alexandru soutient le département technique, allégeant leur charge de travail. Il est également le pilote ayant le temps de réaction le plus rapide du groupe."
+            },
+            "ana": {
+                "role": "Responsable marketing",
+                "bio": "Ana est responsable de la gestion de l'image publique et de la présence numérique d'Icarus. Elle coordonne et assure une identité cohérente et professionnelle sur toutes les plateformes."
             }
         },
         "hall_of_fame": {
