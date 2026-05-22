@@ -223,9 +223,29 @@
         },
         "core": {
             "title": "Core Members",
-            "vlad": {
+            "maia": {
+                "role": "Team Manager",
+                "bio": "Maia manages and oversees all team activities. She organises tasks, manages time and ensures the effective collaboration of the group."
+            },
+            "tomas": {
                 "role": "Design Engineer",
-                "bio": "Leading the design and manufacturing process of the Icarus Gen 4 car, focusing on aerodynamic efficiency and weight reduction."
+                "bio": "Tomáš designs, tests and improves the car so that it achieves the fastest time on the track. He uses CAD software to design and simulate the car before it gets manufactured by Matej."
+            },
+            "matej": {
+                "role": "Manufacturing Engineer",
+                "bio": "Matej is responsible to produce the cars, turning ideas into reality. He works closely with Tomáš, consulting and providing advice regarding the design and manufacturability of the car."
+            },
+            "margaux": {
+                "role": "Finance & Sponsorship Manager",
+                "bio": "Margaux handles research, communication, and good collaboration with the various sponsors of our team. In addition, she is responsible for managing the various spawning activities."
+            },
+            "alexandru": {
+                "role": "Technical Operator & Driver",
+                "bio": "Alexandru supports the technical department, easing their workload. He is also the driver having the fastest reaction time of the group."
+            },
+            "ana": {
+                "role": "Marketing Manager",
+                "bio": "Ana is responsible for managing Icarus' public image and digital presence. She coordinates and ensures a consistent and professional identity across all platforms."
             }
         },
         "hall_of_fame": {
