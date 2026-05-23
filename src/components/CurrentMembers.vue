@@ -145,11 +145,11 @@ const supportMembers = [
                         >
                         <!-- (Same high-impact card logic as before) -->
                         <div class="h-full w-full relative overflow-hidden">
-                            <img :src="member.image" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-175 scale-160" />
+                            <img :src="member.image" class="w-full h-full object-cover grayscale transition-all duration-700 scale-160 group-active:grayscale-0 group-active:scale-175 group-hover:grayscale-0 group-hover:scale-175 " />
                             <div class="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent opacity-80"></div>
                             
                             <!-- Content -->
-                            <div class="absolute bottom-0 left-0 w-full p-6 z-10 transition-transform duration-500 group-hover:-translate-y-24">
+                            <div class="absolute bottom-0 left-0 w-full p-6 z-10 transition-transform duration-500 group-hover:-translate-y-24 group-focus:-translate-y-24">
                                 <p class="text-icarus-red text-[9px] font-black uppercase tracking-[0.2em] mb-1">{{ member.role }}</p>
                                 <h4 class="text-xl font-bold text-white leading-tight">{{ member.name }}</h4>
                             </div>
@@ -157,7 +157,7 @@ const supportMembers = [
                             <!-- Bio Reveal -->
                             <!-- <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out bg-black/90 pt-6 opacity-75"> -->
                             <!-- <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out bg-gradient-to-t from-black from-20% via-black/60 via-60% to-transparent pt-24"> -->
-                            <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out pt-20 bg-[linear-gradient(to_top,rgba(0,0,0,1)_0%,rgba(0,0,0,0.95)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.2)_85%,rgba(0,0,0,0)_100%)]">
+                            <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 group-focus:translate-y-0 transition-transform duration-500 ease-out pt-20 bg-[linear-gradient(to_top,rgba(0,0,0,1)_0%,rgba(0,0,0,0.95)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.2)_85%,rgba(0,0,0,0)_100%)]">
                                 <p class="text-gray-300 text-xs leading-relaxed italic">"{{ member.bio }}"</p>
                             </div>
                         </div>
