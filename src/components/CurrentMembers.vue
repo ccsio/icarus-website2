@@ -57,6 +57,11 @@ const mentors = computed(() => [
         name: "Nikos",  
         role: t("team.mentors.nikos_role"),
         image: "/images/team/gen3/nikos.webp"  
+    },
+    {
+        name: "Celia",
+        role: t("team.mentors.celia_role"),
+        image: "/images/team/gen3/celia.webp"
     }
 ])
 

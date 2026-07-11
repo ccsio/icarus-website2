@@ -216,7 +216,8 @@
             "title": "Student Mentors",
             "lukas_role": "IT Mentor",
             "petar_role": "Management & Manufacturing Mentor",
-            "nikos_role": "Design & Engineering Mentor"
+            "nikos_role": "Design & Engineering Mentor",
+            "celia_role": "Enterprise Mentor"
         },
         "support": {
             "title": "Support Members",
