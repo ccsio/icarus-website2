@@ -3,6 +3,8 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const timelineEvents = [
+  { id: 'restructuring', type: 'standard' },
+  { id: 'nationals_26', type: 'major' },
   { id: 'new_team', type: 'standard' },
   { id: 'world_finals', type: 'pinnacle' },
   { id: 'national_finals_25', type: 'major' },
@@ -14,7 +16,7 @@ const timelineEvents = [
   { id: 'june_event_23', type: 'major' },
   { id: 'expansion_23', type: 'standard' },
   { id: 'first_event_22', type: 'major' },
-  { id: 'establishment_22', type: 'standard' }
+  { id: 'establishment_22', type: 'standard' },
 ]
 </script>
 
