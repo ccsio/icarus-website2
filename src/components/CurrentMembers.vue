@@ -5,17 +5,12 @@ const { t } = useI18n()
 
 const coreMembers = computed(() => [
 {
-    name: "Maia",
-    role: t("team.core.maia.role"),
-    image: "/images/team/gen4/maia.webp",
-    bio: t("team.core.maia.bio")
+    name: "Margaux",
+    role: t("team.core.margaux.role"),
+    image: "/images/team/gen4/margaux.webp",
+    bio: t("team.core.margaux.bio")
 },
-{
-    name: "Tomáš",
-    role: t("team.core.tomas.role"),
-    image: "/images/team/gen4/tomas.webp",
-    bio: t("team.core.tomas.bio")
-},
+
 {
     name: "Matej",
     role: t("team.core.matej.role"),
@@ -23,10 +18,10 @@ const coreMembers = computed(() => [
     bio: t("team.core.matej.bio")
 },
 {
-    name: "Margaux",
-    role: t("team.core.margaux.role"),
-    image: "/images/team/gen4/margaux.webp",
-    bio: t("team.core.margaux.bio")
+    name: "Vasilis",
+    role: t("team.core.vasilis.role"),
+    image: "/images/team/gen4/vasilis.webp",
+    bio: t("team.core.vasilis.bio")
 },
 {
     name: "Alexandru",
@@ -34,17 +29,11 @@ const coreMembers = computed(() => [
     image: "/images/team/gen4/alexandru.webp",
     bio: t("team.core.alexandru.bio")
 },
-{
-    name: "Ana",
-    role: t("team.core.ana.role"),
-    image: "/images/team/gen4/ana.webp",
-    bio: t("team.core.ana.bio")
-}
 ])
 
 const mentors = computed(() => [  
     {  
-        name: "Lukas",
+        name: "Lukáš",
         role: t("team.mentors.lukas_role"),
         image: "/images/team/gen3/lukas.webp"  
     },  
@@ -67,15 +56,16 @@ const mentors = computed(() => [
 
 const supportMembers = [  
 {
-    name: "Vasilis",
-    role: t("team.support.vasilis.role"),
-    image: "/images/team/gen4/vasilis.webp"
-},
-{
     name: "Alina",
     role: t("team.support.alina.role"),
     image: "/images/team/gen4/alina.webp"
-}
+},
+{
+    name: "Tomáš",
+    role: t("team.support.tomas.role"),
+    image: "/images/team/gen4/tomas.webp",
+    bio: t("team.support.tomas.bio")
+},
 ]
 </script>
 
@@ -164,7 +154,7 @@ const supportMembers = [
                             <!-- <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out bg-black/90 pt-6 opacity-75"> -->
                             <!-- <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out bg-gradient-to-t from-black from-20% via-black/60 via-60% to-transparent pt-24"> -->
                             <div class="absolute inset-x-0 bottom-0 p-6 translate-y-full group-hover:translate-y-0 group-focus-within:translate-y-0 transition-transform duration-500 ease-out pt-20 bg-[linear-gradient(to_top,rgba(0,0,0,1)_0%,rgba(0,0,0,0.95)_30%,rgba(0,0,0,0.6)_60%,rgba(0,0,0,0.2)_85%,rgba(0,0,0,0)_100%)]">
-                                <p class="text-gray-300 text-xs leading-relaxed italic">"{{ member.bio }}"</p>
+                                <p class="text-gray-300 text-xs leading-relaxed italic">{{ member.bio }}</p>
                             </div>
                         </div>
                     </div>

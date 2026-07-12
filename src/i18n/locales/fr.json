@@ -220,39 +220,31 @@
             "celia_role": "Mentor d'Entreprise"
         },
         "support": {
-            "title": "Membres de Soutien",
+            "title": "Membres de soutien",
             "alina": {
-                "role": "Designer visuelle"
+                "role": "Designer visuel"
             },
-            "vasilis": {
-                "role": "Support finance et opérations"
+            "tomas": {
+                "role": "Support ingénieur design"
             }
         },
         "core": {
-            "title": "Membres Principaux",  
-            "maia": {
-                "role": "Cheffe d'équipe",
-                "bio": "Maia gère et supervise toutes les activités de l'équipe. Elle organise les tâches, gère le temps et assure une collaboration efficace du groupe."
-            },
-            "tomas": {
-                "role": "Ingénieur en conception",
-                "bio": "Tomáš conçoit, teste et améliore la voiture afin qu'elle réalise le meilleur temps sur la piste. Il utilise des logiciels de CAO pour concevoir et simuler la voiture avant qu'elle ne soit fabriquée par Matej."
+            "title": "Membres clés",
+            "margaux": {
+                "role": "Team Manager",
+                "bio": "Responsable de la supervision de toutes les activités de l'équipe, de l'organisation des tâches, de la gestion du temps et de la garantie d'une collaboration efficace au sein du groupe."
             },
             "matej": {
-                "role": "Ingénieur en fabrication",
-                "bio": "Matej est responsable de la production des voitures, transformant les idées en réalité. Il travaille en étroite collaboration avec Tomáš, en le conseillant sur la conception et la fabricabilité de la voiture."
-            },
-            "margaux": {
-                "role": "Responsable finance et sponsoring",
-                "bio": "Margaux gère la recherche, la communication et la bonne collaboration avec les différents sponsors de l'équipe. De plus, elle est responsable de la gestion des diverses activités de sponsoring."
+                "role": "Ingénieur de fabrication",
+                "bio": "Donne vie à la voiture grâce à la fabrication et travaille en étroite collaboration avec l'équipe de conception pour garantir précision et performance."
             },
             "alexandru": {
-                "role": "Opérateur technique et pilote",
-                "bio": "Alexandru soutient le département technique, allégeant leur charge de travail. Il est également le pilote ayant le temps de réaction le plus rapide du groupe."
+                "role": "Ingénieur design",
+                "bio": "Conçoit, teste et améliore la voiture à l'aide de logiciels CAO et CFD afin de maximiser les performances sur piste."
             },
-            "ana": {
-                "role": "Responsable marketing",
-                "bio": "Ana est responsable de la gestion de l'image publique et de la présence numérique d'Icarus. Elle coordonne et assure une identité cohérente et professionnelle sur toutes les plateformes."
+            "vasilis": {
+                "role": "Responsable entreprise",
+                "bio": "Responsable de la gestion de l'image publique d'Icarus, de sa présence sur les réseaux sociaux et de son image de marque sur toutes les plateformes. Gère la communication avec les sponsors, les partenariats et les activités de collecte de fonds."
             }
         },
         "hall_of_fame": {

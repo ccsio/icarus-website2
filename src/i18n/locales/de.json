@@ -221,38 +221,30 @@
         },
         "support": {
             "title": "Unterstützende Mitglieder",
-            "alina": {  
-                "role": "Visuelle Designerin"  
-            },  
-            "vasilis": {  
-                "role": "Unterstützung Finanzen und Betrieb"  
+            "alina": {
+                "role": "Visual Designer"
+            },
+            "tomas": {
+                "role": "Unterstützung Design-Ingenieur"
             }
         },
         "core": {
             "title": "Kernmitglieder",
-            "maia": {
-                "role": "Teamleiterin",
-                "bio": "Maia leitet und überwacht alle Teamaktivitäten. Sie organisiert Aufgaben, verwaltet die Zeit und sorgt für eine effektive Zusammenarbeit der Gruppe."
-            },
-            "tomas": {
-                "role": "Konstruktionsingenieur",
-                "bio": "Tomáš entwirft, testet und verbessert das Auto, damit es die schnellste Zeit auf der Strecke erreicht. Er verwendet CAD-Software, um das Auto zu entwerfen und zu simulieren, bevor es von Matej hergestellt wird."
+            "margaux": {
+                "role": "Teammanagerin",
+                "bio": "Verantwortlich für die Überwachung aller Teamaktivitäten, die Organisation von Aufgaben, das Zeitmanagement und die Gewährleistung einer effektiven Zusammenarbeit in der gesamten Gruppe."
             },
             "matej": {
                 "role": "Fertigungsingenieur",
-                "bio": "Matej ist für die Produktion der Autos verantwortlich und setzt Ideen in die Realität um. Er arbeitet eng mit Tomáš zusammen und berät ihn hinsichtlich Design und Herstellbarkeit des Autos."
-            },
-            "margaux": {
-                "role": "Finanz- und Sponsoring-Managerin",
-                "bio": "Margaux ist für Recherche, Kommunikation und eine gute Zusammenarbeit mit den verschiedenen Sponsoren des Teams verantwortlich. Außerdem verwaltet sie die verschiedenen Sponsoring-Aktivitäten."
+                "bio": "Erweckt das Auto durch die Fertigung zum Leben und arbeitet eng mit dem Designteam zusammen, um Präzision und Leistung zu garantieren."
             },
             "alexandru": {
-                "role": "Technischer Operator und Fahrer",
-                "bio": "Alexandru unterstützt die technische Abteilung und entlastet sie bei ihrer Arbeit. Außerdem ist er der Fahrer mit der schnellsten Reaktionszeit in der Gruppe."
+                "role": "Design-Ingenieur",
+                "bio": "Entwirft, testet und verbessert das Auto mithilfe von CAD- und CFD-Software, um die Leistung auf der Strecke zu maximieren."
             },
-            "ana": {
-                "role": "Marketing-Managerin",
-                "bio": "Ana ist für die Verwaltung des öffentlichen Images und der digitalen Präsenz von Icarus verantwortlich. Sie koordiniert und sorgt für eine einheitliche und professionelle Identität auf allen Plattformen."
+            "vasilis": {
+                "role": "Unternehmensmanager",
+                "bio": "Verantwortlich für die Verwaltung des öffentlichen Images von Icarus, der Social-Media-Präsenz und des Brandings auf allen Plattformen. Kümmert sich um die Kommunikation mit Sponsoren, Partnerschaften und Fundraising-Aktivitäten."
             }
         },
         "hall_of_fame": {

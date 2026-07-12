@@ -224,35 +224,27 @@
             "alina": {
                 "role": "Visual Designer"
             },
-            "vasilis": {
-                "role": "Finance & Operations Support"
-            } 
+            "tomas": {
+                "role": "Design Engineer Support"
+            }
         },
         "core": {
             "title": "Core Members",
-            "maia": {
+            "margaux": {
                 "role": "Team Manager",
-                "bio": "Maia manages and oversees all team activities. She organises tasks, manages time and ensures the effective collaboration of the group."
-            },
-            "tomas": {
-                "role": "Design Engineer",
-                "bio": "Tomáš designs, tests and improves the car so that it achieves the fastest time on the track. He uses CAD software to design and simulate the car before it gets manufactured by Matej."
+                "bio": "Responsible for overseeing all team activities, organizing tasks, managing time, and ensuring effective collaboration across the group."
             },
             "matej": {
                 "role": "Manufacturing Engineer",
-                "bio": "Matej is responsible to produce the cars, turning ideas into reality. He works closely with Tomáš, consulting and providing advice regarding the design and manufacturability of the car."
-            },
-            "margaux": {
-                "role": "Finance & Sponsorship Manager",
-                "bio": "Margaux handles research, communication, and good collaboration with the various sponsors of our team. In addition, she is responsible for managing the various spawning activities."
+                "bio": "Brings the car to life through manufacturing and works closely with the design team to ensure precision and performance."
             },
             "alexandru": {
-                "role": "Technical Operator & Driver",
-                "bio": "Alexandru supports the technical department, easing their workload. He is also the driver having the fastest reaction time of the group."
+                "role": "Design Engineer",
+                "bio": "Designs, tests, and improves the car using CAD and CFD software to maximize on-track performance."
             },
-            "ana": {
-                "role": "Marketing Manager",
-                "bio": "Ana is responsible for managing Icarus' public image and digital presence. She coordinates and ensures a consistent and professional identity across all platforms."
+            "vasilis": {
+                "role": "Enterprise Manager ",
+                "bio": "Responsible for managing Icarus’ public image, social media presence, and branding across all platforms. Handles sponsor communication, partnerships, and fundraising activities."
             }
         },
         "hall_of_fame": {

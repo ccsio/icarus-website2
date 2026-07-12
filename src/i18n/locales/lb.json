@@ -220,41 +220,32 @@
             "celia_role": "Betriebsmentor"
         },
         "support": {
-            "title": "Support-Memberen",
-            "alina": {  
-                "role": "Visuell Designerin"  
-            },  
-            "vasilis": {  
-                "role": "Ënnerstëtzung am Beräich Finanzen an Operatiounen"  
+            "title": "Support-Membere",
+            "alina": {
+                "role": "Visual Designer"
+            },
+            "tomas": {
+                "role": "Design-Ingenieur Support"
             }
         },
         "core": {
-            "title": "Kärmemberen",
-            "maia": {
-                "role": "Ekipemanagerin",
-                "bio": "D’Maia geréiert an iwwerwaacht all Aktivitéiten am Team. Si organiséiert Aufgaben, geréiert d’Zäit a suergt fir eng effektiv Zesummenaarbecht an der Grupp."
-            },
-            "tomas": {
-                "role": "Designingenieur",
-                "bio": "Den Tomáš entwërft, test an verbessert den Auto, fir datt en déi séierst Zäit op der Streck erreecht. Hie benotzt CAD-Software fir den Auto ze entwërfen an ze simuléieren, ier en vum Matej hiergestallt gëtt."
+            "title": "Kär-Membere",
+            "margaux": {
+                "role": "Team Manager",
+                "bio": "Verantwortlech fir d'Iwwerwaache vun allen Teamaktivitéiten, d'Organiséiere vun Aufgaben, d'Zäitmanagement an d'Garantéiere vun enger effektiver Zesummenaarbecht am ganze Grupp."
             },
             "matej": {
                 "role": "Fabrikatiounsingenieur",
-                "bio": "De Matej ass responsabel fir d’Produktioun vun den Autoen a mécht Iddien zur Realitéit. Hie schafft enk mam Tomáš zesummen a beréit hien iwwer den Design an d’Fabrikatiounsfäegkeet vum Auto."
-            },
-            "margaux": {
-                "role": "Finance- a Sponsoring-Managerin",
-                "bio": "D’Margaux këmmert sech ëm Recherche, Kommunikatioun an eng gutt Zesummenaarbecht mat de verschiddene Sponsoren vum Team. Zousätzlech geréiert si déi verschidde Sponsoring-Aktivitéiten."
+                "bio": "Erweckt den Auto duerch d'Fabrikatioun zum Liewen a schafft enk mam Designteam zesummen, fir Präzisioun a Leeschtung ze garantéieren."
             },
             "alexandru": {
-                "role": "Techneschen Operateur a Pilot",
-                "bio": "Den Alexandru ënnerstëtzt den techneschen Departement an entlaascht hir Aarbecht. Hien ass och de Pilot mat der séierster Reaktiounszäit an der Grupp."
+                "role": "Design-Ingenieur",
+                "bio": "Entworf, test a verbessert den Auto mat Hëllef vu CAD- a CFD-Software, fir d'Leeschtung op der Pist ze maximéieren."
             },
-            "ana": {
-                "role": "Marketing-Managerin",
-                "bio": "D’Ana ass responsabel fir d’Gestioun vum ëffentleche Bild an der digitaler Präsenz vun Icarus. Si koordinéiert a suergt fir eng konsequent a professionell Identitéit op alle Plattformen."
+            "vasilis": {
+                "role": "Betriibsmanager",
+                "bio": "Verantwortlech fir d'Gestioun vum ëffentlechen Image vun Icarus, der Presenz op sozialen Netzwierker an dem Branding op alle Plattformen. Këmmert sech ëm d'Kommunikatioun mat Sponsoren, Partnerschaften a Fundraising-Aktivitéiten."
             }
-
         },
         "hall_of_fame": {
             "title": "Hall of Fame",
@@ -363,82 +354,81 @@
             }
         },
         "timeline": {
-        "label": "D'Archiv",
-        "title": "Eis komplett Geschicht",
-        "major_badge": "Grouss Leeschtung",
-        "pinnacle_badge": "World Finals",
-        "establishment_22": {
-            "date": "Oktober 2022",
-            "title": "Grënnung vun der Equipe",
-            "text": "Faszinéiert vun der Formel 1 an der Ingenieurskonscht huet d'Celia d'Equipe gegrënnt an den Nikos an de Lukas invitéiert matzemaachen. Mir hu onermiddlech geschafft fir eisen éischten Auto, eis Portefeuillen an eis Presentatioun ze schafen."
-        },
-        "first_event_22": {
-            "date": "Dezember 2022",
-            "title": "Eist éischt Event",
-            "text": "Bei eiser éischter Course op dem héchste Kompetitiounsniveau zu Lëtzebuerg hu mir trotz eise limitéierte Ressourcen de Präis ‘Judges’ Favorite Award’ gewonnen. Dëse Succès huet héich Standarden gesat an eis motivéiert no Exzellenz ze striewen."
-        },
-        "expansion_23": {
-            "date": "Mee 2023",
-            "title": "Dräi nei Memberen",
-            "text": "Fir déi zouhuelend Aarbechtslaascht an eis Visioun fir d'Weltmeeschterschaften ze geréieren, hu mir dräi nei Memberen opgeholl: de Jan, de Rohan an de Romeo."
-        },
-        "june_event_23": {
-            "date": "Juni 2023",
-            "title": "Juni Event",
-            "text": "Kuerz nodeems mir op sechs Memberen erweidert haten, hu mir un engem Event deelgeholl, wou mir fir eis exzellent Virbereedung mam Präis ‘Regional T1 Top Team’ ausgezeechent goufen."
-        },
-        "showrun_23": {
-            "date": "September 2023",
-            "title": "Neit Schouljoer Showrun",
-            "text": "Um Ufank vum Schouljoer 2023 hu mir un engem Showrun deelgeholl, wou mir eis Erfarunge mat neien Interesséierten gedeelt an eis Rees presentéiert hunn."
-        },
-        "national_finals_24": {
-            "date": "Abrëll 2024",
-            "title": "Lëtzebuerger Nationalfinallen",
-            "text": "Mat dem Zil d'Weltmeeschterschaften z'erreechen, hu mir dofir gesuergt datt all Aspekt vun eiser Participatioun op héchstem Niveau war. Och wann mir géint erfuerene Konkurrenten net gewanne konnten, hu mir d'Präisser ‘Knockout Champions’ an ‘Fastest Car’ gewonnen."
-        },
-        "reorg_24": {
-            "date": "Juli-Oktober 2024",
-            "title": "Reorganisatioun vun der Equipe",
-            "text": "Nodeems dräi Memberen am Juli ofgeschloss hunn, hu mir séier de Petar an d'Konstantina rekrutéiert fir de weidere Wuesstem vun der Equipe ze garantéieren."
-        },
-        "showrun_24": {
-            "date": "Oktober 2024",
-            "title": "Showrun 2024",
-            "text": "Als eng vun den erfuerste Equipen si mir nees op de Showrun am ISL invitéiert ginn, wou mir Tipps mat méi jonke Participanten gedeelt hunn an de Präis ‘Best Logo’ gewonnen hunn."
-        },
-        "prep_24_25": {
-            "date": "Schouljoer 2024-25",
-            "title": "Virbereedung",
-            "text": "Nieft eise Studien hu mir intensiv un engem neien Autodesign geschafft, eis Projetmanagement verbessert an Sponsoren iwwerzeegt fir eis Qualifikatioun fir d'Weltfinallen ze sécheren."
-        },
-        "national_finals_25": {
-            "date": "Mee 2025",
-            "title": "Nationalfinallen 2025",
-            "text": "Am Mee 2025 hu mir un eisen drëtte Nationalfinallen deelgeholl. No dräi Joer haarder Aarbecht hu mir eis erfollegräich qualifizéiert fir Lëtzebuerg op de Weltfinallen zu Singapur ze vertrieden!"
-        },
-        "world_finals": {
-            "date": "September 2025",
-            "title": "Weltfinallen",
-            "text": "Am September si mir op Singapur gereest fir Lëtzebuerg op de Weltfinallen ze vertrieden. Och wa mir keng Trophäe mat heem bruecht hunn, war d'Erfarung immens a huet den Icarus bedeitend no vir bruecht."
-        },
-        "new_team": {
-            "date": "November 2025",
-            "title": "Nei Equipe",
-            "text": "Mat der Generatioun 3, déi hir Universitéiten ugefaangen huet, hu si gehollef e Selektiounsprozess fir nei Memberen vum Icarus z'organiséieren. E puer vun hinnen hëllefen och reegelméisseg a mentoréieren déi nei Equipe."
-        },
-        "nationals_26": {
-            "date": "Mee 2026",
-            "title": "Nationalfinall 2026",
-            "text": "Déi nei Memberen hunn erëm un de jäerlechen Nationalfinallen zu Lëtzebuerg deelgeholl. D'Gen3-Membere Petar a Lukas ware wärend dem Concours dobäi a hunn erlieft, wéi dat neit Team d'Trophäe „Knockout Champions“ an „T1 Champions“ gewonnen huet a sech och fir d'World Finals 2026 qualifizéiert huet."
-        },
-        "restructuring": {
-            "date": "Juni 2026",
-            "title": "Ëmstrukturéierung vum Team",
-            "text": "Nom Nationalfinall huet d'Team sech zesummegesat an iwwer Fortschrëtter, Rollen, Verantwortung an d'Aarbechtslaascht geschwat. Mir hunn decidéiert, déi intern Struktur vum Team z'änneren, fir den Erwaardungen a Besoine vun de Memberen an dem ganzen Team am beschten gerecht ze ginn."
+            "label": "D'Archiv",
+            "title": "Eis komplett Geschicht",
+            "major_badge": "Grouss Leeschtung",
+            "pinnacle_badge": "World Finals",
+            "establishment_22": {
+                "date": "Oktober 2022",
+                "title": "Grënnung vun der Equipe",
+                "text": "Faszinéiert vun der Formel 1 an der Ingenieurskonscht huet d'Celia d'Equipe gegrënnt an den Nikos an de Lukas invitéiert matzemaachen. Mir hu onermiddlech geschafft fir eisen éischten Auto, eis Portefeuillen an eis Presentatioun ze schafen."
+            },
+            "first_event_22": {
+                "date": "Dezember 2022",
+                "title": "Eist éischt Event",
+                "text": "Bei eiser éischter Course op dem héchste Kompetitiounsniveau zu Lëtzebuerg hu mir trotz eise limitéierte Ressourcen de Präis ‘Judges’ Favorite Award’ gewonnen. Dëse Succès huet héich Standarden gesat an eis motivéiert no Exzellenz ze striewen."
+            },
+            "expansion_23": {
+                "date": "Mee 2023",
+                "title": "Dräi nei Memberen",
+                "text": "Fir déi zouhuelend Aarbechtslaascht an eis Visioun fir d'Weltmeeschterschaften ze geréieren, hu mir dräi nei Memberen opgeholl: de Jan, de Rohan an de Romeo."
+            },
+            "june_event_23": {
+                "date": "Juni 2023",
+                "title": "Juni Event",
+                "text": "Kuerz nodeems mir op sechs Memberen erweidert haten, hu mir un engem Event deelgeholl, wou mir fir eis exzellent Virbereedung mam Präis ‘Regional T1 Top Team’ ausgezeechent goufen."
+            },
+            "showrun_23": {
+                "date": "September 2023",
+                "title": "Neit Schouljoer Showrun",
+                "text": "Um Ufank vum Schouljoer 2023 hu mir un engem Showrun deelgeholl, wou mir eis Erfarunge mat neien Interesséierten gedeelt an eis Rees presentéiert hunn."
+            },
+            "national_finals_24": {
+                "date": "Abrëll 2024",
+                "title": "Lëtzebuerger Nationalfinallen",
+                "text": "Mat dem Zil d'Weltmeeschterschaften z'erreechen, hu mir dofir gesuergt datt all Aspekt vun eiser Participatioun op héchstem Niveau war. Och wann mir géint erfuerene Konkurrenten net gewanne konnten, hu mir d'Präisser ‘Knockout Champions’ an ‘Fastest Car’ gewonnen."
+            },
+            "reorg_24": {
+                "date": "Juli-Oktober 2024",
+                "title": "Reorganisatioun vun der Equipe",
+                "text": "Nodeems dräi Memberen am Juli ofgeschloss hunn, hu mir séier de Petar an d'Konstantina rekrutéiert fir de weidere Wuesstem vun der Equipe ze garantéieren."
+            },
+            "showrun_24": {
+                "date": "Oktober 2024",
+                "title": "Showrun 2024",
+                "text": "Als eng vun den erfuerste Equipen si mir nees op de Showrun am ISL invitéiert ginn, wou mir Tipps mat méi jonke Participanten gedeelt hunn an de Präis ‘Best Logo’ gewonnen hunn."
+            },
+            "prep_24_25": {
+                "date": "Schouljoer 2024-25",
+                "title": "Virbereedung",
+                "text": "Nieft eise Studien hu mir intensiv un engem neien Autodesign geschafft, eis Projetmanagement verbessert an Sponsoren iwwerzeegt fir eis Qualifikatioun fir d'Weltfinallen ze sécheren."
+            },
+            "national_finals_25": {
+                "date": "Mee 2025",
+                "title": "Nationalfinallen 2025",
+                "text": "Am Mee 2025 hu mir un eisen drëtte Nationalfinallen deelgeholl. No dräi Joer haarder Aarbecht hu mir eis erfollegräich qualifizéiert fir Lëtzebuerg op de Weltfinallen zu Singapur ze vertrieden!"
+            },
+            "world_finals": {
+                "date": "September 2025",
+                "title": "Weltfinallen",
+                "text": "Am September si mir op Singapur gereest fir Lëtzebuerg op de Weltfinallen ze vertrieden. Och wa mir keng Trophäe mat heem bruecht hunn, war d'Erfarung immens a huet den Icarus bedeitend no vir bruecht."
+            },
+            "new_team": {
+                "date": "November 2025",
+                "title": "Nei Equipe",
+                "text": "Mat der Generatioun 3, déi hir Universitéiten ugefaangen huet, hu si gehollef e Selektiounsprozess fir nei Memberen vum Icarus z'organiséieren. E puer vun hinnen hëllefen och reegelméisseg a mentoréieren déi nei Equipe."
+            },
+            "nationals_26": {
+                "date": "Mee 2026",
+                "title": "Nationalfinall 2026",
+                "text": "Déi nei Memberen hunn erëm un de jäerlechen Nationalfinallen zu Lëtzebuerg deelgeholl. D'Gen3-Membere Petar a Lukas ware wärend dem Concours dobäi a hunn erlieft, wéi dat neit Team d'Trophäe „Knockout Champions“ an „T1 Champions“ gewonnen huet a sech och fir d'World Finals 2026 qualifizéiert huet."
+            },
+            "restructuring": {
+                "date": "Juni 2026",
+                "title": "Ëmstrukturéierung vum Team",
+                "text": "Nom Nationalfinall huet d'Team sech zesummegesat an iwwer Fortschrëtter, Rollen, Verantwortung an d'Aarbechtslaascht geschwat. Mir hunn decidéiert, déi intern Struktur vum Team z'änneren, fir den Erwaardungen a Besoine vun de Memberen an dem ganzen Team am beschten gerecht ze ginn."
+            }
         }
-    }
-
     },
     "video": {
         "title": "Icarus STEM Racing Video",
