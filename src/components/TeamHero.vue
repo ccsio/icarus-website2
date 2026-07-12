@@ -3,8 +3,8 @@
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
         <img 
-        src="/images/team/gen4/group_gen4.webp"
-        class="w-full h-full object-cover brightness-[0.4] scale-105 object-[50%_43%]"
+        src="/images/gen4.1_team_photo.webp"
+        class="w-full h-full object-cover brightness-[0.4] scale-105 object-[50%_25%]"
         alt="Team Background"
         />
         <!-- Gradient Overlay for smooth transition to content -->
@@ -42,3 +42,8 @@
   }
 }
 </style>
+
+<script setup>
+import { useI18n } from 'vue-i18n';
+const { t } = useI18n()
+</script>
