@@ -264,6 +264,44 @@
             "subtitle": "Mir gedenken deenen, déi d'Fundament vum Icarus geluecht hunn.",
             "legacy_label": "Legacy",
             "generations": {
+                "gen4": {
+                    "title": "Generatioun IV",
+                    "years": "2025 — 2026",
+                    "tagline": "D'Iwwergab",
+                    "description": "Ënner der erfarener Leedung vun de Membere vun der Generatioun III gouf e komplett neit Team opgebaut. Mir hunn onermiddlech op d'Nationalfinallen hingeschafft, et fäerdegbruecht 2 Trophäen ze gewannen a sech erëm fir d'World Finals ze qualifizéieren.",
+                    "members": {
+                        "m1": {
+                            "name": "Maia",
+                            "role": "Team Manager",
+                            "bio": "Maia huet d'Team erfollegräich zu engem schéine Sieg bei de Lëtzebuerger Nationalfinallen am Mee 2026 gefouert."
+                        },
+                        "m2": {
+                            "name": "Tomáš",
+                            "role": "Design-Ingenieur",
+                            "bio": "Tomáš war verantwortlech fir d'Designen an d'Testen vum Auto a huet dofir gesuergt, datt mir all méigleche Wettbewerbsvirsprong erausgekritt hunn."
+                        },
+                        "m3": {
+                            "name": "Matej",
+                            "role": "Fabrikatiounsingenieur",
+                            "bio": "Matej war dofir zoustänneg, d'Designs vum Tomáš an d'Realitéit ëmzesetzen — Fräise vun der Karosserie, Schläifen, Laachen an Zesummebau vum fäerdege Gefier."
+                        },
+                        "m4": {
+                            "name": "Margaux",
+                            "role": "Finanz- & Sponsoring-Managerin",
+                            "bio": "Margaux huet d'Recherche, d'Kommunikatioun an eng gutt Zesummenaarbecht mat de verschiddene Sponsore vun eisem Team geréiert."
+                        },
+                        "m5": {
+                            "name": "Alexandru",
+                            "role": "Techneschen Operator & Chauffer",
+                            "bio": "Alexandru huet d'technescht Departement ënnerstëtzt an hir Aarbechtslaascht erliichtert. Hien war och de Chauffer mat der schnellster Reaktiounszäit vun der Grupp."
+                        },
+                        "m6": {
+                            "name": "Ana",
+                            "role": "Marketing-Managerin",
+                            "bio": "Ana war verantwortlech fir d'Gestioun vum ëffentlechen Image an der digitaler Presenz vun Icarus. Si huet eng kohärent a professionell Identitéit op alle Plattforme koordinéiert a séchergaangen."
+                        }
+                    }
+                },
                 "gen3": {
                     "title": "Generatioun III",
                     "years": "2024 — 2025",

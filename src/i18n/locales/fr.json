@@ -264,6 +264,44 @@
             "subtitle": "Commémoration de ceux qui ont bâti les fondations d'Icarus.",
             "legacy_label": "Héritage",
             "generations": {
+                "gen4": {
+                    "title": "Génération IV",
+                    "years": "2025 — 2026",
+                    "tagline": "La Passation",
+                    "description": "Sous la guidance expérimentée des membres de la Génération III, une équipe entièrement nouvelle a été constituée. Nous avons travaillé sans relâche en vue des Finales nationales, réussi à remporter 2 trophées et à nous qualifier à nouveau pour les Finales mondiales.",
+                    "members": {
+                        "m1": {
+                            "name": "Maia",
+                            "role": "Team Manager",
+                            "bio": "Maia a mené avec succès l'équipe vers une belle victoire lors des Finales nationales du Luxembourg en mai 2026."
+                        },
+                        "m2": {
+                            "name": "Tomáš",
+                            "role": "Ingénieur design",
+                            "bio": "Tomáš était responsable de la conception et des tests de la voiture, veillant à obtenir chaque avantage compétitif possible."
+                        },
+                        "m3": {
+                            "name": "Matej",
+                            "role": "Ingénieur de fabrication",
+                            "bio": "Matej était chargé de transformer les designs de Tomáš en réalité — fraisage de la carrosserie, ponçage, peinture et assemblage du véhicule final."
+                        },
+                        "m4": {
+                            "name": "Margaux",
+                            "role": "Responsable finances & sponsoring",
+                            "bio": "Margaux a géré la recherche, la communication et une bonne collaboration avec les différents sponsors de notre équipe."
+                        },
+                        "m5": {
+                            "name": "Alexandru",
+                            "role": "Opérateur technique & Pilote",
+                            "bio": "Alexandru a soutenu le département technique, allégeant leur charge de travail. Il était également le pilote, ayant le temps de réaction le plus rapide du groupe."
+                        },
+                        "m6": {
+                            "name": "Ana",
+                            "role": "Responsable marketing",
+                            "bio": "Ana était responsable de la gestion de l'image publique et de la présence numérique d'Icarus. Elle a coordonné et assuré une identité cohérente et professionnelle sur toutes les plateformes."
+                        }
+                    }
+                },
                 "gen3": {
                     "title": "Génération III",
                     "years": "2024 — 2025",

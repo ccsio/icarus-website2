@@ -2,11 +2,12 @@
 import { ref } from 'vue'
 
 // We define the IDs here, but pull all text from i18n
-const generationIds = ['gen3','gen2', 'gen1',]
+const generationIds = ['gen4', 'gen3','gen2', 'gen1',]
 const generationMemberCounts = {
   gen1: 4,
   gen2: 6,
-  gen3: 5
+  gen3: 5,
+  gen4: 6
 }
 const activeGen = ref(null)
 
