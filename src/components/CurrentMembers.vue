@@ -132,7 +132,12 @@ const supportMembers = [
                 <!-- RIGHT: Core Members (The "Main Event") -->
                 <div class="lg:w-3/4">
                     <h4 class="text-gray-500 text-[10px] font-black uppercase tracking-[0.3em] mb-6">{{ $t('team.core.title') }}</h4>
-                    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                    <div 
+                    :class="[
+                        'grid grid-cols-1 gap-6',
+                        coreMembers.length === 4 ? 'md:grid-cols-2 xl:grid-cols-2' : 'md:grid-cols-2 xl:grid-cols-3'
+                    ]"
+                        >
                         <div 
                         v-for="member in coreMembers" 
                         :key="member.name"

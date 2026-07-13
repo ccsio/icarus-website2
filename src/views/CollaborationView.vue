@@ -30,7 +30,12 @@ const pastSponsors = ["efg", "ratrig"]
         </div>
 
         <!-- Poseidon Sponsors (Medium) -->
-        <div class="flex flex-wrap justify-center gap-6">
+        <div 
+          :class="[
+            'flex flex-wrap justify-center gap-6',
+            poseidonSponsors.length === 4 ? 'max-w-[calc(2*(18rem+1.5rem))] mx-auto' : ''
+          ]"
+        >
           <div v-for="sponsor in poseidonSponsors" :key="sponsor" 
             class="bg-white rounded-xl shadow-lg shadow-poseidon-blue/10 p-6 flex flex-col items-center w-full sm:w-72 border border-blue-50 transition-transform hover:scale-[1.02]">
             <img :src="`/sponsors/${sponsor}.webp`" :alt="sponsor" class="h-14 mb-4 object-contain">
@@ -58,7 +63,7 @@ const pastSponsors = ["efg", "ratrig"]
         </p>
       </div>
 
-      <div class="flex flew-wrap justify-center gap-4 p-4">
+      <div class="flex flew-wrap justify-center gap-16 p-4">
         <div v-for="sponsor in pastSponsors" :key="sponsor">
           <img :src="`/sponsors/${sponsor}.webp`" :alt="sponsor" class="h-10 object-contain grayscale hover:grayscale-0 opacity-70 hover:opacity-100 duration-300 transition-opacity">
         </div>
