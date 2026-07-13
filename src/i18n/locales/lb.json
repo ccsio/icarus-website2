@@ -58,6 +58,10 @@
         "sponsors": {
             "title": "Eis Sponsoren",
             "description": "Mir si ganz dankbar fir all eis Sponsoren, déi mat eis zesummeschaffen. Ouni hir Ënnerstëtzung wier dës Rees net méiglech gewiescht!",
+            "past": {
+                "title": "Fréier Sponsoren",
+                "description": "Mir si stolz drop, mat dëse fréiere Partner zesummegeschafft ze hunn, a bleiwe dankbar fir den dauerhaften Impakt vun hirer grousszügeger Ënnerstëtzung."
+            },
             "efg": {
                 "name": "EFG Bank",
                 "description": "EFG ass eisen Haaptsponsor. Dës Rees wier ouni si net méiglech gewiescht."
@@ -89,6 +93,14 @@
             "ratrig": {
                 "name": "RatRig",
                 "description": "RatRig huet eis frëndlecherweis Rabatt an eng séier Liwwerung fir eis CNC-Fräis zur Verfügung gestallt."
+            },
+            "gestron": {
+                "name": "Gestron",
+                "description": "Gestron ass op Verméigensverwaltung spezialiséiert an huet eis Rees frëndlecherweis finanziell ënnerstëtzt."
+            },
+            "fnr": {
+                "name": "FnR",
+                "description": "De FnR ass den nationale Fuerschungsfong vu Lëtzebuerg. Mir si ganz dankbar fir seng Ënnerstëtzung."
             }
         },
         "partnership": {

@@ -1,9 +1,10 @@
 <script setup>
 import CollaborationTiers from '@/components/CollaborationTiers.vue';
 
-const zeusSponsors = ["efg", "eurobank", "apeeel2"]
-const poseidonSponsors = ["esl2", "dreamcars"]
-const demeterSponsors = ["ortea", "delphis", "ratrig"]
+// const zeusSponsors = ["fnr"]
+const poseidonSponsors = ["eurobank", "gestron", "apeeel2", "esl2"]
+const demeterSponsors = ["ortea", "dreamcars", "delphis"]
+const pastSponsors = ["efg", "ratrig"]
 </script>
 
 <template>
@@ -44,6 +45,22 @@ const demeterSponsors = ["ortea", "delphis", "ratrig"]
             <img :src="`/sponsors/${sponsor}.webp`" :alt="sponsor" class="h-10 mb-3 object-contain">
             <p class="text-gray-500 text-center text-xs">{{ $t(`collaboration.sponsors.${sponsor}.description`) }}</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAST SPONSORS -->
+    <section>
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-black mb-4">{{ $t('collaboration.sponsors.past.title') }}</h2>
+        <p class="max-w-3xl mx-auto text-lg text-gray-600">
+          {{ $t('collaboration.sponsors.past.description') }}
+        </p>
+      </div>
+
+      <div class="flex flew-wrap justify-center gap-4 p-4">
+        <div v-for="sponsor in pastSponsors" :key="sponsor">
+          <img :src="`/sponsors/${sponsor}.webp`" :alt="sponsor" class="h-10 object-contain grayscale hover:grayscale-0 opacity-70 hover:opacity-100 duration-300 transition-opacity">
         </div>
       </div>
     </section>

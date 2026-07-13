@@ -58,6 +58,10 @@
         "sponsors": {
             "title": "Nos Sponsors",
             "description": "Nous sommes immensément reconnaissants envers tous les sponsors qui travaillent avec nous. Nous n'aurions pas pu entreprendre ce voyage sans leur soutien !",
+            "past": {
+                "title": "Anciens sponsors",
+                "description": "Nous sommes fiers d'avoir collaboré avec ces anciens partenaires et restons reconnaissants pour l'impact durable de leur généreux soutien."
+            },
             "efg": {
                 "name": "EFG Bank",
                 "description": "EFG est notre sponsor principal. Ce voyage n'aurait pas été possible sans eux."
@@ -89,6 +93,14 @@
             "ratrig": {
                 "name": "RatRig",
                 "description": "RatRig a gentiment offert une réduction et une expédition accélérée pour notre fraiseuse CNC."
+            },
+            "gestron": {
+                "name": "Gestron",
+                "description": "Gestron est spécialisé dans la gestion d'actifs et a généreusement soutenu financièrement notre aventure."
+            },
+            "fnr": {
+                "name": "FnR",
+                "description": "Le FnR est le Fonds national de la recherche du Luxembourg. Nous sommes extrêmement reconnaissants de bénéficier de son soutien."
             }
         },
         "partnership": {

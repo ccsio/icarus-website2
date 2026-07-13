@@ -58,6 +58,10 @@
         "sponsors": {
             "title": "Unsere Sponsoren",
             "description": "Wir sind allen Sponsoren, die mit uns zusammenarbeiten, unendlich dankbar. Ohne ihre Unterstützung hätten wir diese Reise nicht antreten können!",
+            "past": {
+                "title": "Ehemalige Sponsoren",
+                "description": "Wir sind stolz darauf, mit diesen ehemaligen Partnern zusammengearbeitet zu haben, und sind dankbar für die nachhaltige Wirkung ihrer großzügigen Unterstützung."
+            },
             "efg": {
                 "name": "EFG Bank",
                 "description": "EFG ist unser Hauptsponsor. Ohne sie wäre diese Reise nicht möglich gewesen."
@@ -89,6 +93,14 @@
             "ratrig": {
                 "name": "RatRig",
                 "description": "RatRig gewährte uns freundlicherweise einen Rabatt und beschleunigten Versand für unsere CNC-Fräse."
+            },
+            "gestron": {
+                "name": "Gestron",
+                "description": "Gestron ist auf Vermögensverwaltung spezialisiert und hat unsere Reise freundlicherweise finanziell unterstützt."
+            },
+            "fnr": {    
+                "name": "FnR",
+                "description": "Der FnR ist Luxemburgs Nationaler Forschungsfonds. Wir sind außerordentlich dankbar für seine Unterstützung."
             }
         },
         "partnership": {
