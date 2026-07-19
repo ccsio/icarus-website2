@@ -1,10 +1,11 @@
 <script setup>
-import CollaborationTiers from '@/components/CollaborationTiers.vue';
+import Tiers from '@/components/collaboration/Tiers.vue';
+import PastSponsors from '@/components/collaboration/PastSponsors.vue';
 
 // const zeusSponsors = ["fnr"]
 const poseidonSponsors = ["eurobank", "gestron", "apeeel2", "esl2"]
 const demeterSponsors = ["ortea", "dreamcars", "delphis"]
-const pastSponsors = ["efg", "ratrig"]
+
 </script>
 
 <template>
@@ -54,30 +55,7 @@ const pastSponsors = ["efg", "ratrig"]
       </div>
     </section>
 
-    <!-- PAST SPONSORS -->
-    <section>
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-black mb-4">{{ $t('collaboration.sponsors.past.title') }}</h2>
-        <p class="max-w-3xl mx-auto text-lg text-gray-600">
-          {{ $t('collaboration.sponsors.past.description') }}
-        </p>
-      </div>
-
-      <div class="flex flew-wrap justify-center gap-16 p-4">
-        <div v-for="sponsor in pastSponsors" :key="sponsor">
-          <img :src="`/sponsors/${sponsor}.webp`" :alt="sponsor" class="h-10 object-contain grayscale hover:grayscale-0 opacity-70 hover:opacity-100 duration-300 transition-opacity">
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: COLLABORATION PHILOSOPHY -->
-    <!-- <section class="text-center max-w-4xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-black mb-2">{{ $t('collaboration.collaboration.title') }}</h2>
-      <p class="text-icarus-red font-medium italic mb-6">{{ $t('collaboration.collaboration.caption') }}</p>
-      <p class="text-lg text-gray-700 leading-relaxed">
-        {{ $t('collaboration.collaboration.description') }}
-      </p>
-    </section> -->
+    <PastSponsors />
 
     <!-- SECTION: PARTNER WITH PURPOSE (Unified Layout) -->
   <section class="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
@@ -198,14 +176,7 @@ const pastSponsors = ["efg", "ratrig"]
     </section> -->
 
     <!-- TIERS COMPONENT -->
-    <CollaborationTiers />
+    <Tiers />
     
   </div>
 </template>
-
-<!-- <script setup>
-// Assuming these are passed as props or defined in your store/data
-const zeusSponsors = ['sponsor1', 'sponsor2'];
-const poseidonSponsors = ['sponsor3', 'sponsor4'];
-const demeterSponsors = ['sponsor5', 'sponsor6'];
-</script> -->
