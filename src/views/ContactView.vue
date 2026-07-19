@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 const links = [
   { label: 'Official Website', to: '/', primary: false },
   { label: 'Instagram', url: 'https://www.instagram.com/icarusluxembourg', primary: false },
-  { label: 'LinkedIn', url: 'https://www.linkedin.com/company/teamicarus/', primary: false },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/company/icarusluxembourg/', primary: false },
   { label: 'TikTok', url: 'https://tiktok.com/@icarus.luxembourg', primary: false },
   { label: 'Support our Journey (GoFundMe)', url: 'https://gofund.me/9d1eebdb8', primary: true },
   { label: 'Our STEM Racing Video', to: '/video', primary: false },
