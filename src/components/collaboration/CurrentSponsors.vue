@@ -5,7 +5,7 @@ const { locale } = useI18n();
 
 const zeusSponsors = ["oeuvre"];
 const poseidonSponsors = ["eurobank", "gestron", "apeeel2", "esl2"];
-const demeterSponsors = ["ortea", "dreamcars", "delphis"];
+const demeterSponsors = ["ortea", "delphis"];
 
 const getSponsorLogo = (sponsor) => {  
   const supportedLocales = ['fr', 'lb'];  

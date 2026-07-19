@@ -1,5 +1,5 @@
 <script setup>
-const pastSponsors = ["efg", "ratrig"]
+const pastSponsors = ["efg", "ratrig", "dreamcars"]
 </script>
 
 <template>
