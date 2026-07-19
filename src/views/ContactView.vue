@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 import { computed } from 'vue'
 
 const links = [
-  { label: 'Official Website', to: '/', primary: false },
+  { label: 'Our Website', to: '/', primary: false },
   { label: 'Instagram', url: 'https://www.instagram.com/icarusluxembourg', primary: false },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/company/icarusluxembourg/', primary: false },
   { label: 'TikTok', url: 'https://tiktok.com/@icarus.luxembourg', primary: false },
