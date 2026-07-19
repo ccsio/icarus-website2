@@ -1,8 +1,19 @@
 <script setup>
+import { useI18n } from 'vue-i18n';
 
-// const zeusSponsors = ["fnr"]
-const poseidonSponsors = ["eurobank", "gestron", "apeeel2", "esl2"]
-const demeterSponsors = ["ortea", "dreamcars", "delphis"]
+const { locale } = useI18n();
+
+const zeusSponsors = ["oeuvre"];
+const poseidonSponsors = ["eurobank", "gestron", "apeeel2", "esl2"];
+const demeterSponsors = ["ortea", "dreamcars", "delphis"];
+
+const getSponsorLogo = (sponsor) => {  
+  const supportedLocales = ['fr', 'lb'];  
+  return supportedLocales.includes(locale.value)  
+    ? `/sponsors/${sponsor}_${locale.value}.webp`  
+    : `/sponsors/${sponsor}.webp`;  
+};
+
 </script>
 
 
@@ -20,7 +31,7 @@ const demeterSponsors = ["ortea", "dreamcars", "delphis"]
         <div class="flex flex-wrap justify-center gap-8">
           <div v-for="sponsor in zeusSponsors" :key="sponsor" 
             class="bg-white rounded-2xl shadow-xl shadow-zeus-gold/20 p-8 flex flex-col items-center w-full md:max-w-md border border-yellow-100 transition-transform hover:scale-[1.02]">
-            <img :src="`/sponsors/${sponsor}.webp`" :alt="sponsor" class="h-20 mb-6 object-contain">
+            <img :src="getSponsorLogo(sponsor)" :alt="sponsor" class="h-20 mb-6 object-contain">
             <p class="text-gray-600 text-center italic">{{ $t(`collaboration.sponsors.${sponsor}.description`) }}</p>
           </div>
         </div>
