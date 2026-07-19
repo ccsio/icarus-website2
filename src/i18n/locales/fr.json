@@ -98,9 +98,9 @@
                 "name": "Gestron",
                 "description": "Gestron est spécialisé dans la gestion d'actifs et a généreusement soutenu financièrement notre aventure."
             },
-            "fnr": {
-                "name": "FnR",
-                "description": "Le FnR est le Fonds national de la recherche du Luxembourg. Nous sommes extrêmement reconnaissants de bénéficier de son soutien."
+            "oeuvre": {
+                "name": "Œuvre Nationale",
+                "description": "L'Œuvre Nationale soutient des projets, des associations et des organisations à but non lucratif à travers tout le Luxembourg, y compris notre parcours. Merci !"
             }
         },
         "partnership": {

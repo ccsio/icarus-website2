@@ -98,9 +98,9 @@
                 "name": "Gestron",
                 "description": "Gestron ist auf Vermögensverwaltung spezialisiert und hat unsere Reise freundlicherweise finanziell unterstützt."
             },
-            "fnr": {    
-                "name": "FnR",
-                "description": "Der FnR ist Luxemburgs Nationaler Forschungsfonds. Wir sind außerordentlich dankbar für seine Unterstützung."
+            "oeuvre": {
+                "name": "Œuvre Nationale",
+                "description": "Die Œuvre Nationale unterstützt Projekte, Vereine und gemeinnützige Organisationen in ganz Luxemburg, so auch unseren Weg. Vielen Dank!"
             }
         },
         "partnership": {

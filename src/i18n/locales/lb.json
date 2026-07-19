@@ -98,9 +98,9 @@
                 "name": "Gestron",
                 "description": "Gestron ass op Verméigensverwaltung spezialiséiert an huet eis Rees frëndlecherweis finanziell ënnerstëtzt."
             },
-            "fnr": {
-                "name": "FnR",
-                "description": "De FnR ass den nationale Fuerschungsfong vu Lëtzebuerg. Mir si ganz dankbar fir seng Ënnerstëtzung."
+            "oeuvre": {
+                "name": "Œuvre Nationale",
+                "description": "D'Œuvre Nationale ënnerstëtzt Projeten, Veräiner an ASBLen uechter Lëtzebuerg, dorënner och eise Wee. Villmools Merci!"
             }
         },
         "partnership": {

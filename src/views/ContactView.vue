@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { computed } from 'vue'
 
 const links = [
-  { label: 'Official Website', to: '/', primary: false },
+  { label: 'Our Website', to: '/', primary: false },
   { label: 'Instagram', url: 'https://www.instagram.com/icarusluxembourg', primary: false },
-  { label: 'LinkedIn', url: 'https://www.linkedin.com/company/teamicarus/', primary: false },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/company/icarusluxembourg/', primary: false },
   { label: 'TikTok', url: 'https://tiktok.com/@icarus.luxembourg', primary: false },
   { label: 'Support our Journey (GoFundMe)', url: 'https://gofund.me/9d1eebdb8', primary: true },
   { label: 'Our STEM Racing Video', to: '/video', primary: false },
@@ -15,6 +16,18 @@ const links = [
 const baseBtnClass = "block w-full py-4 px-6 text-center font-bold uppercase tracking-widest text-[10px] border-2 transition-all duration-300 rounded-xl backdrop-blur-md active:scale-[0.98] hover:scale-[1.02]"
 const secondaryBtnClass = "border-white/20 bg-white/5 text-white hover:border-icarus-red hover:bg-icarus-red/10"
 const primaryBtnClass = "bg-icarus-red border-icarus-red text-white hover:bg-white hover:text-icarus-red hover:border-white"
+
+
+const canGoBack = computed(() => {
+  const back = window.history.state?.back
+  if (!back) return false
+  try {
+    const backUrl = new URL(back, window.location.origin)
+    return backUrl.origin === window.location.origin
+  } catch {
+    return true // relative path = same domain
+  }
+})
 </script>
 
 <template>
@@ -22,12 +35,32 @@ const primaryBtnClass = "bg-icarus-red border-icarus-red text-white hover:bg-whi
     <!-- Background Image Overlay -->
     <div class="fixed inset-0 z-0">
       <img 
-        src="/image_carousel/team_gen3_2.webp" 
+        src="/image_carousel/gen4.1_team_photo.webp" 
         class="w-full h-full object-cover opacity-40 brightness-[0.4]" 
         alt="Background"
       />
       <div class="absolute inset-0 bg-linear-to-b from-black/60 via-transparent to-black"></div>
     </div>
+
+
+    <!-- Back Button -->
+    <button
+      v-if="canGoBack"
+      @click="$router.back()"
+      class="fixed top-6 left-6 z-20 flex items-center gap-2 text-white/80 hover:text-white transition-colors duration-200 group"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5 transform group-hover:-translate-x-1 transition-transform duration-200"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+      <span class="text-sm font-medium">Back</span>
+    </button>
 
     <!-- Content -->
     <div class="relative z-10 w-full max-w-105 flex flex-col items-center">
@@ -84,3 +117,4 @@ const primaryBtnClass = "bg-icarus-red border-icarus-red text-white hover:bg-whi
     </div>
   </div>
 </template>
+
