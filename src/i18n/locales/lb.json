@@ -101,6 +101,10 @@
             "oeuvre": {
                 "name": "Œuvre Nationale",
                 "description": "D'Œuvre Nationale ënnerstëtzt Projeten, Veräiner an ASBLen uechter Lëtzebuerg, dorënner och eise Wee. Villmools Merci!"
+            },
+            "autera": {
+                "name": "Autera",
+                "description": "Autera ass en Autohaus an eng Werkstatt zu Lëtzebuerg. Mir si frou, si un eiser Säit ze hunn!"
             }
         },
         "partnership": {

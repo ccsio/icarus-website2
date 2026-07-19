@@ -101,6 +101,10 @@
             "oeuvre": {
                 "name": "Œuvre Nationale",
                 "description": "Œuvre Nationale support projects, associations and non-profits across Luxembourg, including our journey. Thank you!"
+            },
+            "autera": {
+                "name": "Autera",
+                "description": "Autera is a car dealership and workshop in Luxembourg. We are happy to have them on our side!"
             }
         },
         "partnership": {

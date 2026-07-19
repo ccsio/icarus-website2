@@ -101,6 +101,10 @@
             "oeuvre": {
                 "name": "Œuvre Nationale",
                 "description": "L'Œuvre Nationale soutient des projets, des associations et des organisations à but non lucratif à travers tout le Luxembourg, y compris notre parcours. Merci !"
+            },
+            "autera": {
+                "name": "Autera",
+                "description": "Autera est un concessionnaire automobile et un atelier au Luxembourg. Nous sommes heureux de les avoir à nos côtés !"
             }
         },
         "partnership": {
