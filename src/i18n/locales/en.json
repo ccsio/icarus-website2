@@ -9,19 +9,29 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "What is it?",
-            "body_part_1": "STEM Racing, formerly known as F1 in Schools, is an international educational program that encourages ",
-            "body_part_2": " to learn about science, technology, engineering, and mathematics (",
-            "body_part_3": ") through designing, building, and racing ",
-            "body_part_4": ". The program promotes hands-on learning and helps students develop essential skills such as teamwork, problem-solving, and project management.",
+            "body_part_1": "STEM Racing, formerly known as F1 in Schools, is a global educational program that challenges ",
+            "body_part_2": " from all around the world to apply ",
+            "body_part_3": " knowledge in a real-world context — designing and manufacturing their own ",
+            "body_part_4": " using industry-standard CAD software and CNC machining, while managing a real-world budget, building a brand identity, and compiling a full engineering portfolio. ",
             "keywords": {
                 "students": "students",
                 "stem": "STEM",
                 "cars": "miniature Formula One cars"
             },
+            "body2_part_1": "Teams don't just race — they ",
+            "body2_part_2": " their work to a panel of ",
+            "body2_part_3": ", competing on engineering depth and presentation quality just as much as raw speed. It is equal parts ",
+            "body2_part_4": ". The entire lifecycle closely resembles professional motorsport teams.",
+            "keywords2": {
+                "present": "research, document, and present",
+                "judges": "industry judges",
+                "stem": "science, sport, and storytelling"
+            },
             "ctaVideo": "Our Video",
             "ctaGlobal": "Global Site",
             "ctaLuxembourg": "Lux. Site",
             "imageCaption": "Petar on the starting grid at the World Finals 2025",
+            "image2Caption": "Our car",
             "stats": {
                 "countries": { "label": "countries actively involved" },
                 "schools": { "label": "participating schools" },

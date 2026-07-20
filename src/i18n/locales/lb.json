@@ -9,14 +9,23 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "Wat ass dat?",
-            "body_part_1": "STEM Racing, fréier bekannt als F1 in Schools, ass en internationale Bildungsprogramm, deen ",
-            "body_part_2": " encouragéiert, méi iwwer Science, Technologie, Ingenieurswiesen a Mathematik (",
-            "body_part_3": ") ze léieren, andeems si ",
-            "body_part_4": " designen, bauen a fueren. De Programm fërdert praktescht Léieren an hëlleft de Schüler, wichteg Fäegkeeten ze entwéckelen, wéi Teamwork, Problemléisung a Projetmanagement.",
+            "body_part_1": "STEM Racing, fréier als F1 in Schools bekannt, ass e weltwäite Bildungsprogramm, deen ",
+            "body_part_2": " aus der ganzer Welt erausfuerdert, hiert Wëssen iwwer ",
+            "body_part_3": " an engem reelle Kontext anzesetzen — andeems si hir eege ",
+            "body_part_4": " mat industrieüblecher CAD-Software an CNC-Bearbechtung designen a produzéieren, wärend si e reelle Budget geréieren, eng Markenidentitéit opbauen an e komplette Ingenieursportfolio zesummestellen. ",
             "keywords": {
-                "students": "Schüler",
+                "students": "Schülerinnen a Schüler",
                 "stem": "STEM",
                 "cars": "Miniatur-Formel-1-Autoen"
+            },
+            "body2_part_1": "D'Teams fueren net nëmme Rennen — si ",
+            "body2_part_2": " hir Aarbecht virun engem Jury vu ",
+            "body2_part_3": ", a gi genee sou vill op technesch Déift an d'Qualitéit vun hirer Presentatioun wéi op reng Geschwindegkeet bewäert. Et ass gläichermoossen ",
+            "body2_part_4": ". De ganze Verlaf gläicht staark deem vu professionelle Motorsportteams.",
+            "keywords2": {
+                "present": "recherchéieren, dokumentéieren a presentéieren",
+                "judges": "Jury-Membere aus der Industrie",
+                "stem": "Wëssenschaft, Sport a Storytelling"
             },
             "ctaVideo": "Eise Video",
             "ctaGlobal": "Global Säit",

@@ -9,14 +9,23 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "Was ist das?",
-            "body_part_1": "STEM Racing, früher bekannt als F1 in Schools, ist ein internationales Bildungsprogramm, das ",
-            "body_part_2": " dazu ermutigt, mehr über Naturwissenschaften, Technik, Ingenieurwesen und Mathematik (",
-            "body_part_3": ") zu lernen, indem sie ",
-            "body_part_4": " entwerfen, bauen und damit Rennen fahren. Das Programm fördert praktisches Lernen und hilft Schülern, wichtige Fähigkeiten wie Teamarbeit, Problemlösung und Projektmanagement zu entwickeln.",
+            "body_part_1": "STEM Racing, früher bekannt als F1 in Schools, ist ein globales Bildungsprogramm, das ",
+            "body_part_2": " aus aller Welt dazu herausfordert, ihr Wissen in ",
+            "body_part_3": " in einem praxisnahen Kontext anzuwenden — indem sie ihre eigenen ",
+            "body_part_4": " mithilfe branchenüblicher CAD-Software und CNC-Bearbeitung entwerfen und herstellen, während sie ein reales Budget verwalten, eine Markenidentität aufbauen und ein vollständiges Engineering-Portfolio zusammenstellen. ",
             "keywords": {
-                "students": "Schüler",
+                "students": "Schülerinnen und Schüler",
                 "stem": "MINT",
-                "cars": "Miniatur-Formel-1-Rennwagen"
+                "cars": "Miniatur-Formel-1-Autos"
+            },
+            "body2_part_1": "Die Teams fahren nicht nur Rennen — sie ",
+            "body2_part_2": " ihre Arbeit vor einer Jury aus ",
+            "body2_part_3": ", wobei sie ebenso sehr nach technischer Tiefe und Präsentationsqualität wie nach reiner Geschwindigkeit beurteilt werden. Es ist gleichermaßen ",
+            "body2_part_4": ". Der gesamte Ablauf ähnelt stark dem professioneller Motorsportteams.",
+            "keywords2": {
+                "present": "recherchieren, dokumentieren und präsentieren",
+                "judges": "Branchenjuroren",
+                "stem": "Wissenschaft, Sport und Storytelling"
             },
             "ctaVideo": "Unser Video",
             "ctaGlobal": "Globale Seite",

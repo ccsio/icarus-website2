@@ -64,7 +64,8 @@ onUnmounted(() => observer?.disconnect())
       <p class="text-gray-500 italic mt-2 text-lg">{{ $t('home.stem.subtitle') }}</p>
     </div>
 
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
+    <!-- Paragraph 1 -->
+    <div class="grid lg:grid-cols-2 gap-12 items-center lg:mb-16 mb-8">
       <!-- Image Section -->
       <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
         <img 
@@ -90,6 +91,22 @@ onUnmounted(() => observer?.disconnect())
           <span class="font-bold text-icarus-red">{{ $t('home.stem.keywords.cars') }}</span>
           {{ $t('home.stem.body_part_4') }}
         </p>
+      </div>
+    </div>
+
+    <!-- Paragraph 2 -->
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <!-- Content Section -->
+      <div class="space-y-6">
+        <p class="text-lg md:text-xl text-gray-700 leading-relaxed text-justify">
+          {{ $t('home.stem.body2_part_1') }}
+          <span class="text-icarus-red font-bold">{{ $t('home.stem.keywords2.present') }}</span>
+          {{ $t('home.stem.body2_part_2') }}
+          <span class="font-bold text-icarus-red">{{ $t('home.stem.keywords2.judges') }}</span>
+          {{ $t('home.stem.body2_part_3') }}
+          <span class="font-bold text-icarus-red">{{ $t('home.stem.keywords2.stem') }}</span>
+          {{ $t('home.stem.body2_part_4') }}
+        </p>
         
         <div class="flex flex-wrap gap-4 pt-4">
           <a href="/video/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
@@ -103,7 +120,23 @@ onUnmounted(() => observer?.disconnect())
           </a>
         </div>
       </div>
+
+      <!-- Image Section -->
+      <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
+        <img 
+          src="/image_carousel/gen4_ortea.webp" 
+          :alt="$t('home.stem.imageCaption')"
+          class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+        <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+          <p class="text-white text-sm md:text-base font-medium">
+            {{ $t('home.stem.image2Caption') }}
+          </p>
+        </div>
+      </div>
     </div>
+
+
 
     <!-- Stats Section -->
     <div ref="statsEl" class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
