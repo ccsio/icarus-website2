@@ -8,9 +8,9 @@ const statsEl = ref(null)
 const animated = ref(false)  
   
 const targets = {  
-  countries: 44,  
-  schools: 26000,  
-  students: 2000000  
+  countries: 65,  
+  schools: 29000,  
+  students: 1800000  
 }  
   
 const displayValues = reactive({  
@@ -136,8 +136,6 @@ onUnmounted(() => observer?.disconnect())
       </div>
     </div>
 
-
-
     <!-- Stats Section -->
     <div ref="statsEl" class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div 
@@ -146,7 +144,7 @@ onUnmounted(() => observer?.disconnect())
         class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow"
       >
         <div class="text-icarus-red font-black text-4xl md:text-5xl mb-2 tabular-nums">
-          {{ formatNumber(displayValues[stat]) }}
+          {{ formatNumber(displayValues[stat]) }}+
         </div>
         <p class="text-gray-600 font-medium">
           <span class="text-black font-bold">{{ $t(`home.stem.stats.${stat}.label`) }}</span>
