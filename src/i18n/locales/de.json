@@ -62,6 +62,18 @@
                 "text": "Im Juni 2025 qualifizierten wir uns, um Luxemburg bei den World Finals in Singapur zu vertreten. Wir arbeiteten den ganzen Sommer über unermüdlich daran, uns auf das Event im September vorzubereiten."
             },
             "cta": "Vollständige Historie ansehen"
+        },
+        "articles": {
+            "label": "Externe Berichterstattung",
+            "heading": "Icarus im Rampenlicht",
+            "caption": "Ein kuratierter Bereich für Artikel und Berichte unserer Partner und Medien.",
+            "publisher": "ingsci.lu",
+            "articleType": "Externer Artikel",
+            "linkText": "Artikel lesen",
+            "asideLabel": "Medien-Hub",
+            "asideHeading": "Externe Presse- und Partnerberichterstattung",
+            "asideCaption": "Dieser Abschnitt ist Dritten gewidmet, die über Icarus berichten. Wir veröffentlichen hier derzeit keine Blogbeiträge.",
+            "asideNote": "Behalten Sie den Fokus auf offiziellen externen Geschichten, während die Icarus-Mediengalerie wächst."
         }
     },
     "collaboration": {

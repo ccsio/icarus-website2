@@ -62,6 +62,21 @@
                 "text": "In June 2025, we qualified to represent Luxembourg at the World Finals in Singapore. We worked tirelessly throughout the summer to prepare for the event in September."
             },
             "cta": "See Full History"
+        },
+        "articles": {
+            "label": "External coverage",
+            "heading": "Icarus in the spotlight",
+            "caption": "A curated section for articles and coverage published by our partners and media outlets.",
+            "publisher": "ingsci.lu",
+            "articleType": "External article",
+            "articleTitle": "STEM Racing: Icarus catches the sunlight",
+            "articleExtract": "Team Icarus won the Luxembourg STEM Racing™ national finals and will represent the country at the World Finals in Singapore. Hosted at the International School of Luxembourg, the event showcased young talents in engineering, design and racing. The thrilling final was decided by just 0.005 seconds.",
+            "linkText": "Read the article",
+            "imageAlt": "STEM Racing: Icarus catches the sunlight preview",
+            "asideLabel": "Media hub",
+            "asideHeading": "External press and partner coverage",
+            "asideCaption": "This section is dedicated to curated third-party articles and press coverage about Icarus. We’re not publishing blog posts here today.",
+            "asideNote": "Keep the focus on official external stories while the Icarus media gallery expands."
         }
     },
     "collaboration": {

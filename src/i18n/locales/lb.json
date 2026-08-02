@@ -62,6 +62,18 @@
                 "text": "Am Juni 2025 hu mir eis qualifizéiert, fir Lëtzebuerg beim World Finals zu Singapur ze vertrieden. Mir hunn de ganze Summer iwwer haart geschafft, fir eis op d’Event am September virzebereeden."
             },
             "cta": "Ganz Geschicht gesinn"
+        },
+        "articles": {
+            "label": "Extern Erfaassung",
+            "heading": "Icarus am Rampel Liicht",
+            "caption": "Eng ausgewielte Sektioun fir Artikelen an Berichter vun eise Partneren an de Medien.",
+            "publisher": "ingsci.lu",
+            "articleType": "Externen Artikel",
+            "linkText": "Artikel liesen",
+            "asideLabel": "Medie-Hub",
+            "asideHeading": "Externe Presse- a Partnerberichterstattung",
+            "asideCaption": "Dës Sektioun ass fir Dritt-Partei Artikelen an Icarus Medienberichterstattung reservéiert. Mir publizéieren haut keng Blogposte do."
+            ,"asideNote": "Halt de Fokus op offiziellen externe Geschichten, während déi Icarus Mediengalerie wiisst."
         }
     },
     "collaboration": {
