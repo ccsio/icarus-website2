@@ -124,9 +124,9 @@ onUnmounted(() => observer?.disconnect())
       <!-- Image Section -->
       <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
         <img 
-          src="/image_carousel/gen4_ortea.webp" 
+          src="/images/lux_centre_car.webp" 
           :alt="$t('home.stem.imageCaption')"
-          class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105"
+          class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105 object-[0%_50%]"
         />
         <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
           <p class="text-white text-sm md:text-base font-medium">
