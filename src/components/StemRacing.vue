@@ -175,7 +175,7 @@ onUnmounted(() => observer?.disconnect())
       <a
         href="https://www.stemracing.lu/"
         target="_blank"
-        class="cta-outline px-8 py-3 md:px-10 md:py-5 rounded-full flex items-center gap-3 transform transition-all duration-300"
+          class="cta-outline w-88 px-8 py-4 md:py-5 rounded-full flex items-center justify-center transform transition-all duration-300"
       >
         <span class="text-lg md:text-xl gradient-text font-bold">{{ $t('home.stem.ctaLuxembourg') }}</span>
       </a>
@@ -183,7 +183,7 @@ onUnmounted(() => observer?.disconnect())
       <a
         href="https://www.stemracing.com/"f
         target="_blank"
-        class="cta-filled px-8 py-3 md:px-10 md:py-4 rounded-full flex items-center gap-3 transform transition-all duration-300"
+          class="cta-filled w-88 px-8 py-4 md:py-5 rounded-full flex items-center justify-center transform transition-all duration-300"
       >
         <span class="text-white text-lg md:text-xl font-bold">{{ $t('home.stem.ctaGlobal') }}</span>
       </a>
@@ -197,6 +197,7 @@ onUnmounted(() => observer?.disconnect())
   background-size: 200% 100%;
   animation: gradientShift 6s linear infinite;
   box-shadow: 0 12px 34px rgba(183,13,127,0.16), 0 6px 14px rgba(51,38,104,0.08);
+  border: 4px solid transparent;
 }
 
 .cta-outline {
