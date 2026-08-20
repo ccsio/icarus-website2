@@ -9,19 +9,31 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "Wat ass dat?",
-            "body_part_1": "STEM Racing, fréier bekannt als F1 in Schools, ass en internationale Bildungsprogramm, deen ",
-            "body_part_2": " encouragéiert, méi iwwer Science, Technologie, Ingenieurswiesen a Mathematik (",
-            "body_part_3": ") ze léieren, andeems si ",
-            "body_part_4": " designen, bauen a fueren. De Programm fërdert praktescht Léieren an hëlleft de Schüler, wichteg Fäegkeeten ze entwéckelen, wéi Teamwork, Problemléisung a Projetmanagement.",
+            "body_part_1": "STEM Racing, fréier als F1 in Schools bekannt, ass e weltwäite Bildungsprogramm, deen ",
+            "body_part_2": " aus der ganzer Welt erausfuerdert, hiert Wëssen iwwer ",
+            "body_part_3": " an engem reelle Kontext anzesetzen — andeems si hir eege ",
+            "body_part_4": " mat industrieüblecher CAD- an CFD-Software an CNC-Bearbechtung designen a produzéieren, wärend si e reelle Budget geréieren, eng Markenidentitéit opbauen an e komplette Ingenieursportfolio zesummestellen. ",
             "keywords": {
-                "students": "Schüler",
+                "students": "Schülerinnen a Schüler",
                 "stem": "STEM",
                 "cars": "Miniatur-Formel-1-Autoen"
             },
+            "body2_part_1": "D'Teams fueren net nëmme Rennen — si ",
+            "body2_part_2": " hir Aarbecht virun engem Jury vu ",
+            "body2_part_3": ", a gi genee sou vill op technesch Déift an d'Qualitéit vun hirer Presentatioun wéi op reng Geschwindegkeet bewäert. Et ass gläichermoossen ",
+            "body2_part_4": ". De ganze Verlaf gläicht staark deem vu professionelle Motorsportteams.",
+            "keywords2": {
+                "present": "recherchéieren, dokumentéieren a presentéieren",
+                "judges": "Jury-Membere aus der Industrie",
+                "stem": "Wëssenschaft, Sport a Storytelling"
+            },
             "ctaVideo": "Eise Video",
-            "ctaGlobal": "Global Säit",
-            "ctaLuxembourg": "Lëtz. Säit",
-            "imageCaption": "De Petar op der Startlinn beim Weltfinale 2025",
+            "ctaGlobal": "STEM Racing Global",
+            "ctaLuxembourg": "STEM Racing Luxembourg",
+            "imageCaption": "De Petar op der Startgrid bei de World Finals 2025",
+            "image2Caption": "Fusion 360-Design vun eisem Auto fir d'World Finals 2025.",
+            "image3Caption": "CFD-Simulatioun an Ansys vun eisem Auto fir d'Nationals 2026.",
+            "image4Caption": "Visualiséierung vun eisem Auto am Zentrum vu Lëtzebuerg.",
             "stats": {
                 "countries": { "label": "Länner, déi aktiv bedeelegt sinn" },
                 "schools": { "label": "Schoulen, déi deelhuelen" },
@@ -52,6 +64,18 @@
                 "text": "Am Juni 2025 hu mir eis qualifizéiert, fir Lëtzebuerg beim World Finals zu Singapur ze vertrieden. Mir hunn de ganze Summer iwwer haart geschafft, fir eis op d’Event am September virzebereeden."
             },
             "cta": "Ganz Geschicht gesinn"
+        },
+        "articles": {
+            "label": "Extern Erfaassung",
+            "heading": "Icarus am Rampel Liicht",
+            "caption": "Eng ausgewielte Sektioun fir Artikelen an Berichter vun eise Partneren an de Medien.",
+            "publisher": "ingsci.lu",
+            "articleType": "Externen Artikel",
+            "linkText": "Artikel liesen",
+            "asideLabel": "Medie-Hub",
+            "asideHeading": "Externe Presse- a Partnerberichterstattung",
+            "asideCaption": "Dës Sektioun ass fir Dritt-Partei Artikelen an Icarus Medienberichterstattung reservéiert. Mir publizéieren haut keng Blogposte do."
+            ,"asideNote": "Halt de Fokus op offiziellen externe Geschichten, während déi Icarus Mediengalerie wiisst."
         }
     },
     "collaboration": {
@@ -59,7 +83,7 @@
             "title": "Eis Sponsoren",
             "description": "Mir si ganz dankbar fir all eis Sponsoren, déi mat eis zesummeschaffen. Ouni hir Ënnerstëtzung wier dës Rees net méiglech gewiescht!",
             "past": {
-                "title": "Fréier Sponsoren",
+                "title": "Virdrun Sponsorë",
                 "description": "Mir si stolz drop, mat dëse fréiere Partner zesummegeschafft ze hunn, a bleiwe dankbar fir den dauerhaften Impakt vun hirer grousszügeger Ënnerstëtzung."
             },
             "efg": {
@@ -242,6 +266,9 @@
             },
             "tomas": {
                 "role": "Design-Ingenieur Support"
+            },
+            "mariela": {
+                "role": "Operativ Ënnerstëtzung"
             }
         },
         "core": {

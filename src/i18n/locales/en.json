@@ -9,19 +9,31 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "What is it?",
-            "body_part_1": "STEM Racing, formerly known as F1 in Schools, is an international educational program that encourages ",
-            "body_part_2": " to learn about science, technology, engineering, and mathematics (",
-            "body_part_3": ") through designing, building, and racing ",
-            "body_part_4": ". The program promotes hands-on learning and helps students develop essential skills such as teamwork, problem-solving, and project management.",
+            "body_part_1": "STEM Racing, formerly known as F1 in Schools, is a global educational program that challenges ",
+            "body_part_2": " from all around the world to apply ",
+            "body_part_3": " knowledge in a real-world context — designing and manufacturing their own ",
+            "body_part_4": " using industry-standard CAD and CFD software and CNC machining, while managing a real-world budget, building a brand identity, and compiling a full engineering portfolio. ",
             "keywords": {
                 "students": "students",
                 "stem": "STEM",
                 "cars": "miniature Formula One cars"
             },
+            "body2_part_1": "Teams don't just race — they ",
+            "body2_part_2": " their work to a panel of ",
+            "body2_part_3": ", competing on engineering depth and presentation quality just as much as raw speed. It is equal parts ",
+            "body2_part_4": ". The entire lifecycle closely resembles professional motorsport teams.",
+            "keywords2": {
+                "present": "research, document, and present",
+                "judges": "industry judges",
+                "stem": "science, sport, and storytelling"
+            },
             "ctaVideo": "Our Video",
-            "ctaGlobal": "Global Site",
-            "ctaLuxembourg": "Lux. Site",
+            "ctaGlobal": "STEM Racing Global",
+            "ctaLuxembourg": "STEM Racing Luxembourg",
             "imageCaption": "Petar on the starting grid at the World Finals 2025",
+            "image2Caption": "Fusion 360 design of our World Finals 2025 car.",
+            "image3Caption": "CFD simulation in Ansys of our Nationals 2026 car.",
+            "image4Caption": "Visualization of our car in the centre of Luxembourg.",
             "stats": {
                 "countries": { "label": "countries actively involved" },
                 "schools": { "label": "participating schools" },
@@ -52,6 +64,21 @@
                 "text": "In June 2025, we qualified to represent Luxembourg at the World Finals in Singapore. We worked tirelessly throughout the summer to prepare for the event in September."
             },
             "cta": "See Full History"
+        },
+        "articles": {
+            "label": "External coverage",
+            "heading": "Icarus in the spotlight",
+            "caption": "A curated section for articles and coverage published by our partners and media outlets.",
+            "publisher": "ingsci.lu",
+            "articleType": "External article",
+            "articleTitle": "STEM Racing: Icarus catches the sunlight",
+            "articleExtract": "Team Icarus won the Luxembourg STEM Racing™ national finals and will represent the country at the World Finals in Singapore. Hosted at the International School of Luxembourg, the event showcased young talents in engineering, design and racing. The thrilling final was decided by just 0.005 seconds.",
+            "linkText": "Read the article",
+            "imageAlt": "STEM Racing: Icarus catches the sunlight preview",
+            "asideLabel": "Media hub",
+            "asideHeading": "External press and partner coverage",
+            "asideCaption": "This section is dedicated to curated third-party articles and press coverage about Icarus. We’re not publishing blog posts here today.",
+            "asideNote": "Keep the focus on official external stories while the Icarus media gallery expands."
         }
     },
     "collaboration": {
@@ -59,7 +86,7 @@
             "title": "Our Sponsors",
             "description": "We are immensely grateful to all the sponsors working with us. We could not have embarked on this journey without their support!",
             "past": {
-                "title": "Past Sponsors",
+                "title": "Previous Sponsors",
                 "description": "We are proud to have collaborated with these past partners and remain grateful for the lasting impact of their generous support."
             },
             "efg": {
@@ -242,6 +269,9 @@
             },
             "tomas": {
                 "role": "Design Engineer Support"
+            },
+            "mariela": {
+                "role": "Operations Support"
             }
         },
         "core": {

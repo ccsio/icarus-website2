@@ -9,19 +9,31 @@
         "stem": {
             "title": "STEM Racing",
             "subtitle": "Qu'est-ce que c'est ?",
-            "body_part_1": "STEM Racing, anciennement connu sous le nom de F1 in Schools, est un programme éducatif international qui encourage les ",
-            "body_part_2": " à s'initier aux sciences, à la technologie, à l'ingénierie et aux mathématiques (",
-            "body_part_3": ") à travers la conception, la construction et la course de ",
-            "body_part_4": ". Le programme favorise l'apprentissage pratique et aide les étudiants à développer des compétences essentielles telles que le travail d'équipe, la résolution de problèmes et la gestion de projet.",
+            "body_part_1": "STEM Racing, anciennement connu sous le nom de F1 in Schools, est un programme éducatif mondial qui met au défi des ",
+            "body_part_2": " du monde entier d'appliquer leurs connaissances en ",
+            "body_part_3": " dans un contexte réel — en concevant et fabriquant leurs propres ",
+            "body_part_4": " à l'aide de logiciels de CAO et de CFD et d'usinage CNC conformes aux standards de l'industrie, tout en gérant un budget réel, en créant une identité de marque et en constituant un portfolio d'ingénierie complet. ",
             "keywords": {
-                "students": "étudiants",
+                "students": "élèves",
                 "stem": "STEM",
-                "cars": "voitures de Formule 1 miniatures"
+                "cars": "voitures miniatures de Formule 1"
+            },
+            "body2_part_1": "Les équipes ne font pas que courir — elles ",
+            "body2_part_2": " leur travail devant un jury composé de ",
+            "body2_part_3": ", en étant évaluées autant sur la profondeur de leur ingénierie et la qualité de leur présentation que sur leur vitesse brute. C'est à la fois ",
+            "body2_part_4": ". L'ensemble du cycle de travail ressemble étroitement à celui des équipes professionnelles de sport automobile.",
+            "keywords2": {
+                "present": "recherchent, documentent et présentent",
+                "judges": "juges issus de l'industrie",
+                "stem": "science, sport et narration"
             },
             "ctaVideo": "Notre Vidéo",
-            "ctaGlobal": "Site Mondiale",
-            "ctaLuxembourg": "Site Lux.",
-            "imageCaption": "Petar sur la grille de départ aux World Finals 2025",
+            "ctaGlobal": "STEM Racing Global",
+            "ctaLuxembourg": "STEM Racing Luxembourg",
+            "imageCaption": "Petar sur la grille de départ des Finales mondiales 2025",
+            "image2Caption": "Conception Fusion 360 de notre voiture pour les Finales mondiales 2025.",
+            "image3Caption": "Simulation CFD dans Ansys de notre voiture pour les Nationales 2026.",
+            "image4Caption": "Visualisation de notre voiture au centre de Luxembourg.",
             "stats": {
                 "countries": { "label": "pays activement impliqués" },
                 "schools": { "label": "écoles participantes" },
@@ -52,6 +64,18 @@
                 "text": "En juin 2025, nous nous sommes qualifiés pour représenter le Luxembourg aux World Finals à Singapour. Nous avons travaillé sans relâche tout au long de l'été pour préparer l'événement en septembre."
             },
             "cta": "Voir l'Historique Complet"
+        },
+        "articles": {
+            "label": "Couverture externe",
+            "heading": "Icarus sous les projecteurs",
+            "caption": "Une section sélectionnée pour les articles et reportages de nos partenaires et médias.",
+            "publisher": "ingsci.lu",
+            "articleType": "Article externe",
+            "linkText": "Lire l'article",
+            "asideLabel": "Hub médias",
+            "asideHeading": "Presse externe et couverture partenaire",
+            "asideCaption": "Cette section est dédiée aux articles tiers et à la couverture médiatique d'Icarus. Nous ne publions pas de blogs ici pour le moment.",
+            "asideNote": "Conservez le focus sur les histoires officielles externes pendant que la galerie média d'Icarus s'étend."
         }
     },
     "collaboration": {
@@ -242,6 +266,9 @@
             },
             "tomas": {
                 "role": "Support ingénieur design"
+            },
+            "mariela": {
+                "role": "Support opérationnel"
             }
         },
         "core": {
