@@ -81,7 +81,7 @@
             "title": "Eis Sponsoren",
             "description": "Mir si ganz dankbar fir all eis Sponsoren, déi mat eis zesummeschaffen. Ouni hir Ënnerstëtzung wier dës Rees net méiglech gewiescht!",
             "past": {
-                "title": "Fréier Sponsoren",
+                "title": "Virdrun Sponsorë",
                 "description": "Mir si stolz drop, mat dëse fréiere Partner zesummegeschafft ze hunn, a bleiwe dankbar fir den dauerhaften Impakt vun hirer grousszügeger Ënnerstëtzung."
             },
             "efg": {
@@ -264,6 +264,9 @@
             },
             "tomas": {
                 "role": "Design-Ingenieur Support"
+            },
+            "mariela": {
+                "role": "Operativ Ënnerstëtzung"
             }
         },
         "core": {

@@ -55,17 +55,21 @@ const mentors = computed(() => [
 ])
 
 const supportMembers = [  
-{
-    name: "Alina",
-    role: t("team.support.alina.role"),
-    image: "/images/team/gen4/alina.webp"
-},
-{
-    name: "Tomáš",
-    role: t("team.support.tomas.role"),
-    image: "/images/team/gen4/tomas.webp",
-    bio: t("team.support.tomas.bio")
-},
+    {
+        name: "Alina",
+        role: t("team.support.alina.role"),
+        image: "/images/team/gen4/alina.webp"
+    },
+    {
+        name: "Tomáš",
+        role: t("team.support.tomas.role"),
+        image: "/images/team/gen4/tomas.webp",
+    },
+    {
+        name: "Mariela",
+        role: t("team.support.mariela.role"),
+        image: "/images/team/gen4/mariela.webp",
+    }
 ]
 </script>
 

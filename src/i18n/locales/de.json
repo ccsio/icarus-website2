@@ -81,7 +81,7 @@
             "title": "Unsere Sponsoren",
             "description": "Wir sind allen Sponsoren, die mit uns zusammenarbeiten, unendlich dankbar. Ohne ihre Unterstützung hätten wir diese Reise nicht antreten können!",
             "past": {
-                "title": "Ehemalige Sponsoren",
+                "title": "Frühere Sponsoren",
                 "description": "Wir sind stolz darauf, mit diesen ehemaligen Partnern zusammengearbeitet zu haben, und sind dankbar für die nachhaltige Wirkung ihrer großzügigen Unterstützung."
             },
             "efg": {
@@ -264,6 +264,9 @@
             },
             "tomas": {
                 "role": "Unterstützung Design-Ingenieur"
+            },
+            "mariela": {
+                "role": "Operative Unterstützung"
             }
         },
         "core": {

@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
       </div>
 
       <div class="grid gap-6 lg:grid-cols-[1.5fr_0.9fr]">
-        <article class="group bg-white rounded-[2rem] border border-gray-100 shadow-xl p-8 overflow-hidden transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl">
+        <article class="group bg-white rounded-4xl border border-gray-100 shadow-xl p-8 overflow-hidden transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl">
           <div class="mb-6 flex flex-wrap items-center gap-3">
             <span class="inline-flex items-center justify-center rounded-full bg-icarus-red/10 text-icarus-red text-[10px] font-black uppercase tracking-[0.35em] px-3 py-2">
               {{ $t('home.articles.publisher') }}
@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
             <img
               src="https://ingsci.lu/davinci/wp-content/uploads/2026/05/stemracing26-210-scaled.jpg"
               :alt="$t('home.articles.imageAlt')"
-              class="w-full h-[240px] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+              class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-[1.03]"
             />
           </div>
 

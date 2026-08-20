@@ -84,7 +84,7 @@
             "title": "Our Sponsors",
             "description": "We are immensely grateful to all the sponsors working with us. We could not have embarked on this journey without their support!",
             "past": {
-                "title": "Past Sponsors",
+                "title": "Previous Sponsors",
                 "description": "We are proud to have collaborated with these past partners and remain grateful for the lasting impact of their generous support."
             },
             "efg": {
@@ -267,6 +267,9 @@
             },
             "tomas": {
                 "role": "Design Engineer Support"
+            },
+            "mariela": {
+                "role": "Operations Support"
             }
         },
         "core": {
