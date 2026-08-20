@@ -12,7 +12,7 @@
             "body_part_1": "STEM Racing, früher bekannt als F1 in Schools, ist ein globales Bildungsprogramm, das ",
             "body_part_2": " aus aller Welt dazu herausfordert, ihr Wissen in ",
             "body_part_3": " in einem praxisnahen Kontext anzuwenden — indem sie ihre eigenen ",
-            "body_part_4": " mithilfe branchenüblicher CAD-Software und CNC-Bearbeitung entwerfen und herstellen, während sie ein reales Budget verwalten, eine Markenidentität aufbauen und ein vollständiges Engineering-Portfolio zusammenstellen. ",
+            "body_part_4": " mithilfe branchenüblicher CAD- und CFD-Software und CNC-Bearbeitung entwerfen und herstellen, während sie ein reales Budget verwalten, eine Markenidentität aufbauen und ein vollständiges Engineering-Portfolio zusammenstellen. ",
             "keywords": {
                 "students": "Schülerinnen und Schüler",
                 "stem": "MINT",
@@ -30,8 +30,10 @@
             "ctaVideo": "Unser Video",
             "ctaGlobal": "Globale Seite",
             "ctaLuxembourg": "Lux. Seite",
-            "imageCaption": "Petar in der Startaufstellung bei den World Finals 2025",
-            "image2Caption": "Visualisierung unseres Autos im Zentrum von Luxemburg.",
+            "imageCaption": "Petar auf dem Startgitter der World Finals 2025",
+            "image2Caption": "Fusion 360-Design unseres Autos für die World Finals 2025.",
+            "image3Caption": "CFD-Simulation in Ansys unseres Autos für die Nationals 2026.",
+            "image4Caption": "Visualisierung unseres Autos im Zentrum von Luxemburg.",
             "stats": {
                 "countries": { "label": "aktiv beteiligte Länder" },
                 "schools": { "label": "teilnehmende Schulen" },

@@ -12,7 +12,7 @@
             "body_part_1": "STEM Racing, fréier als F1 in Schools bekannt, ass e weltwäite Bildungsprogramm, deen ",
             "body_part_2": " aus der ganzer Welt erausfuerdert, hiert Wëssen iwwer ",
             "body_part_3": " an engem reelle Kontext anzesetzen — andeems si hir eege ",
-            "body_part_4": " mat industrieüblecher CAD-Software an CNC-Bearbechtung designen a produzéieren, wärend si e reelle Budget geréieren, eng Markenidentitéit opbauen an e komplette Ingenieursportfolio zesummestellen. ",
+            "body_part_4": " mat industrieüblecher CAD- an CFD-Software an CNC-Bearbechtung designen a produzéieren, wärend si e reelle Budget geréieren, eng Markenidentitéit opbauen an e komplette Ingenieursportfolio zesummestellen. ",
             "keywords": {
                 "students": "Schülerinnen a Schüler",
                 "stem": "STEM",
@@ -30,8 +30,10 @@
             "ctaVideo": "Eise Video",
             "ctaGlobal": "Global Säit",
             "ctaLuxembourg": "Lëtz. Säit",
-            "imageCaption": "De Petar op der Startlinn beim Weltfinale 2025",
-            "image2Caption": "Visualiséierung vun eisem Auto am Zentrum vu Lëtzebuerg.",
+            "imageCaption": "De Petar op der Startgrid bei de World Finals 2025",
+            "image2Caption": "Fusion 360-Design vun eisem Auto fir d'World Finals 2025.",
+            "image3Caption": "CFD-Simulatioun an Ansys vun eisem Auto fir d'Nationals 2026.",
+            "image4Caption": "Visualiséierung vun eisem Auto am Zentrum vu Lëtzebuerg.",
             "stats": {
                 "countries": { "label": "Länner, déi aktiv bedeelegt sinn" },
                 "schools": { "label": "Schoulen, déi deelhuelen" },

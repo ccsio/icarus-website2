@@ -65,9 +65,9 @@ onUnmounted(() => observer?.disconnect())
     </div>
 
     <!-- Paragraph 1 -->
-    <div class="grid lg:grid-cols-2 gap-12 items-center lg:mb-16 mb-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center lg:mb-8 mb-4">
       <!-- Image Section -->
-      <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
+      <div class="relative group overflow-hidden rounded-2xl shadow-2xl ">
         <img 
           src="/images/starting_grid_world_finals.webp" 
           :alt="$t('home.stem.imageCaption')"
@@ -94,6 +94,35 @@ onUnmounted(() => observer?.disconnect())
       </div>
     </div>
 
+    <!-- Image Grid -->
+    <div class="grid lg:grid-cols-2 gap-12 items-center lg:mb-8 mb-4">
+      <div class="relative group overflow-hidden rounded-2xl shadow-2xl ">
+        <img 
+          src="/images/world_finals_fusion.webp" 
+          :alt="$t('home.stem.imageCaption')"
+          class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105 object-[10%_0%]"
+        />
+        <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+          <p class="text-white text-sm md:text-base font-medium">
+            {{ $t('home.stem.image4Caption') }}
+          </p>
+        </div>
+      </div>
+
+      <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
+        <img 
+          src="/images/nationals_ansys.webp" 
+          :alt="$t('home.stem.imageCaption')"
+          class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105 object-[10%_0%]"
+        />
+        <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+          <p class="text-white text-sm md:text-base font-medium">
+            {{ $t('home.stem.image3Caption') }}
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- Paragraph 2 -->
     <div class="grid lg:grid-cols-2 gap-12 items-center">
       <!-- Content Section -->
@@ -107,18 +136,6 @@ onUnmounted(() => observer?.disconnect())
           <span class="font-bold text-icarus-red">{{ $t('home.stem.keywords2.stem') }}</span>
           {{ $t('home.stem.body2_part_4') }}
         </p>
-        
-        <div class="flex flex-wrap gap-4 pt-4">
-          <a href="/video/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
-            {{ $t('home.stem.ctaVideo') }}
-          </a>
-          <a href="https://www.stemracing.lu/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
-            {{ $t('home.stem.ctaLuxembourg') }}
-          </a>
-          <a href="https://www.stemracing.com/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
-            {{ $t('home.stem.ctaGlobal') }}
-          </a>
-        </div>
       </div>
 
       <!-- Image Section -->
@@ -130,11 +147,25 @@ onUnmounted(() => observer?.disconnect())
         />
         <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
           <p class="text-white text-sm md:text-base font-medium">
-            {{ $t('home.stem.image2Caption') }}
+            {{ $t('home.stem.image4Caption') }}
           </p>
         </div>
       </div>
     </div>
+
+    <!-- CTA Buttons -->
+
+    <!-- <div class="flex flex-wrap gap-4 pt-12 justify-center">
+      <a href="https://www.stemracing.lu/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
+        {{ $t('home.stem.ctaLuxembourg') }}
+      </a>
+      <a href="https://www.stemracing.com/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
+        {{ $t('home.stem.ctaGlobal') }}
+      </a>
+    </div> -->
+
+
+
 
     <!-- Stats Section -->
     <div ref="statsEl" class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -83,6 +83,10 @@ onBeforeUnmount(() => {
           </a>
         </article>
 
+        <!-- <a href="/video/" target="_blank" class="px-6 py-3 border-2 border-icarus-red text-icarus-red font-bold rounded-full hover:bg-icarus-red hover:text-white transition-all duration-300">
+            {{ $t('home.stem.ctaVideo') }}
+          </a> -->
+
         <!-- <aside class="rounded-[2rem] border border-gray-100 bg-white shadow-xl p-8 flex flex-col justify-between">
           <div>
             <p class="text-icarus-red font-black uppercase tracking-[0.3em] text-xs mb-3">
