@@ -4,6 +4,7 @@ import CollaborationView from '@/views/CollaborationView.vue'
 import ContactView from '@/views/ContactView.vue'
 import TeamView from '@/views/TeamView.vue'
 import VideoView from '@/views/VideoView.vue'
+import MediaView from '@/views/MediaView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,7 +47,15 @@ const router = createRouter({
       component: VideoView,
       meta: {
         title: "Video"
-      }    
+      }
+    },
+    {
+      path: "/media",
+      name: "media",
+      component: MediaView,
+      meta: {
+        title: "Media"
+      }
     }
   ]
 })

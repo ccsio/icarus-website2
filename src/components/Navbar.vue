@@ -10,7 +10,8 @@ const mobileOpen = ref(false)
 
 
 const navItems = computed(() => [  
-  { label: t("navbar.home"), to: '/' },  
+  { label: t("navbar.home"), to: '/' },
+  { label: t("navbar.media"), to: '/media' },
   { label: t("navbar.team"), to: '/team' },  
   { label: t("navbar.collaboration"), to: '/work-with-us' },  
   { label: t("navbar.contact"), to: '/contact' }  

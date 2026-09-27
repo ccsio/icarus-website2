@@ -65,7 +65,7 @@
             },
             "cta": "Vollständige Historie ansehen"
         },
-        "articles": {
+        "media": {
             "label": "Externe Berichterstattung",
             "heading": "Icarus im Rampenlicht",
             "caption": "Ein kuratierter Bereich für Artikel und Berichte unserer Partner und Medien.",
@@ -73,9 +73,9 @@
             "articleType": "Externer Artikel",
             "linkText": "Artikel lesen",
             "asideLabel": "Medien-Hub",
-            "asideHeading": "Externe Presse- und Partnerberichterstattung",
-            "asideCaption": "Dieser Abschnitt ist Dritten gewidmet, die über Icarus berichten. Wir veröffentlichen hier derzeit keine Blogbeiträge.",
-            "asideNote": "Behalten Sie den Fokus auf offiziellen externen Geschichten, während die Icarus-Mediengalerie wächst."
+            "asideTagPublisher": "Autera Group",
+            "asideTagType": "Video",
+            "cta": "Medien entdecken"
         }
     },
     "collaboration": {

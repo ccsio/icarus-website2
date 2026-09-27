@@ -65,7 +65,7 @@
             },
             "cta": "Ganz Geschicht gesinn"
         },
-        "articles": {
+        "media": {
             "label": "Extern Erfaassung",
             "heading": "Icarus am Rampel Liicht",
             "caption": "Eng ausgewielte Sektioun fir Artikelen an Berichter vun eise Partneren an de Medien.",
@@ -73,9 +73,10 @@
             "articleType": "Externen Artikel",
             "linkText": "Artikel liesen",
             "asideLabel": "Medie-Hub",
-            "asideHeading": "Externe Presse- a Partnerberichterstattung",
-            "asideCaption": "Dës Sektioun ass fir Dritt-Partei Artikelen an Icarus Medienberichterstattung reservéiert. Mir publizéieren haut keng Blogposte do."
-            ,"asideNote": "Halt de Fokus op offiziellen externe Geschichten, während déi Icarus Mediengalerie wiisst."
+            "asideTagPublisher": "Autera Group",
+            "asideTagType": "Video",
+            "cta": "Medien entdecken"
+
         }
     },
     "collaboration": {

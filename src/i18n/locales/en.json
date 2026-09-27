@@ -65,7 +65,7 @@
             },
             "cta": "See Full History"
         },
-        "articles": {
+        "media": {
             "label": "External coverage",
             "heading": "Icarus in the spotlight",
             "caption": "A curated section for articles and coverage published by our partners and media outlets.",
@@ -76,9 +76,9 @@
             "linkText": "Read the article",
             "imageAlt": "STEM Racing: Icarus catches the sunlight preview",
             "asideLabel": "Media hub",
-            "asideHeading": "External press and partner coverage",
-            "asideCaption": "This section is dedicated to curated third-party articles and press coverage about Icarus. We’re not publishing blog posts here today.",
-            "asideNote": "Keep the focus on official external stories while the Icarus media gallery expands."
+            "asideTagPublisher": "Autera Group",
+            "asideTagType": "Video",
+            "cta": "Explore Media"
         }
     },
     "collaboration": {
@@ -522,6 +522,7 @@
         "home": "Home",
         "team": "Team",
         "collaboration": "Collaboration",
-        "contact": "Contact"
+        "contact": "Contact",
+        "media": "Media"
     }
 }
