@@ -518,6 +518,46 @@
         "title": "Icarus STEM Racing Video",
         "label": "Introducing STEM Racing"
     },
+    "media": {
+        "label": "Media",
+        "heading": "Icarus media hub",
+        "caption": "Articles, features and videos from the Icarus project and our external partners.",
+        "articles": {
+            "label": "Articles",
+            "heading": "External coverage",
+            "read": "Read the article",
+            "article1": {
+                "publisher": "ingsci",
+                "type": "External article",
+                "date": "May 2026",
+                "title": "STEM Racing: Icarus catches the sunlight",
+                "extract": "Team Icarus won the Luxembourg STEM Racing™ national finals and will represent the country at the World Finals in Singapore. Hosted at the International School of Luxembourg, the event showcased young talents in engineering, design and racing. The thrilling final was decided by just 0.005 seconds."
+            },
+            "article2": {
+                "publisher": "L'Essentiel",
+                "type": "External article",
+                "date": "May 2026",
+                "title": "Icarus, à toute vitesse vers Singapour",
+                "extract": "Ils ont entre 16 et 18 ans, des profils différents et un objectif commun: porter les couleurs du Luxembourg à Singapour, dans une course de voitures de F1 miniatures."
+            }
+        },
+        "videos": {
+            "label": "Videos",
+            "heading": "Featured media",
+            "autera": {
+                "title": "Autera video",
+                "ariaLabel": "Autera video player"
+            },
+            "school": {
+                "title": "School promo",
+                "ariaLabel": "School promo video player"
+            },
+            "lessentiel": {
+                "title": "L'Essentiel Interview",
+                "ariaLabel": "L'Essentiel video player"
+            }
+        }
+    },
     "navbar": {
         "home": "Home",
         "team": "Team",

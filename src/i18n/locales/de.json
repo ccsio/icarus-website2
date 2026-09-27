@@ -515,6 +515,42 @@
         "title": "Icarus STEM Racing Video",
         "label": "Vorstellung von STEM Racing"
     },
+    "media": {
+        "label": "Medien",
+        "heading": "Icarus Medienhub",
+        "caption": "Artikel, Features und Videos des Icarus-Projekts und unserer externen Partner.",
+        "articles": {
+            "label": "Artikel",
+            "heading": "Externe Berichterstattung",
+            "read": "Artikel lesen",
+            "article1": {
+                "publisher": "ingsci",
+                "type": "Externer Artikel",
+                "date": "Mai 2026"
+            },
+            "article2": {
+                "publisher": "L'essentiel",
+                "type": "Externer Artikel",
+                "date": "September 2026"
+            }
+        },
+        "videos": {
+            "label": "Videos",
+            "heading": "Besondere Medien",
+            "autera": {
+                "title": "Autera-Video",
+                "ariaLabel": "Autera-Videoplayer"
+            },
+            "school": {
+                "title": "Schulpromo",
+                "ariaLabel": "Schulpromo-Videoplayer"
+            },
+            "lessentiel": {
+                "title": "L'Essentiel Interview",
+                "ariaLabel": "L'Essentiel-Videoplayer"
+            }
+        }
+    },
     "navbar": {
         "home": "Startseite",
         "team": "Team",

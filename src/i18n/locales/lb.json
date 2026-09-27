@@ -516,6 +516,42 @@
         "title": "Icarus STEM Racing Video",
         "label": "Aféierung an STEM Racing"
     },
+    "media": {
+        "label": "Medien",
+        "heading": "Icarus Medienhub",
+        "caption": "Artikelen, Features a Videoen vum Icarus-Projet an eise externe Partneren.",
+        "articles": {
+            "label": "Artikelen",
+            "heading": "Extern Berichterstattung",
+            "read": "Artikel liesen",
+            "article1": {
+                "publisher": "ingsci",
+                "type": "Externe Artikelen",
+                "date": "Mee 2026"
+            },
+            "article2": {
+                "publisher": "L'essentiel",
+                "type": "Externe Artikelen",
+                "date": "September 2026"
+            }
+        },
+        "videos": {
+            "label": "Videoen",
+            "heading": "Featured Medien",
+            "autera": {
+                "title": "Autera Video",
+                "ariaLabel": "Autera Videoplayer"
+            },
+            "school": {
+                "title": "Schoulpromo",
+                "ariaLabel": "Schoulpromo-Videoplayer"
+            },
+            "lessentiel": {
+                "title": "L'Essentiel Interview",
+                "ariaLabel": "L'Essentiel-Videoplayer"
+            }
+        }
+    },
     "navbar": {
         "home": "Home",
         "team": "D'Ekipp",
