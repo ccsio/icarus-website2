@@ -65,7 +65,7 @@
             },
             "cta": "Ganz Geschicht gesinn"
         },
-        "articles": {
+        "media": {
             "label": "Extern Erfaassung",
             "heading": "Icarus am Rampel Liicht",
             "caption": "Eng ausgewielte Sektioun fir Artikelen an Berichter vun eise Partneren an de Medien.",
@@ -73,9 +73,10 @@
             "articleType": "Externen Artikel",
             "linkText": "Artikel liesen",
             "asideLabel": "Medie-Hub",
-            "asideHeading": "Externe Presse- a Partnerberichterstattung",
-            "asideCaption": "Dës Sektioun ass fir Dritt-Partei Artikelen an Icarus Medienberichterstattung reservéiert. Mir publizéieren haut keng Blogposte do."
-            ,"asideNote": "Halt de Fokus op offiziellen externe Geschichten, während déi Icarus Mediengalerie wiisst."
+            "asideTagPublisher": "Autera Group",
+            "asideTagType": "Video",
+            "cta": "Medien entdecken"
+
         }
     },
     "collaboration": {
@@ -515,10 +516,47 @@
         "title": "Icarus STEM Racing Video",
         "label": "Aféierung an STEM Racing"
     },
+    "media": {
+        "label": "Medien",
+        "heading": "Icarus Medienhub",
+        "caption": "Artikelen, Features a Videoen vum Icarus-Projet an eise externe Partneren.",
+        "articles": {
+            "label": "Artikelen",
+            "heading": "Extern Berichterstattung",
+            "read": "Artikel liesen",
+            "article1": {
+                "publisher": "ingsci",
+                "type": "Externe Artikelen",
+                "date": "Mee 2026"
+            },
+            "article2": {
+                "publisher": "L'essentiel",
+                "type": "Externe Artikelen",
+                "date": "September 2026"
+            }
+        },
+        "videos": {
+            "label": "Videoen",
+            "heading": "Featured Medien",
+            "autera": {
+                "title": "Autera Video",
+                "ariaLabel": "Autera Videoplayer"
+            },
+            "school": {
+                "title": "Schoulpromo",
+                "ariaLabel": "Schoulpromo-Videoplayer"
+            },
+            "lessentiel": {
+                "title": "L'Essentiel Interview",
+                "ariaLabel": "L'Essentiel-Videoplayer"
+            }
+        }
+    },
     "navbar": {
         "home": "Home",
         "team": "D'Ekipp",
         "collaboration": "Zesummenaarbecht",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "media": "Medien"
     }
 }

@@ -2,13 +2,13 @@
 import SplashScreen from '../components/SplashScreen.vue'
 import StemRacing from '../components/StemRacing.vue'
 import Timeline from '../components/HomeTimeline.vue'
-import ArticleSection from '../components/ArticleSection.vue'
+import HomeMedia from '../components/HomeMedia.vue'
 </script>
 
 <template>
   <SplashScreen />
   <StemRacing />
-  <ArticleSection />
+  <HomeMedia />
   <Timeline />
   <RouterView />
 </template>

@@ -65,7 +65,7 @@
             },
             "cta": "Voir l'Historique Complet"
         },
-        "articles": {
+        "media": {
             "label": "Couverture externe",
             "heading": "Icarus sous les projecteurs",
             "caption": "Une section sélectionnée pour les articles et reportages de nos partenaires et médias.",
@@ -73,9 +73,9 @@
             "articleType": "Article externe",
             "linkText": "Lire l'article",
             "asideLabel": "Hub médias",
-            "asideHeading": "Presse externe et couverture partenaire",
-            "asideCaption": "Cette section est dédiée aux articles tiers et à la couverture médiatique d'Icarus. Nous ne publions pas de blogs ici pour le moment.",
-            "asideNote": "Conservez le focus sur les histoires officielles externes pendant que la galerie média d'Icarus s'étend."
+            "asideTagPublisher": "Autera Group",
+            "asideTagType": "Video",
+            "cta": "Découvrir nos médias"
         }
     },
     "collaboration": {
@@ -515,10 +515,47 @@
         "title": "Vidéo Icarus STEM Racing",
         "label": "Présentation de STEM Racing"
     },
+    "media": {
+        "label": "Médias",
+        "heading": "Hub média Icarus",
+        "caption": "Articles, reportages et vidéos du projet Icarus et de nos partenaires externes.",
+        "articles": {
+            "label": "Articles",
+            "heading": "Couverture externe",
+            "read": "Lire l'article",
+            "article1": {
+                "publisher": "ingsci",
+                "type": "Article externe",
+                "date": "Mai 2026"
+            },
+            "article2": {
+                "publisher": "L'essentiel",
+                "type": "Article externe",
+                "date": "Septembre 2026"
+            }
+        },
+        "videos": {
+            "label": "Vidéos",
+            "heading": "Médias à la une",
+            "autera": {
+                "title": "Vidéo Autera",
+                "ariaLabel": "Lecteur vidéo Autera"
+            },
+            "school": {
+                "title": "Promo école",
+                "ariaLabel": "Lecteur vidéo de la promo école"
+            },
+            "lessentiel": {
+                "title": "L'Essentiel Entretien",
+                "ariaLabel": "Lecteur vidéo de L'Essentiel"
+            }
+        }
+    },
     "navbar": {
         "home": "Accueil",
         "team": "Équipe",
         "collaboration": "Collaboration",
-        "contact": "Contact"
+        "contact": "Contact",
+        "media": "Médias"
     }
 }

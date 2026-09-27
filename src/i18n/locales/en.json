@@ -65,7 +65,7 @@
             },
             "cta": "See Full History"
         },
-        "articles": {
+        "media": {
             "label": "External coverage",
             "heading": "Icarus in the spotlight",
             "caption": "A curated section for articles and coverage published by our partners and media outlets.",
@@ -76,9 +76,9 @@
             "linkText": "Read the article",
             "imageAlt": "STEM Racing: Icarus catches the sunlight preview",
             "asideLabel": "Media hub",
-            "asideHeading": "External press and partner coverage",
-            "asideCaption": "This section is dedicated to curated third-party articles and press coverage about Icarus. We’re not publishing blog posts here today.",
-            "asideNote": "Keep the focus on official external stories while the Icarus media gallery expands."
+            "asideTagPublisher": "Autera Group",
+            "asideTagType": "Video",
+            "cta": "Explore Media"
         }
     },
     "collaboration": {
@@ -518,10 +518,51 @@
         "title": "Icarus STEM Racing Video",
         "label": "Introducing STEM Racing"
     },
+    "media": {
+        "label": "Media",
+        "heading": "Icarus media hub",
+        "caption": "Articles, features and videos from the Icarus project and our external partners.",
+        "articles": {
+            "label": "Articles",
+            "heading": "External coverage",
+            "read": "Read the article",
+            "article1": {
+                "publisher": "ingsci",
+                "type": "External article",
+                "date": "May 2026",
+                "title": "STEM Racing: Icarus catches the sunlight",
+                "extract": "Team Icarus won the Luxembourg STEM Racing™ national finals and will represent the country at the World Finals in Singapore. Hosted at the International School of Luxembourg, the event showcased young talents in engineering, design and racing. The thrilling final was decided by just 0.005 seconds."
+            },
+            "article2": {
+                "publisher": "L'Essentiel",
+                "type": "External article",
+                "date": "May 2026",
+                "title": "Icarus, à toute vitesse vers Singapour",
+                "extract": "Ils ont entre 16 et 18 ans, des profils différents et un objectif commun: porter les couleurs du Luxembourg à Singapour, dans une course de voitures de F1 miniatures."
+            }
+        },
+        "videos": {
+            "label": "Videos",
+            "heading": "Featured media",
+            "autera": {
+                "title": "Autera video",
+                "ariaLabel": "Autera video player"
+            },
+            "school": {
+                "title": "School promo",
+                "ariaLabel": "School promo video player"
+            },
+            "lessentiel": {
+                "title": "L'Essentiel Interview",
+                "ariaLabel": "L'Essentiel video player"
+            }
+        }
+    },
     "navbar": {
         "home": "Home",
         "team": "Team",
         "collaboration": "Collaboration",
-        "contact": "Contact"
+        "contact": "Contact",
+        "media": "Media"
     }
 }
