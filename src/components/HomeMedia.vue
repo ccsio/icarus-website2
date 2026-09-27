@@ -99,9 +99,9 @@ onBeforeUnmount(() => {
           </div>
 
           <div class="mx-auto w-full max-w-105 rounded-[1.75rem] bg-icarus-red/5 border border-icarus-red/10 p-3 lg:max-w-none">
-            <div class="mx-auto aspect-[9/16] w-full overflow-hidden rounded-[1.35rem] border border-icarus-red/10 bg-slate-900 shadow-inner">
+            <div class="mx-auto aspect-9/16 w-full overflow-hidden rounded-[1.35rem] border border-icarus-red/10 bg-slate-900 shadow-inner">
               <video
-                src="/video/autera_video.mp4"
+                src="/video/autera.mp4"
                 autoplay
                 muted
                 loop
