@@ -11,9 +11,9 @@ const mobileOpen = ref(false)
 
 const navItems = computed(() => [  
   { label: t("navbar.home"), to: '/' },
+  { label: t("navbar.team"), to: '/team' },
+  { label: t("navbar.collaboration"), to: '/work-with-us' },
   { label: t("navbar.media"), to: '/media' },
-  { label: t("navbar.team"), to: '/team' },  
-  { label: t("navbar.collaboration"), to: '/work-with-us' },  
   { label: t("navbar.contact"), to: '/contact' }  
 ])  
   
@@ -48,9 +48,10 @@ const route = useRoute()
 const navClass = computed(() => {
   const isHome = route.path === '/'
   const isTeam = route.path === '/team'
+  const isMedia = route.path === '/media'
   const isContact = route.path === '/contact'
   const isCollaboration = route.path === "/work-with-us"
-  const useDark = isScrolled.value || isCollaboration
+  const useDark = isScrolled.value || isCollaboration || isMedia
   
 
   if (isContact) {
